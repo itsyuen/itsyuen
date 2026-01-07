@@ -6,4 +6,4 @@ I code in Embedded systems, and apply all sorts of SW and real time control algo
 
 I also write documents in LaTex for scientific writing, and for the purpose of all the above Code/Writing version control, I am importing all my work into GitHub as an open source development environment.
 
-email me at tsyuen@gmail.com for further information!!!
+email me at itchang@mail.ntust.edu.tw for further information!!!
