@@ -1,9 +1,24 @@
-Hello! I'm Peter I-Tsyuen Chang 張以全
-I am currently working as a Assitant Professor at Taiwan Tech (National Taiwan University of Science and Technology)
-Mechanical Engineering Department, researching in Control Engineering, Mechatronics and Robotics.
+# Peter I-Tsyuen Chang 張以全
 
-I code in Embedded systems, and apply all sorts of SW and real time control algorithm along with many collaborators.
+Assistant Professor  
+Department of Mechanical Engineering  
+National Taiwan University of Science and Technology (Taiwan Tech)
 
-I also write documents in LaTex for scientific writing, and for the purpose of all the above Code/Writing version control, I am importing all my work into GitHub as an open source development environment.
+## Focus Areas
+- Robotics & Autonomous Systems
+- Control Engineering
+- Embedded Systems (STM32 / Real-Time)
+- MATLAB / Simulink
+- ROS 2 Development
+- Engineering Education
 
-email me at itchang@mail.ntust.edu.tw for further information!!!
+## Current Mission
+Building modern learning pathways that connect mechanical engineering, software, electronics, and intelligent systems.
+
+## Repositories
+- teaching → course materials and curriculum
+- learning → experiments, notes, prototypes
+- working → integrated development projects
+
+## Contact
+itchang@mail.ntust.edu.tw
