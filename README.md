@@ -98,3 +98,14 @@ simulation + hardware
        ↓
 control / estimation experiments
 ```
+
+## Review template
+```
+| Dimension                      | Question                                                                                   |
+| ------------------------------ | ------------------------------------------------------------------------------------------ |
+| **Subject**                    | Who/what is this fundamentally for? Me / student / collaborator / course / research system |
+| **Actor** *(only when needed)* | Who actually has to perform the work?                                                      |
+| **Time-wise**                  | Active / Next / Archive                                                                    |
+| **Level**                      | Vision / Outcome / Milestone / Next Action                                                 |
+| **Interpretation**             | What was I actually trying to accomplish when I wrote this?                                |
+```
