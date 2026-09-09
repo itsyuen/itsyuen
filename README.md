@@ -80,6 +80,10 @@ Now Todoist knows what you can actually do.
 ## Technical infrastructure
 
 ```
+model → simulation → software → embedded implementation → sensing → feedback/control → ROS 2/distributed system → physical experiment
+```
+
+```
 MATLAB / Simulink
        ↓
 Python / numerical computing
