@@ -255,11 +255,15 @@ STM32 hardware
 ```
 
 ## Controller development
-```
+
 Your control algorithm can begin as mathematics and simulation—MATLAB/Simulink, your adaptive law, force-control formulation, estimator, and so on. But to become robotics research rather than only a control-theory result, it needs a software layer that connects it to sensors, actuators, robot models, logging, visualization, and eventually hardware. ROS 2 is that integration layer.
 So the chain is roughly:
-control algorithm → ROS 2 controller/node → robot interfaces → embedded/RTOS layer → sensors & actuators
-And information comes back upward:
-ADC/encoder/force sensor → MCU/driver → ROS 2 messages/interfaces → controller → commanded torque/velocity/position
-That also clarifies why your platform-investigation work matters. Learning rclcpp, messages, services/actions, parameters, lifecycle, ros2_control, hardware interfaces, timing behavior, and vendor APIs isn't a separate research hobby.
 ```
+control algorithm → ROS 2 controller/node → robot interfaces → embedded/RTOS layer → sensors & actuators
+```
+And information comes back upward:
+```
+ADC/encoder/force sensor → MCU/driver → ROS 2 messages/interfaces → controller → commanded torque/velocity/position
+```
+That also clarifies why your platform-investigation work matters. Learning rclcpp, messages, services/actions, parameters, lifecycle, ros2_control, hardware interfaces, timing behavior, and vendor APIs isn't a separate research hobby.
+
