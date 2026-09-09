@@ -22,3 +22,6 @@ Building modern learning pathways that connect mechanical engineering, software,
 
 ## Contact
 itchang@mail.ntust.edu.tw
+
+## Phylosophy
+Learning → building → teaching → research evidence → publication
