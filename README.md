@@ -291,3 +291,9 @@ Then the lifecycle becomes something like:
 investigate → idea → promote → outcome → milestone → actions → result
 ```
 And for research, a successful result can eventually become a publication outcome.
+
+### usage of todoist
+
+Tags answer: “What kind of thing is this?”
+Hierarchy answers: “What are we actually committed to accomplishing?”
+(vison->outcome->milestone->action/task)
