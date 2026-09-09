@@ -129,27 +129,29 @@ Todoist Project = Teaching
 ```
 RESEARCH PROJECTS
 │
-├── 1. Omni-Vehicle Force Compensation
+├── 1. Omni-Vehicle Platform Integration with Force Compensation as goal
 │      high → low level modeling
 │      vehicle dynamics / estimation / force compensation
 │      ROS 2 → embedded deployment
 │
-├── 2. Robot-Arm Force Compensation
-│      manipulator dynamics
+├── 2. Robot Manipulator Platform with Jacobian Free Force Compensation as goal
+│      manipulator dynamics/robtoics therory
 │      force / impedance / adaptive control
 │      high → low level deployment
+│      Jacobian-ROS2 deployment vs Jacobian Free development
+|      *JACOBIAN FREE ADAPTIVE CONTROL*
 │
 ├── 3. Motor Torque Estimation & Compensation
 │      DC → PMSM / BLDC
 │      electrical + mechanical model
 │      nonlinear friction
-│      EKF torque estimation
+│      EKF torque estimation/ Statistic Random Variables and Random Processing Fundation
 │      low-level implementation
 │
-│
+│       Teching ideas on top
 │        all three REQUIRE ↓
 │
-├── 4. Real-Time Embedded System Integration       ← FOUNDATION
+├── 4. Real-Time Embedded System Integration       ← FOUNDATION currenlty in learnin phase
 │      │
 │      ├── Simulink Embedded Code Generation
 │      │      model
@@ -169,7 +171,7 @@ RESEARCH PROJECTS
 │             communication
 │             micro-ROS
 │
-└──────────────────────────┐
+└──────────────────────────┐ now should be full of learning idea
                            ↓ curated knowledge
 TEACHING
 └── Computer Integrated Control Systems
