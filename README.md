@@ -109,3 +109,18 @@ control / estimation experiments
 | **Level**                      | Vision / Outcome / Milestone / Next Action                                                 |
 | **Interpretation**             | What was I actually trying to accomplish when I wrote this?                                |
 ```
+
+## todoist philosopy
+
+Research
+Todoist Project = research theme/world
+→ Section = Outcome
+→ Task = Milestone
+→ Subtask = ~1-hour Action
+
+Teaching
+Todoist Project = Teaching
+→ Section = Course / semester / target student body
+→ Task = Outcome
+→ Subtask = Milestone
+→ Sub-subtask = ~1-hour Action
