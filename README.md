@@ -26,3 +26,36 @@ itchang@mail.ntust.edu.tw
 ## Phylosophy
 Learning → building → teaching → research evidence → publication
 Vision → Outcome → Milestone → Next Action
+
+## Transition
+For example:
+
+Learn ROS Control
+
+That's neither a clear outcome nor a good next action.
+
+Compare:
+
+```
+
+Vision
+Build a reusable ROS 2 control architecture for research and teaching.
+
+↓
+
+Outcome
+Omni vehicle executes closed-loop velocity control through ROS 2.
+
+↓
+
+Milestone
+ROS 2 node publishes wheel velocity commands and reads encoder feedback.
+
+↓
+
+Next action
+Run existing ros2_control example and identify controller, command topic, and feedback topic.
+
+```
+
+Now Todoist knows what you can actually do.
