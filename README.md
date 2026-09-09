@@ -295,5 +295,9 @@ And for research, a successful result can eventually become a publication outcom
 ### usage of todoist
 
 Tags answer: “What kind of thing is this?”
+
 Hierarchy answers: “What are we actually committed to accomplishing?”
-(vison->outcome->milestone->action/task)
+
+```
+vison->outcome->milestone->action/task
+```
