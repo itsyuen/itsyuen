@@ -25,7 +25,7 @@ itchang@mail.ntust.edu.tw
 
 ## Phylosophy
 Learning → building → teaching → research evidence → publication
-
+research/publish = learning + teaching
 
 ## Transition
 Vision → Outcome → Milestone → Next Action
