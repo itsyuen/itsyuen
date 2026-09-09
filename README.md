@@ -148,11 +148,11 @@ RESEARCH PROJECTS
 │      EKF torque estimation/ Statistic Random Variables and Random Processing Fundation
 │      low-level implementation
 │
-│       Teching ideas on top
+│  ----- Mostly Teching ideas on top----------
 │        all three REQUIRE ↓
 │
 ├── 4. Real-Time Embedded System Integration       ← FOUNDATION currenlty in learnin phase
-│      │
+│      │                                            full of learning idea and also teaching idea
 │      ├── Simulink Embedded Code Generation
 │      │      model
 │      │        ↓
@@ -171,7 +171,7 @@ RESEARCH PROJECTS
 │             communication
 │             micro-ROS
 │
-└──────────────────────────┐ now should be full of learning idea
+└──────────────────────────┐ 
                            ↓ curated knowledge
 TEACHING
 └── Computer Integrated Control Systems
