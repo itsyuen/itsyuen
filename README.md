@@ -124,3 +124,88 @@ Todoist Project = Teaching
 → Task = Outcome
 → Subtask = Milestone
 → Sub-subtask = ~1-hour Action
+
+## todoist heirachy
+```
+RESEARCH PROJECTS
+│
+├── 1. Omni-Vehicle Force Compensation
+│      high → low level modeling
+│      vehicle dynamics / estimation / force compensation
+│      ROS 2 → embedded deployment
+│
+├── 2. Robot-Arm Force Compensation
+│      manipulator dynamics
+│      force / impedance / adaptive control
+│      high → low level deployment
+│
+├── 3. Motor Torque Estimation & Compensation
+│      DC → PMSM / BLDC
+│      electrical + mechanical model
+│      nonlinear friction
+│      EKF torque estimation
+│      low-level implementation
+│
+│
+│        all three REQUIRE ↓
+│
+├── 4. Real-Time Embedded System Integration       ← FOUNDATION
+│      │
+│      ├── Simulink Embedded Code Generation
+│      │      model
+│      │        ↓
+│      │      generated C/C++
+│      │        ↓
+│      │      STM32 peripherals/HAL
+│      │        ↓
+│      │      real hardware
+│      │
+│      └── RTOS Embedded Control Architecture
+│             STM32 HAL
+│             timers / interrupts
+│             FreeRTOS tasks
+│             scheduling
+│             timing / jitter
+│             communication
+│             micro-ROS
+│
+└──────────────────────────┐
+                           ↓ curated knowledge
+TEACHING
+└── Computer Integrated Control Systems
+       └── Embedded / real-time control outcome
+             ├── MCU and system boundary
+             ├── model → code → hardware
+             ├── sampling / timers
+             ├── HAL / peripherals
+             ├── RTOS scheduling
+             └── ROS 2 / embedded integration
+```
+4a
+```
+MATLAB/Simulink model
+        ↓
+Embedded Coder
+        ↓
+generated C/C++
+        ↓
+HAL / board support
+        ↓
+STM32
+```
+4b
+```
+Control/system model
+        ↓
+C/C++ implementation
+        ↓
+HAL / drivers
+        ↓
+interrupts + timers
+        ↓
+RTOS tasks
+        ↓
+scheduler
+        ↓
+STM32 hardware
+```
