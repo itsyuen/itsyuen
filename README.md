@@ -25,3 +25,4 @@ itchang@mail.ntust.edu.tw
 
 ## Phylosophy
 Learning → building → teaching → research evidence → publication
+Vision → Outcome → Milestone → Next Action
