@@ -157,7 +157,7 @@ RESEARCH PROJECTS
 │      Research Theme Project
 │      robotics theory / manipulator modeling / numerical analysis
 │      DH / MDH / SDH / URDF / rigid-body representation / kinematics
-│      force / impedance / adaptive control
+│      dynamics with force / impedance / adaptive control
 │      Jacobian-based deployment analysis and Jacobian-free development
 │      MATLAB Robotics Toolbox / ROS Toolbox / ROS 2
 │      Gazebo / RViz manipulator simulation and deployment
