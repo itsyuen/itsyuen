@@ -267,3 +267,27 @@ ADC/encoder/force sensor → MCU/driver → ROS 2 messages/interfaces → contro
 ```
 That also clarifies why your platform-investigation work matters. Learning rclcpp, messages, services/actions, parameters, lifecycle, ros2_control, hardware interfaces, timing behavior, and vendor APIs isn't a separate research hobby.
 
+### Example of `platform_insvestication`
+
+A `platform-investigation` such as *learning an rclcpp API* might initially just be exploration. As you work on it, it can branch naturally: (`research_idea` or `teaching_idea`)
+
+```
+→ Vision: integrated control/robotics lab capability
+→ Outcome: ROS 2 control platform
+→ Milestone: controller successfully runs through rclcpp
+→ Action: understand callback/API/template syntax
+```
+
+But that same investigation may produce two different ideas:
+
+`Research_idea`: “Can my Jacobian-free adaptive controller operate effectively within the standard ROS 2 robot stack?”\
+
+`Teaching_idea`: “Students don't understand why rclcpp callbacks use templates and smart pointers; turn this into a C++ → ROS 2 teaching note.”
+
+And importantly, an idea doesn't have to become an outcome immediately. Your tags let it sit as research-idea, teaching-idea, or platform-investigation until there's enough evidence that it's worth promoting.
+
+Then the lifecycle becomes something like:
+```
+investigate → idea → promote → outcome → milestone → actions → result
+```
+And for research, a successful result can eventually become a publication outcome.
