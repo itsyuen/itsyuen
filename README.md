@@ -301,3 +301,28 @@ Hierarchy answers: “What are we actually committed to accomplishing?”
 ```
 vison->outcome->milestone->action/task
 ```
+
+### usage of todoist tags
+
+- research_idea — this might become research.
+
+- teaching_idea — this might become teaching.
+
+- platform_investigation — I need to understand/test this platform, API, hardware, etc.
+
+- reference_link — retain this as a useful external reference.
+
+- teaching_material — this has become reusable material for teaching.
+
+- publishable_material — this has become reusable evidence/content for a publication.
+
+For example, while working on your Jacobian-free force controller, you might produce a particularly good simulation comparison. At first the task could be research_idea or part of a research milestone. Once the result exists and you realize, this figure/result belongs in a future paper, tagging it publishable_material makes sense—even before you've committed to a particular manuscript.
+
+The same thing already happens on the teaching side:
+```
+investigation → useful explanation/example → teaching_material → eventually incorporated into a course outcome
+```
+and now research gets the symmetrical path:
+```
+investigation → useful scientific result/evidence → publishable_material → eventually incorporated into a publication outcome
+```
