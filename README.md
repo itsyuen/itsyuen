@@ -346,3 +346,5 @@ course/module　　　　　 paper
 - Research asks where the existing understanding is insufficient.
 - Experimentation produces evidence.
 - Publishing forces the evidence into a defensible argument.
+
+Then published research becomes new teaching material, while teaching exposes gaps and questions that become new investigations.
