@@ -34,7 +34,7 @@ Current interpretation:
 
 ```
 learning → research/building → validated evidence → publication
-research/building → curated knowledge → teaching
+           research/building → curated knowledge → teaching
 ```
 
 The older `research/publish = learning + teaching` idea is kept here because it reflects how the current system evolved. The newer structure separates the intentions more clearly: research develops and validates knowledge, publication records research outcomes, and teaching consumes selected, stabilized knowledge in a form appropriate for students.
