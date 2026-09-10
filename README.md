@@ -380,3 +380,12 @@ experiments + deductions - action/tasks and sub-tasks without labeling
 ↓
 publishable_material
 ```
+```
+teaching_idea
+↙︎ theory_investigation — Stribeck/stick-slip/model structure (same content as research_idea, but intention is different)
+↘︎ platform_investigation — Gazebo/hardware/contact/sampling behavior (same content as researc_idea, but intention is different)
+↓
+demonstations + explanations - action/tasks and sub-tasks without labeling
+↓
+publishable_material
+```
