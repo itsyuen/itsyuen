@@ -355,7 +355,7 @@ research_idea
 ↙︎ theory_investigation — Stribeck/stick-slip/model structure
 ↘︎ platform_investigation — Gazebo/hardware/contact/sampling behavior
 ↓
-experiments + deductions
+experiments + deductions - action/tasks and sub-tasks without labeling
 ↓
 publishable_material
 ```
