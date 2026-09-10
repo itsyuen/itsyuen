@@ -298,6 +298,8 @@ Tags answer: “What kind of thing is this?”
 
 Hierarchy answers: “What are we actually committed to accomplishing?”
 
+Tags allow thoughts to be immature. Hierarchy represents increasing commitment.
+
 ```
 vison->outcome->milestone->action/task
 ```
