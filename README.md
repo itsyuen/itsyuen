@@ -304,7 +304,7 @@ Tags allow thoughts to be immature. Hierarchy represents increasing commitment.
 vison->outcome->milestone->action/task
 ```
 
-### usage of todoist tags
+### Usage of todoist labels
 
 - research_idea — this might become research.
 
@@ -348,3 +348,14 @@ course/module　　　　　 paper
 - Publishing forces the evidence into a defensible argument.
 
 Then published research becomes new teaching material, while teaching exposes gaps and questions that become new investigations.
+
+### How to reach research materials
+```
+research_idea
+↙︎ theory_investigation — Stribeck/stick-slip/model structure
+↘︎ platform_investigation — Gazebo/hardware/contact/sampling behavior
+↓
+experiments + deductions
+↓
+publishable_material
+```
