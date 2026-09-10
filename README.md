@@ -337,7 +337,7 @@ investigation → useful scientific result/evidence → publishable_material →
 
 Learning + deliberate investigation can generate both teaching and research—but learning/teaching is not automatically research.
 ```
-earn → investigate → understand → deduce/create
+learn → investigate → understand → deduce/create
 ↙︎　　　　　　　　　　　　　　↘︎
 teaching_material　　　　publishable_material
 ↓　　　　　　　　　　　　　　↓
