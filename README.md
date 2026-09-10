@@ -378,7 +378,7 @@ research_idea
 ↓
 experiments + deductions - action/tasks and sub-tasks without labeling
 ↓
-publishable_material
+publishable_material (through novel questioning and systematic validation)
 ↓
 paper_draft (mentall untill cluster has formed)
 ```
@@ -389,9 +389,9 @@ teaching_idea
 ↓
 demonstations + explanations - action/tasks and sub-tasks without labeling
 ↓
-teaching_material
+teaching_material (through curation of running student meets)
 ↓
-paper_draft (mentall untill cluster has formed)
+book_draft (mentall untill cluster has formed)
 ```
 **The hierarchy describes where the work is going. The labels describe what kind of intellectual work is happening now.**
 
