@@ -333,10 +333,10 @@ and now research gets the symmetrical path:
 ```
 investigation → useful scientific result/evidence → publishable_material → eventually incorporated into a publication outcome
 ```
-### side note
+### Side note
 
 Learning + deliberate investigation can generate both teaching and research—but learning/teaching is not automatically research.
-
+```
 earn → investigate → understand → deduce/create
 ↙︎　　　　　　　　　　　　　　↘︎
 teaching_material　　　　publishable_material
@@ -344,7 +344,7 @@ teaching_material　　　　publishable_material
 course/module　　　　　 paper
 ↘︎　　　　　　　　　　　　　　↙︎
 　　　　feeds the next investigation
-
+```
 - Learning gives you vocabulary.
 - Investigation gives you understanding.
 - Teaching forces you to make that understanding explicit and coherent.
