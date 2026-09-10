@@ -387,5 +387,5 @@ teaching_idea
 ↓
 demonstations + explanations - action/tasks and sub-tasks without labeling
 ↓
-publishable_material
+teaching_material
 ```
