@@ -350,6 +350,22 @@ course/module　　　　　 paper
 Then published research becomes new teaching material, while teaching exposes gaps and questions that become new investigations.
 
 ### How to reach research materials
+
+Vision
+→ What scientific/engineering capability am I ultimately trying to establish?
+
+Outcome
+→ What concrete state would demonstrate progress?
+Often a validated method, experimental result, working system, or ultimately a publication.
+
+Milestone
+→ What meaningful checkpoint can Peter or a student own and report?
+
+Action
+→ What can somebody actually do?
+Derive this equation, modify this node, run this experiment, compare these datasets, make this figure.
+
+Then the intellectual-state labels remain free to move through that hierarchy:
 ```
 research_idea
 ↙︎ theory_investigation — Stribeck/stick-slip/model structure
