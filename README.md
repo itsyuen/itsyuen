@@ -339,3 +339,10 @@ teaching_material　　　　publishable_material
 course/module　　　　　 paper
 ↘︎　　　　　　　　　　　　　　↙︎
 　　　　feeds the next investigation
+
+- Learning gives you vocabulary.
+- Investigation gives you understanding.
+- Teaching forces you to make that understanding explicit and coherent.
+- Research asks where the existing understanding is insufficient.
+- Experimentation produces evidence.
+- Publishing forces the evidence into a defensible argument.
