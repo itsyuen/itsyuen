@@ -354,7 +354,7 @@ course/module　　　　　 paper
 
 Then published research becomes new teaching material, while teaching exposes gaps and questions that become new investigations.
 
-### How to reach research materials
+### From ideas to materials
 
 Vision
 → What scientific/engineering capability am I ultimately trying to establish?
@@ -379,6 +379,8 @@ research_idea
 experiments + deductions - action/tasks and sub-tasks without labeling
 ↓
 publishable_material
+↓
+paper_draft (mentall untill cluster has formed)
 ```
 ```
 teaching_idea
@@ -388,4 +390,9 @@ teaching_idea
 demonstations + explanations - action/tasks and sub-tasks without labeling
 ↓
 teaching_material
+↓
+paper_draft (mentall untill cluster has formed)
 ```
+**The hierarchy describes where the work is going. The labels describe what kind of intellectual work is happening now.**
+
+Research and teaching can therefore share the same technical infrastructure while producing different intended outcomes.
