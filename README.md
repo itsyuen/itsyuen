@@ -83,9 +83,9 @@ Now Todoist knows what you can actually do.
 ├── TEACH
 │   ├── Computer Integrated Control Systems
 │   └── Lab Courses
-│
-└── PUBLISH
-    └── publication is normally an outcome of the research theme that produced it
+
+└── (PUBLISH)
+    └── publication is actually an outcome of the research theme that produced it, it is embedded inside the 4 research worlds
 ```
 
 Research projects are organized by technical/research intention rather than by tool. MATLAB, Simulink, Python, C/C++, ROS 2, Gazebo, RViz, STM32, RTOS, and related technologies live inside whichever research theme their use primarily advances.
@@ -321,7 +321,7 @@ vison->outcome->milestone->action/task
 
 - `publishable_material` — this has become reusable evidence/content for a publication.
 
-- Mental lableling not easlily used in todoist: `research_draft` and `book_draft`
+- Mental lableling not easlily used in todoist, until a cluster has emerged: `paper_draft` and `book_draft`
 
 For example, while working on your Jacobian-free force controller, you might produce a particularly good simulation comparison. At first the task could be research_idea or part of a research milestone. Once the result exists and you realize, this figure/result belongs in a future paper, tagging it publishable_material makes sense—even before you've committed to a particular manuscript.
 
