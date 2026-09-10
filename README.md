@@ -24,17 +24,18 @@ Building modern learning pathways that connect mechanical engineering, software,
 itchang@mail.ntust.edu.tw
 
 ## Philosophy
-Learning → building → teaching → research evidence → publication
 
 Historical working idea:
-
+```
+Learning → building → teaching → research evidence → publication
 research/publish = learning + teaching
-
+```
 Current interpretation:
 
+```
 learning → research/building → validated evidence → publication
-
 research/building → curated knowledge → teaching
+```
 
 The older `research/publish = learning + teaching` idea is kept here because it reflects how the current system evolved. The newer structure separates the intentions more clearly: research develops and validates knowledge, publication records research outcomes, and teaching consumes selected, stabilized knowledge in a form appropriate for students.
 
@@ -256,7 +257,7 @@ STM32 hardware
 
 ## Controller development
 
-Your control algorithm can begin as mathematics and simulation—MATLAB/Simulink, your adaptive law, force-control formulation, estimator, and so on. But to become robotics research rather than only a control-theory result, it needs a software layer that connects it to sensors, actuators, robot models, logging, visualization, and eventually hardware. ROS 2 is that integration layer.
+A control algorithm can begin as mathematics and simulation—MATLAB/Simulink, your adaptive law, force-control formulation, estimator, and so on. But to become robotics research rather than only a control-theory result, it needs a software layer that connects it to sensors, actuators, robot models, logging, visualization, and eventually hardware. ROS 2 is that integration layer.
 So the chain is roughly:
 ```
 control algorithm → ROS 2 controller/node → robot interfaces → embedded/RTOS layer → sensors & actuators
@@ -265,7 +266,7 @@ And information comes back upward:
 ```
 ADC/encoder/force sensor → MCU/driver → ROS 2 messages/interfaces → controller → commanded torque/velocity/position
 ```
-That also clarifies why your platform-investigation work matters. Learning rclcpp, messages, services/actions, parameters, lifecycle, ros2_control, hardware interfaces, timing behavior, and vendor APIs isn't a separate research hobby.
+That also clarifies why a platform-investigation work matters. Learning rclcpp, messages, services/actions, parameters, lifecycle, ros2_control, hardware interfaces, timing behavior, and vendor APIs isn't a separate research hobby.
 
 ### Example of `platform_insvestication`
 
@@ -292,7 +293,7 @@ investigate → idea → promote → outcome → milestone → actions → resul
 ```
 And for research, a successful result can eventually become a publication outcome.
 
-### usage of todoist
+### Usage of todoist
 
 Tags answer: “What kind of thing is this?”
 
@@ -306,17 +307,21 @@ vison->outcome->milestone->action/task
 
 ### Usage of todoist labels
 
-- research_idea — this might become research.
+- `research_idea` — this might become research.
 
-- teaching_idea — this might become teaching.
+- `teaching_idea` — this might become teaching.
 
-- platform_investigation — I need to understand/test this platform, API, hardware, etc.
+- `platform_investigation` — I need to understand/test this platform, API, hardware, etc.
 
-- reference_link — retain this as a useful external reference.
+- `theory_investigation` - I need to derive more about the phsics/math on this topic, maybe a realted platform deployment induced variation. USE intention!
 
-- teaching_material — this has become reusable material for teaching.
+- `reference_link` — retain this as a useful external reference.
 
-- publishable_material — this has become reusable evidence/content for a publication.
+- `teaching_material` — this has become reusable material for teaching.
+
+- `publishable_material` — this has become reusable evidence/content for a publication.
+
+- Mental lableling not easlily used in todoist: `research_draft` and `book_draft`
 
 For example, while working on your Jacobian-free force controller, you might produce a particularly good simulation comparison. At first the task could be research_idea or part of a research milestone. Once the result exists and you realize, this figure/result belongs in a future paper, tagging it publishable_material makes sense—even before you've committed to a particular manuscript.
 
