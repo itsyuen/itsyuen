@@ -66,8 +66,10 @@ RESEARCH WORLDS
 ├── #2 Robot Manipulator Force Control
 └── #3 Motor Torque Estimation & Compensation
        │
-       │ require shared engineering capability
-       ↓
+       ├── foundational theory / reference-system generator → #1 / #2
+       ├── canonical implementation examples → #4 Infrastructure
+       └── stabilized demonstrations → Teaching
+
 #4 CONTROL SYSTEM INTEGRATION INFRASTRUCTURE
        │
        │ capability criteria / competence tests
@@ -92,12 +94,89 @@ Publication is normally an outcome of the research world that generated the scie
 
 The three research projects own **scientific questions, theory, application-specific implementation, experiments, and validated evidence**.
 
-Their control-system Visions preserve the large research direction. The coherent **Vision v1 → v2 → v3** chain describes the main system-control development, while **v4 may remain an independent research branch** when a scientifically valuable question should mature without being forced into the main chain.
+The numbering identifies research worlds rather than priority. #3 is intentionally foundational: the motor/actuator is a comparatively simple, theory-rich physical system in which common estimation, control, reference-generation, implementation, and demonstration ideas can be derived before being challenged by the richer physics of #1 and #2.
 
-The hierarchy exists to make large ideas executable without losing their meaning:
+## Common V1–V3 scientific pipeline
+
+The main Visions now have explicit scientific roles:
 
 ```text
-Vision
+V1 — infer the system
+     state estimation + parameter/system identification
+     x, x_hat, parameters, disturbances
+
+                ↓
+
+V2 — control the system
+     design real-time u(t)
+     make the relevant state derivative / acceleration /
+     generalized force or physical response well defined
+
+                ↓
+
+V3 — define where the system should go
+     x_ref(t), x_dot_ref(t), x_ddot_ref(t)
+     or appropriate angular / generalized counterparts
+     human intention → desired behavior / reference
+```
+
+The exact states, parameters, physics, coordinates, sensors, actuators, and equations change between motor, Omni vehicle, and manipulator. The scientific questions and transferable abstractions provide the linkage; equations are re-derived for the actual research platform rather than copied blindly.
+
+## #3 as foundational generator
+
+#3 is the **foundational theory and reference-system generator**.
+
+```text
+                         #3 MOTOR / ACTUATOR
+                    derive / test / abstract clearly
+                              │
+             ┌────────────────┼────────────────┐
+             ↓                ↓                ↓
+       #1 / #2 Research   #4 Infrastructure   Teaching
+       richer physics     reference impl.     clear demonstrations
+             │                │                │
+             └────────────────┴────────────────┘
+                              ↑
+                    feedback / new questions
+```
+
+It should intentionally generate:
+- foundational scientific abstractions that can be re-derived under #1 Omni-Vehicle and #2 Manipulator physics;
+- canonical minimal examples for #4 capability criteria and implementation routes; and
+- stable motor/actuator demonstrations that can become reusable Teaching material.
+
+Transfer is not automatic. #1/#2 own their application-specific scientific questions, #4 owns reusable engineering capability standards, and Teaching owns stabilized pedagogy and assessment.
+
+## V4 and research branching
+
+V4 is not a required fourth step after V3.
+
+For #1 and #2, V4 is a **controlled entry point for a scientifically valuable platform-specific challenge**. It may branch as `V4a`, `V4b`, `V4c`, etc. when experimental evidence, collaborators, industry, or another outside-originated/inspired problem reveals a defensible scientific question. Empty branch names do not need to be filled.
+
+Examples currently include:
+- `#1V4a` → wheel failure / fault-tolerant Omni-Vehicle control;
+- `#2V4a` → Jacobian-free manipulator control, including the scientific challenge created when a Jacobian-free formulation meets conventional Jacobian/model-mediated robotics and ROS 2 assumptions.
+
+#3V4 is intentionally asymmetric: it is the **cross-world intellectual-upward abstraction/consolidation space**. Structures such as `x_dot = A x + B u`, `y = C x`, or appropriate nonlinear forms can be used to ask what `x_hat`, `u`, `x_ref`, `x_dot_ref`, `x_ddot_ref`, parameters, disturbances, and physical meanings should be across the three research worlds. The paper question should emerge from the science rather than from a pre-filled V4 slot.
+
+## Research coordinate and admission control
+
+A notation such as `#iVj_k` acts as a lightweight research coordinate:
+- `i = 1..3` identifies the research world;
+- `j = 1..3` identifies the common scientific pipeline stage;
+- `j = 4` identifies a justified research branch or, for #3, the abstraction/consolidation role;
+- `k = a, b, c...` distinguishes genuine V4 branches when they emerge.
+
+The coordinate helps answer three practical questions: **Where is the research now? Who is a good student/owner for it? Does a new external opportunity deserve admission into the research architecture?**
+
+Student interest can first align with the research world: #1 with vehicle dynamics and vehicle experimentation; #2 with manipulator dynamics, Cartesian interaction, and force control; #3 with control theory, modeling, identification, estimation, derivation, and actuator-level experimentation. The Vision coordinate then gives the student a more precise scientific responsibility.
+
+External or industrial work should not automatically create a new research direction. It should enter #1–#3 when it materially strengthens V1–V3 or earns a genuine V4 branch by exposing a worthwhile scientific problem. Otherwise it may belong in service, Teaching, Administration, another project, or simply be declined.
+
+The hierarchy exists to make these large ideas executable without losing their meaning:
+
+```text
+Vision / research coordinate
   ↓
 Outcome
   ↓
@@ -146,6 +225,26 @@ Current capability Outcomes include areas such as:
 
 A capability criterion is not a list of technologies to learn. It is a **demonstrable engineering standard**.
 
+Research #3's motor/actuator system is the preferred canonical minimal reference platform when it can demonstrate these capabilities without unnecessary vehicle/manipulator complexity.
+
+## Infrastructure implementation routes
+
+Capability Outcomes define **what must be achievable and demonstrable**. Implementation routes describe **how the capability may be realized**; they are not separate Projects or Outcome Sections.
+
+```text
+4a — Model-Based Embedded Deployment
+     model/control → MATLAB/Simulink → code generation → MCU
+
+4b — Explicit Embedded / Real-Time Architecture
+     algorithm → C/C++ → HAL/peripherals → timers/RTOS → MCU
+
+4c — Distributed ROS 2 / Cross-Platform Integration
+     algorithm → ROS 2 interfaces → distributed compute/embedded nodes
+               → simulation and/or robot hardware
+```
+
+A capability criterion may use one route or several. Tools may change while the capability standard remains. Regardless of route, signals, units, coordinate frames, timing/rates, numerical behavior, communication content, sensing, actuation, and physical response must preserve the intended engineering meaning.
+
 ```text
 necessary capability
       ↓
@@ -181,6 +280,8 @@ The active hierarchy should increasingly represent the laboratory's current best
 # Teaching
 
 Teaching is the professional world where stabilized knowledge is **curated, sequenced, delivered, practiced, and assessed for a particular student population**.
+
+Research #3's motor/actuator system is a preferred canonical minimal demonstration when it can expose the full model → state/parameter estimation → control input → reference/intention → implementation chain more clearly than a vehicle or manipulator. Once stabilized, the same example can become Teaching material and can demonstrate selected #4 capability criteria.
 
 ```text
 Teaching Project
@@ -276,6 +377,10 @@ Assignment answers:
 
 > **Who actually has to do or demonstrate it?**
 
+The research coordinate adds another question:
+
+> **Which research world, scientific stage, or justified V4 branch is this work advancing?**
+
 Together they allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
 
 ## Labels
@@ -331,7 +436,7 @@ The same investigation can feed both paths, but **learning or teaching is not au
 The system is intentionally cyclic:
 
 ```text
-Research Vision
+Research coordinate / Vision
       ↓
 scientific question / desired behavior
       ↓
