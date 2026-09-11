@@ -342,9 +342,14 @@ Is the problem a reusable engineering capability needed across research platform
 Is the knowledge stable and now being prepared/delivered for students?
 → Teaching
 
-Is the work institutional processing, reimbursement, approval, compliance, etc.?
+Is the work an industry-facing relationship, contract, deliverable, proposal/report, or client obligation?
+→ Industry Projects
+
+Is the work a government/university submission, approval, compliance, reimbursement, proposal/report, or other institutional obligation?
 → Administration
 ```
+
+Industry Projects and Administration are **external-obligation shells**, not additional technical research worlds. Their proposals and reports may draw heavily from #1–#3, but the underlying scientific questions, methods, experiments, and evidence remain in their owning research coordinates.
 
 The same technical subject can legitimately appear in several projects at different stages. What changes is the intention.
 
@@ -359,6 +364,14 @@ ROS 2 is used to test an Omni-Vehicle scientific question
 
 ROS 2 understanding has stabilized into a student exercise
 → Teaching
+
+An industrial final report needs the validated Omni-Vehicle result
+→ report_draft in Industry Projects
+   drawing from #1 publishable_material
+
+A government grant proposal develops the next research direction
+→ report_draft in Administration
+   drawing from research_idea + existing evidence + planned #iVj_k work
 ```
 
 # Todoist: Actionable Operating System
@@ -391,9 +404,10 @@ Together they allow immature ideas to remain forgiving while still creating acco
 - `platform_investigation` — work intended to understand or test a tool, API, hardware interface, software architecture, timing behavior, communication route, or deployment boundary.
 - `reference_link` — supporting external knowledge retained because it serves a specific investigation or mastery need; not a generic bookmark collection.
 - `teaching_material` — stabilized reusable student-facing knowledge, example, exercise, demonstration, or module.
-- `publishable_material` — validated evidence, comparison, result, figure, limitation, or finding worth preserving as a possible building block for publication.
+- `publishable_material` — validated scientific evidence, comparison, result, figure, limitation, or finding worth preserving as a reusable building block. In industry-facing work this does **not** automatically mean legally/publicly publishable; confidentiality and IP restrictions still govern release.
+- `report_draft` — an active formal document being assembled for an external or institutional recipient, including grant proposals, industrial proposals, progress/final reports, government reports, and similar deliverables. It describes the document-output state, not scientific ownership.
 
-`paper_draft` and `book_draft` are better treated as later-stage mental/organizational states once enough material has clustered to justify an actual manuscript structure.
+`paper_draft` and `book_draft` are better treated as later-stage mental/organizational states once enough material has clustered to justify an actual manuscript structure. `report_draft` is broader and may appear before or after validated evidence: a proposal can combine `research_idea`, prior `publishable_material`, and planned future work, while a final report usually consolidates completed evidence and obligations.
 
 Labels may cross project boundaries. **A label never overrides primary intention or hierarchy.**
 
@@ -415,6 +429,16 @@ theory_investigation   platform_investigation
             paper
 ```
 
+External formal documents can draw from several states:
+
+```text
+research_idea ───────┐
+                     ├→ report_draft → submitted proposal / report / deliverable
+publishable_material ┤
+                     │
+planned future work ─┘
+```
+
 Teaching can mature as:
 
 ```text
@@ -429,7 +453,7 @@ theory_investigation   platform_investigation
        module / course
 ```
 
-The same investigation can feed both paths, but **learning or teaching is not automatically research**, and a useful research result is not automatically ready to teach.
+The same investigation can feed several paths, but **learning or teaching is not automatically research**, a useful research result is not automatically ready to teach, and a formal proposal/report does not become the owner of the scientific work it describes.
 
 # The Actionable Loop
 
@@ -469,4 +493,4 @@ Research Vision revised or advanced
 
 This loop is meant to generate **bite-sized, assignable work with directional meaning without losing the big picture**.
 
-Small tasks remain connected to purpose. Large ideas are forced toward executable evidence. Teaching develops people. Infrastructure preserves engineering competence. Research generates new understanding. Each can feed the next cycle.
+Small tasks remain connected to purpose. Large ideas are forced toward executable evidence. Teaching develops people. Infrastructure preserves engineering competence. Research generates new understanding. External proposals/reports package selected ideas, plans, evidence, and obligations for a particular recipient without taking ownership away from the underlying work. Each can feed the next cycle.
