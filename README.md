@@ -494,3 +494,110 @@ Research Vision revised or advanced
 This loop is meant to generate **bite-sized, assignable work with directional meaning without losing the big picture**.
 
 Small tasks remain connected to purpose. Large ideas are forced toward executable evidence. Teaching develops people. Infrastructure preserves engineering competence. Research generates new understanding. External proposals/reports package selected ideas, plans, evidence, and obligations for a particular recipient without taking ownership away from the underlying work. Each can feed the next cycle.
+
+# Working Hierarchy: Think Freely, Normalize Deliberately
+
+Research thinking does not need to begin in a perfect hierarchy. During exploration or reconstruction of old work, an idea may naturally appear at arbitrary depth:
+
+```text
+possible Outcome
+→ general Milestone
+→ forming sub-Milestone
+→ deeper sub-Milestone
+→ possible Action
+→ sub-Action
+```
+
+These are **temporary interpretations**, not permanent ontology categories. They exist to free thinking while the intention and structure are still being understood.
+
+As understanding improves, try to normalize the stable work toward:
+
+```text
+Concrete Outcome
+│
+├── Milestone 1 — a verifiable intermediate state
+│   ├── bite-sized Action 1
+│   └── bite-sized Action 2
+│
+├── Milestone 2 — a verifiable intermediate state
+│   ├── bite-sized Action 1
+│   └── bite-sized Action 2
+│
+└── Milestone 3
+    └── ...
+```
+
+The intended meanings are simple:
+
+- **Outcome** — the meaningful result ultimately sought.
+- **Milestone** — a verifiable intermediate state that should become true.
+- **Action** — something a person can actually do to make that state true.
+
+A Milestone therefore describes **what should become true**; its Actions describe **what must be done**.
+
+## Three-pass old-task annotation method
+
+The historical task run-through is intentionally iterative rather than a one-pass cleanup.
+
+### Pass 1 — Interpret freely
+
+Read the old task and reconstruct its original intention. Temporarily classify it as something like:
+
+```text
+possible Outcome
+possible/general Milestone
+forming sub-Milestone
+deeper sub-Milestone
+possible Action
+sub-Action
+```
+
+At this stage, do not force the old thought into the final hierarchy. The purpose is to expose what the task was trying to accomplish and preserve useful intellectual history.
+
+### Pass 2 — Reword and test the structure
+
+Reword each surviving item according to its present intention, then decide whether to **sort, merge, promote, split, retain, or archive** it.
+
+Try to transform a chain such as:
+
+```text
+general Milestone
+→ sub-Milestone
+→ sub-sub-Milestone
+```
+
+into a clearer set of parallel or sequential verifiable states:
+
+```text
+Concrete Outcome
+├── Milestone 1
+├── Milestone 2
+└── Milestone 3
+```
+
+with the required bite-sized Actions beneath them.
+
+This step requires real scientific judgment. The correct Milestones may remain uncertain until enough theory investigation, platform investigation, evidence, and discussion have accumulated. The hierarchy is therefore a living hypothesis that should be tested against the research itself.
+
+### Pass 3 — Commit the best current hierarchy
+
+Only after the intention and Milestones become sufficiently clear should the Todoist hierarchy be treated as the current stable structure.
+
+Even then, it remains revisable. New evidence, an unexpected intention, a better abstraction, or a genuine V4 branch may challenge the structure and require upward integration or restructuring.
+
+```text
+read
+→ reconstruct intent
+→ interpret freely
+→ investigate / debate
+→ reword and normalize
+→ test the hierarchy
+→ commit the best current structure
+→ revise when better understanding appears
+```
+
+The principle is:
+
+> **Think freely; normalize deliberately.**
+
+The hierarchy represents the **current best understanding of the work**, not a restriction on the thinking that produced it.
