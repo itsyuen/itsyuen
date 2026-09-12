@@ -218,6 +218,54 @@ identify what result / evidence would support or weaken the proposed Outcome
 place it in the correct professional / research world
 ```
 
+### Run 1 working Outcome — recover the work and its artifact set
+
+For historical work, Run 1 should recover not only the task hierarchy but also the useful artifacts that the work produced or was trying to produce. A practical desired state is:
+
+> **The intention of each relevant old/new task is recovered, and the scattered files associated with that intention are found, interpreted, and connected to the work strongly enough to decide what should continue and what should remain frozen history.**
+
+This can be approached through two provisional Milestones.
+
+#### Milestone 1 — Task intention recovered
+
+Read old tasks far enough that the hierarchy is forced into view rather than imposed from outside. Recover the true intention, a possible Outcome, the general Milestones that would make it true, and the likely Actions. The intended final artifact should begin to have a recognizable **shape or format**, and the evidence/result the work is seeking to support should be stated positively enough to guide further work.
+
+The task wording itself is not authoritative. An old task may be incomplete, badly placed, overly detailed, or written before the current ontology existed. Run 1 uses it as evidence for reconstructing the work's intention.
+
+#### Milestone 2 — Associated artifact relationship recovered
+
+Find the scattered files connected with the recovered intention—old `.docx`, current or new `.md`, `.cpp`, `.py`, `.m`, notebooks, figures, data, reports, and other artifacts—and interpret them in light of Milestone 1.
+
+The purpose is **not to invent a new intention because a file exists**. Files should normally solidify, correct, or add evidence to the task intention already being recovered. Associate the file with an existing recovered task/hierarchy where possible; create a new Outcome/task only when the artifact exposes genuinely necessary work that cannot honestly be represented by the existing structure.
+
+File type does not decide intellectual ownership. The same extension can belong to Learning, Research #1–#3, #4 Infrastructure, Teaching, Administration, Industry, or another professional world depending on its primary intention. File format mainly affects how and where the artifact is best edited, collaborated on, executed, or preserved.
+
+During Run 1, a file can receive a **provisional disposition annotation** rather than being immediately reorganized:
+
+- `freeze_file` — preserve the file as historical or potentially useful material, but do not improve or migrate it merely because it was found.
+- `future_outcome` — the file contains material clearly connected to a recovered or emerging Outcome, but the work is not active enough to justify processing it now.
+
+These are working annotations, not permanent ontology categories. Their purpose is to keep Run 1 from turning into a mass file-cleanup exercise.
+
+The active subset that survives Run 1 is the material we actually intend to continue developing. Its contents may later be split, merged, rewritten, renamed, or relocated as current work requires. Files that no longer support necessary work can remain frozen or be archived together with frozen old tasks.
+
+```text
+old/new task
+      ↓
+recover intention / hierarchy / desired evidence
+      ↓
+find associated scattered artifacts
+      ↓
+use artifacts to confirm or refine the recovered intention
+      ↓
+continue-active subset ─────────→ Run 2
+      │
+      ├→ freeze_file
+      └→ future_outcome
+```
+
+This makes artifact placement part of ordinary work. Run 1 begins revealing which materials actually belong in local Git repositories, GitHub, cloud collaboration, local/NAS personal storage, `SSCLdataRe`, `TemporaryDataSSCL`, or other locations. It does **not** require redesigning those storage systems in advance; repeated real cases can expose their future roles and boundaries.
+
 For old tasks, Run 1 is partly archaeology. The purpose is to reconstruct what the earlier work was trying to accomplish, **not to accuse the earlier wording, decision, student, collaborator, or self**. Preserve useful intellectual history before deciding what should survive.
 
 For new work, the same rule applies: a proposed hierarchy is permission to think, not a promise that the first interpretation is correct. General Milestones may initially be guesses, but they should already suggest the **shape or format of a deliverable**—for example a verified model, comparison table, figure, capability matrix, demonstrated behavior, or working implementation.
