@@ -295,6 +295,8 @@ Subtask = Milestone
 Sub-subtask = focused Action
 ```
 
+This hierarchy describes available roles, not a requirement that every piece of teaching work use every level. A short task may remain flat; a longer-lived Outcome may preserve Milestones because the hierarchy helps re-entry, collaboration, or future reuse.
+
 The key boundary with #4 is:
 
 > **#4 defines what must be demonstrable. Teaching defines how the selected students learn and demonstrate it.**
@@ -497,7 +499,7 @@ Small tasks remain connected to purpose. Large ideas are forced toward executabl
 
 # Working Hierarchy: Think Freely, Normalize Deliberately
 
-Research thinking does not need to begin in a perfect hierarchy. During exploration or reconstruction of old work, an idea may naturally appear at arbitrary depth:
+Research thinking does not need to begin in a perfect hierarchy. During exploration, a new thought or an old task may naturally appear at arbitrary depth:
 
 ```text
 possible Outcome
@@ -508,96 +510,225 @@ possible Outcome
 → sub-Action
 ```
 
-These are **temporary interpretations**, not permanent ontology categories. They exist to free thinking while the intention and structure are still being understood.
+These are **temporary interpretations**, not permanent ontology categories. Their purpose is to reveal intention and relationships while the work is still being understood.
 
-As understanding improves, try to normalize the stable work toward:
+The long form is therefore an **explanation to myself**. It should make it possible to answer:
 
-```text
-Concrete Outcome
-│
-├── Milestone 1 — a verifiable intermediate state
-│   ├── bite-sized Action 1
-│   └── bite-sized Action 2
-│
-├── Milestone 2 — a verifiable intermediate state
-│   ├── bite-sized Action 1
-│   └── bite-sized Action 2
-│
-└── Milestone 3
-    └── ...
-```
+> **Why did I want to do this Action? Where is it embedded? What larger result does it support? How did this line of work get here?**
 
-The intended meanings are simple:
-
-- **Outcome** — the meaningful result ultimately sought.
-- **Milestone** — a verifiable intermediate state that should become true.
-- **Action** — something a person can actually do to make that state true.
-
-A Milestone therefore describes **what should become true**; its Actions describe **what must be done**.
-
-## Three-pass old-task annotation method
-
-The historical task run-through is intentionally iterative rather than a one-pass cleanup.
-
-### Pass 1 — Interpret freely
-
-Read the old task and reconstruct its original intention. Temporarily classify it as something like:
+A long-form hierarchy may be deliberately verbose:
 
 ```text
-possible Outcome
-possible/general Milestone
-forming sub-Milestone
-deeper sub-Milestone
-possible Action
-sub-Action
+intention
+    ↓
+desired Outcome
+    ↓
+Milestones that would make the Outcome true
+    ↓
+possible Actions
+    ↓
+results / evidence
 ```
 
-At this stage, do not force the old thought into the final hierarchy. The purpose is to expose what the task was trying to accomplish and preserve useful intellectual history.
+This explanation may live in a Markdown note, research notebook, README, paper notebook, or another working document. It does not need to be copied into Todoist.
 
-### Pass 2 — Reword and test the structure
+## Short hierarchy preserves the long-form relationship
 
-Reword each surviving item according to its present intention, then decide whether to **sort, merge, promote, split, retain, or archive** it.
-
-Try to transform a chain such as:
+Once the reasoning is understood, much of the wording can disappear without losing the relationship.
 
 ```text
-general Milestone
-→ sub-Milestone
-→ sub-sub-Milestone
+Programming capability for ROS 2 development
+└── Capability matrix
+    └── Define C/C++ criteria
 ```
 
-into a clearer set of parallel or sequential verifiable states:
+The short hierarchy still says:
 
 ```text
-Concrete Outcome
-├── Milestone 1
-├── Milestone 2
-└── Milestone 3
+this Action
+    → supports this Milestone
+    → supports this Outcome
+    → exists because of this intention
 ```
 
-with the required bite-sized Actions beneath them.
+The long form preserves **reasoning and history**. The short hierarchy preserves the **structure of that reasoning**.
 
-This step requires real scientific judgment. The correct Milestones may remain uncertain until enough theory investigation, platform investigation, evidence, and discussion have accumulated. The hierarchy is therefore a living hypothesis that should be tested against the research itself.
-
-### Pass 3 — Commit the best current hierarchy
-
-Only after the intention and Milestones become sufficiently clear should the Todoist hierarchy be treated as the current stable structure.
-
-Even then, it remains revisable. New evidence, an unexpected intention, a better abstraction, or a genuine V4 branch may challenge the structure and require upward integration or restructuring.
+`Outcome`, `Milestone`, and `Action` are therefore **relative roles, not permanent task classes**. An Outcome may later become a Milestone inside a larger understanding. A Milestone may become today's Action. An apparently small Action may reveal enough complexity to temporarily need its own hierarchy.
 
 ```text
-read
-→ reconstruct intent
-→ interpret freely
-→ investigate / debate
-→ reword and normalize
-→ test the hierarchy
-→ commit the best current structure
-→ revise when better understanding appears
+large Outcome today
+       ↓
+part of a larger understanding tomorrow
+       ↓
+Milestone
+       ↓
+current executable Action
 ```
 
-The principle is:
+The ontology should clarify thought, not create bureaucracy.
 
-> **Think freely; normalize deliberately.**
+# Run 1 → Run 2 → Run 3
 
-The hierarchy represents the **current best understanding of the work**, not a restriction on the thinking that produced it.
+The three-run method applies both to historical Todoist recovery and to new thoughts. Old work usually requires a heavier Run 1 because the original intention must be reconstructed; new work can often begin as a flat note in the file where the thinking is already happening.
+
+## Run 1 — Reveal / recover intention
+
+Start with the thought or old task and deliberately expand it enough to understand why it exists.
+
+```text
+thought / old task
+      ↓
+recover intention
+      ↓
+identify possible Outcome
+      ↓
+identify Milestones
+      ↓
+identify possible Actions
+      ↓
+place it in the correct professional / research world
+```
+
+For old tasks, Run 1 is partly archaeology. Preserve useful intellectual history before deciding what should survive.
+
+For a new thought, Run 1 may simply be a handwritten note or a verbose block inside the current `.md` file. Todoist is not required at this stage.
+
+## Run 2 — Compress, cluster, and reorganize
+
+Once the intention is visible, return to the original thought and ask what actually needs to survive.
+
+```text
+long explanation
+      ↓
+cluster related ideas / evidence
+      ↓
+merge / rename / reorder
+      ↓
+remove scaffolding
+      ↓
+preserve the useful relationships
+```
+
+At this stage, items may be **sorted, merged, promoted, split, retained, archived, or discarded**. The hierarchy is a living hypothesis and should change when theory, platform investigation, evidence, or a better abstraction changes the understanding.
+
+The goal of Run 2 is not to fill Todoist correctly. It is to make the ontology clear enough that the useful work can be represented simply.
+
+## Run 3 — Expose the minimum actionable subset
+
+Todoist receives only the work that benefits from external memory, re-entry, assignment, priority, or future execution.
+
+```text
+understood hierarchy
+      ↓
+minimum useful subset
+      ↓
+short actionable wording
+      ↓
+do
+      ↓
+tick
+```
+
+Not every thought becomes a task. Not every task deserves a hierarchy. Immediate working steps may stay in the current file and simply be completed there.
+
+Hierarchy is most useful when the work must survive interruption, spans several sessions or people, or needs to preserve why a future Action exists. A team project may intentionally preserve more explicit hierarchy and short annotation because the structure must communicate intention to people who do not share the same mental context.
+
+The practical separation is:
+
+```text
+working notes            = current thinking and execution detail
+README / long-form notes = durable reasoning and ontology
+Todoist                  = minimum actionable / re-entry subset
+finished artifacts       = what should actually grow
+```
+
+The goal is **not to grow the ontology map**. The goal is to grow finished lectures, modules, code, experiments, figures, drafts, and papers.
+
+# Evidence Accumulation and Publication
+
+Publication should normally emerge from **accumulated and scrutinized scientific evidence**, not from an empty paper slot that must be filled.
+
+Research first produces evidence:
+
+```text
+question
+   ↓
+theory / model
+   ↓
+investigation
+   ↓
+experiment / implementation
+   ↓
+result
+   ↓
+evidence
+```
+
+Evidence should then be challenged rather than merely collected:
+
+```text
+evidence
+   ↓
+compare / reproduce / question
+   ↓
+find contradictions and limitations
+   ↓
+re-derive / retest where necessary
+   ↓
+cluster evidence by scientific connection
+   ↓
+identify the claim that survives scrutiny
+```
+
+As evidence accumulates, the ontology itself may legitimately change. Earlier Actions may move. Milestones may merge or split. An earlier Outcome may become a supporting branch of a better-worded Outcome. The hierarchy should represent the current best scientific understanding rather than preserve old wording for its own sake.
+
+Eventually, enough connected evidence may survive scrutiny that publication becomes a new explicit Outcome:
+
+```text
+Outcome
+Compile, explain, and defend the evidence supporting
+an identified novel result.
+```
+
+The work then changes character:
+
+```text
+defensible claim
+      ↓
+organize supporting evidence
+      ↓
+identify missing evidence
+      ↓
+resolve strongest objections / alternatives
+      ↓
+figures / tables / comparisons
+      ↓
+scientific narrative
+      ↓
+paper draft
+      ↓
+criticism / revision
+      ↓
+submission
+```
+
+`publishable_material` therefore means **evidence worth preserving**, not that a paper already exists. A `paper_draft` becomes justified when enough related evidence has accumulated, been challenged, and can support a coherent scientific claim.
+
+The research ontology is expected to evolve:
+
+```text
+idea
+  → investigation
+  → evidence
+  → revised understanding
+  → clustered evidence
+  → defensible claim
+  → publication Outcome
+  → paper
+```
+
+Publication is not separate from the research hierarchy. It is one possible mature Outcome of that hierarchy.
+
+The operating principle is:
+
+> **Think freely; reveal intention; preserve relationships; execute minimally; reorganize from evidence; publish what survives scrutiny.**
