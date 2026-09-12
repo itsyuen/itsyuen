@@ -23,6 +23,8 @@ The goal is not simply to collect tools or complete isolated projects. Mathemati
 - `learning` → experiments, notes, and exploratory work
 - `working` → integrated development and research work
 
+Connect Overleaf with GitHub for LaTeX manuscript collaboration, and bring ResearchRabbit literature discovery into the workflow through shared collections or bibliography exports, when active work calls for them; these integrations are deferred, not prerequisites for starting.
+
 ## Contact
 itchang@mail.ntust.edu.tw
 
