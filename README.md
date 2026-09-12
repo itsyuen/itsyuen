@@ -78,8 +78,8 @@ RESEARCH WORLDS
        └──────────────→ selected criteria become teaching/assessment requirements
                               ↓
 TEACHING
-       course → outcomes → milestones → actions
-       labs / demonstrations / midterms / final projects
+       course → technical subject group → target audience → knowledge level → curate
+       modules / demonstrations / labs / assessments
                               ↓
                     demonstrated student capability
                               ↓
@@ -195,22 +195,23 @@ A small Action should therefore be traceable upward to a meaningful research goa
 
 #4 is **not a fourth research-question generator**. It is the laboratory's reusable operational-capability standard.
 
-Its purpose is to ensure that a research hardware platform is sufficiently understood, configured, and verified to faithfully execute the intended control theory.
+Its purpose is to ensure that a research **investigation platform** is sufficiently understood, configured, and verified to faithfully execute the intended control theory and preserve its engineering meaning through implementation.
 
 ```text
-model / estimator / controller
+intended control theory / model / estimator / controller / behavior
         ↓
-simulation
+numerical simulation of model / controller / intended behavior
         ↓
-software
+software selection + programming-language application
         ↓
-communication
+communication across hardware-abstraction levels
         ↓
-real-time / embedded execution
+real-time / embedded execution with correct software observation
+and timing verification
         ↓
-sensing + actuation
+sensing + actuation with verified communication
         ↓
-physical hardware
+physical-hardware performance scenario tested on the intended platform
         ↓
 verified experimental behavior
 ```
@@ -283,19 +284,21 @@ Teaching is the professional world where stabilized knowledge is **curated, sequ
 
 Research #3's motor/actuator system is a preferred canonical minimal demonstration when it can expose the full model → state/parameter estimation → control input → reference/intention → implementation chain more clearly than a vehicle or manipulator. Once stabilized, the same example can become Teaching material and can demonstrate selected #4 capability criteria.
 
+Teaching material is developed by curating stable knowledge for a specific subject and audience:
+
 ```text
-Teaching Project
-  ↓
-Section = course / semester / target student body
-  ↓
-Task = teaching Outcome
-  ↓
-Subtask = Milestone
-  ↓
-Sub-subtask = focused Action
+course / technical subject group
+      ↓
+target audience
+      ↓
+required knowledge level
+      ↓
+select / curate stabilized understanding
+      ↓
+module / explanation / exercise / demonstration / assessment
 ```
 
-This hierarchy describes available roles, not a requirement that every piece of teaching work use every level. A short task may remain flat; a longer-lived Outcome may preserve Milestones because the hierarchy helps re-entry, collaboration, or future reuse.
+The Outcome → Milestone → Action hierarchy remains available when teaching development needs re-entry, collaboration, or future execution, but it is not the curriculum itself. A short teaching task may remain flat; a longer-lived teaching Outcome may preserve Milestones only when the structure helps the work.
 
 The key boundary with #4 is:
 
@@ -318,6 +321,8 @@ external reference
 Peter learns / investigates
       ↓
 Peter explains / teaches / demonstrates
+      ↓
+curate by technical subject / target audience / knowledge level
       ↓
 stabilized Teaching module
       ↓
@@ -406,7 +411,7 @@ Together they allow immature ideas to remain forgiving while still creating acco
 - `platform_investigation` — work intended to understand or test a tool, API, hardware interface, software architecture, timing behavior, communication route, or deployment boundary.
 - `reference_link` — supporting external knowledge retained because it serves a specific investigation or mastery need; not a generic bookmark collection.
 - `teaching_material` — stabilized reusable student-facing knowledge, example, exercise, demonstration, or module.
-- `publishable_material` — validated scientific evidence, comparison, result, figure, limitation, or finding worth preserving as a reusable building block. In industry-facing work this does **not** automatically mean legally/publicly publishable; confidentiality and IP restrictions still govern release.
+- `publishable_material` — a **scientific quality / maturity marker** for validated evidence, comparison, result, figure, limitation, or finding worth preserving as a reusable building block. It describes the scientific value and readiness of the material, **not its legal or IP publication status**. Confidentiality, contracts, and IP restrictions remain separate release questions.
 - `report_draft` — an active formal document being assembled for an external or institutional recipient, including grant proposals, industrial proposals, progress/final reports, government reports, and similar deliverables. It describes the document-output state, not scientific ownership.
 
 `paper_draft` and `book_draft` are better treated as later-stage mental/organizational states once enough material has clustered to justify an actual manuscript structure. `report_draft` is broader and may appear before or after validated evidence: a proposal can combine `research_idea`, prior `publishable_material`, and planned future work, while a final report usually consolidates completed evidence and obligations.
@@ -449,6 +454,8 @@ teaching_idea
 theory_investigation   platform_investigation
    ↘︎                    ↙︎
  demonstrations / explanations
+               ↓
+ curate by technical subject / target audience / knowledge level
                ↓
         teaching_material
                ↓
@@ -527,10 +534,46 @@ Milestones that would make the Outcome true
     ↓
 possible Actions
     ↓
-results / evidence
+expected result / evidence idea
+and likely evidence form: figure / table / comparison / demonstration / verified behavior
 ```
 
 This explanation may live in a Markdown note, research notebook, README, paper notebook, or another working document. It does not need to be copied into Todoist.
+
+## Three-level wording rule
+
+The stable three-level hierarchy has different wording because each level answers a different question.
+
+- **Outcome — expected result / subject / evidence-oriented noun phrase or desired state.** It names what should ultimately exist or become true, without pretending the method is already known.
+- **Milestone — deliverable or verifiable state wording.** It describes an intermediate condition that can be inspected, demonstrated, compared, or declared ready.
+- **Action — verb-first executable wording.** It says what someone can actually do next to move the Milestone toward that state.
+
+A simple example is:
+
+```text
+Outcome
+Programming capability matrix for ROS 2 development
+
+Milestone
+C/C++ capability criteria defined and mapped to representative ROS 2 work
+
+Action
+Map arrays, classes, references/pointers, callbacks, and interfaces to ROS 2 examples
+```
+
+Another Milestone under the same Outcome could be:
+
+```text
+Milestone
+Diagnostic questionnaire piloted against the capability matrix
+
+Actions
+Draft reasoning-based questions
+Pilot the questionnaire
+Compare responses with the intended capability levels
+```
+
+The wording rule is a preference, not a grammar law. Its purpose is to make the relationship visible: the Outcome names the result, the Milestone names a demonstrable intermediate state, and the Action begins the work.
 
 ## Short hierarchy preserves the long-form relationship
 
@@ -578,18 +621,25 @@ Start with the thought or old task and deliberately expand it enough to understa
 ```text
 thought / old task
       ↓
-recover intention
+recover the true intention without moral judgment
       ↓
-identify possible Outcome
+identify a possible Outcome and the evidence that would make it meaningful
       ↓
-identify Milestones
+guess general Milestones, including likely deliverable shape / format
       ↓
 identify possible Actions
+      ↓
+identify what result / evidence would support or weaken the proposed Outcome
+(or show that a criterion is met / not met)
       ↓
 place it in the correct professional / research world
 ```
 
-For old tasks, Run 1 is partly archaeology. Preserve useful intellectual history before deciding what should survive.
+For old tasks, Run 1 is partly archaeology. The purpose is to reconstruct what the earlier work was trying to accomplish, **not to accuse the earlier wording, decision, student, collaborator, or self**. Preserve useful intellectual history before deciding what should survive.
+
+For new work, the same rule applies: a proposed hierarchy is permission to think, not a promise that the first interpretation is correct. General Milestones may initially be guesses, but they should already suggest the **shape or format of a deliverable**—for example a verified model, comparison table, figure, capability matrix, demonstrated behavior, or working implementation.
+
+Possible Actions should also point toward evidence. The resulting evidence may support the proposed Outcome, weaken it, show that a criterion is not met, or expose a different explanation. That is useful information, not failure or accusation. It is explicit permission to **redo the hierarchy** when the evidence says the original structure was wrong.
 
 For a new thought, Run 1 may simply be a handwritten note or a verbose block inside the current `.md` file. Todoist is not required at this stage.
 
@@ -712,7 +762,9 @@ criticism / revision
 submission
 ```
 
-`publishable_material` therefore means **evidence worth preserving**, not that a paper already exists. A `paper_draft` becomes justified when enough related evidence has accumulated, been challenged, and can support a coherent scientific claim.
+`publishable_material` therefore means **scientifically mature evidence worth preserving**: material whose quality is high enough to contribute to a future scientific argument after appropriate validation and scrutiny. It is a **quality / maturity level**, not a statement that the material is legally or contractually free to publish. IP ownership, confidentiality, and release permission remain separate questions.
+
+A `paper_draft` becomes justified when enough related evidence has accumulated, been challenged, and can support a coherent scientific claim.
 
 The research ontology is expected to evolve:
 
