@@ -16,7 +16,7 @@ Give each artifact one authoritative editable home. Record where supporting data
 |---|---|
 | Local Git repositories | Main technical working area, edited and tested in VS Code, MATLAB/Simulink, and Linux/ROS 2 |
 | GitHub | Committed version history and coordination across machines and collaborators; synchronize through deliberate commits, pushes, and pulls |
-| Work OneDrive | Institutional records and active Office collaboration |
+| Work OneDrive / NTUST OneDrive | Institutional records and active Office collaboration or delivery; not the default master for Git-suitable technical or teaching source material |
 | NAS personal home | Personal files and private working material |
 | NAS SSCLdataRe | Curated lab resources, large datasets, and retained research material |
 | NAS TemporaryDataSSCL | Student collaboration, exchange, and work awaiting review |
@@ -39,9 +39,22 @@ These roles follow the [ontology](ontology.md); storage format alone does not de
 - Student contributions accumulate in TemporaryDataSSCL. Reviewed material can be promoted to controlled storage or a relevant repository through an explicit curation decision.
 - Frozen deliveries and backups preserve identifiable versions rather than becoming competing editable masters.
 
-## Connections when needed
+## Audience-facing and delivery surfaces
 
-Connect Overleaf with GitHub for LaTeX manuscript collaboration when an active paper needs it. Bring ResearchRabbit discoveries into the workflow through shared collections or bibliography exports. These integrations are deferred, not prerequisites for starting work.
+For Git-suitable intellectual source material, begin and retain the evolving source in the appropriate local Git repository and commit it to GitHub when it is ready to become durable history. Audience-facing services come later; they do not become competing working masters merely because they retain a cloud copy.
+
+- **HackMD** is a late-stage audience-facing reading/presentation interface for stabilized Markdown. It is not the primary working notebook or default collaboration surface.
+- **AhaSlides** is a classroom presentation/delivery surface. The durable source of question text, explanations, figures, code, and other reusable teaching content should remain upstream in the appropriate Git-managed teaching material when practical; the AhaSlides cloud copy is not the intellectual master.
+- **NTUST / Work OneDrive** remains appropriate for institutional Office documents, records, required submissions, active Office collaboration, and delivery copies. It does not need to retain a second authoritative copy of Git-suitable source material simply for safekeeping.
+- **NAS** increasingly serves large reference material, datasets, frozen artifacts, binaries, and archival/backup roles that are unsuitable for Git. It should not be required to carry the evolving ontology of active work.
+
+These are role boundaries rather than a demand to migrate all historical material immediately.
+
+## Paper-stage integrations — decision frozen until a real case
+
+Do not design the Overleaf or ResearchRabbit workflow in advance. Keep both decisions frozen until an actual `paper_draft` is active enough that the manuscript and literature workflow can be observed in real use.
+
+At that point, decide from the concrete paper what should connect to GitHub, what should remain authoritative, how collaboration should work, and what should return to the Git-managed research record. Until then, Overleaf and ResearchRabbit are neither prerequisites nor active parts of the standard working loop.
 
 ## Apply gradually
 
