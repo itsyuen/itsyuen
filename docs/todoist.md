@@ -278,6 +278,42 @@ For a new thought, Run 1 may simply be a handwritten note or a verbose block ins
 
 Once the intention is visible, return to the original thought and ask what actually needs to survive.
 
+### Run 2 working Outcome — add the time dimension without inventing intention
+
+A practical desired state is:
+
+> **Each recovered short-form task has a clear mental time/urgency interpretation, while its Run 1 intention remains unchanged.**
+
+The purpose is to shorten and solidify old tasks together with their associated old files until each recovered ontology branch can be represented by **one coherent major hierarchy**, with the relevant Todoist labels attached to that hierarchy rather than several overlapping historical structures. For example, a branch such as `#3 V1` should converge toward one recognizable hierarchy when the recovered evidence justifies it.
+
+Run 2 asks **how the recovered work lives in time**. It must not create a new intention merely to make the organization cleaner. Temporal judgment should come from the intention, dependencies, obligations, evidence, and relationships already recovered in Run 1.
+
+Two provisional Milestones help expose this time dimension.
+
+#### Milestone 1 — Immediate-action work identified
+
+Identify short-form tasks whose recovered meaning shows that action is needed now or belongs in the near active workflow. These become candidates for active execution because their existing Outcome, dependency, commitment, or evidence need makes action timely—not because urgency was assigned artificially.
+
+#### Milestone 2 — Extended-period / revisit work identified
+
+Identify short-form tasks whose intention remains valid but whose work naturally extends over a longer period rather than requiring continuous personal action now. This can include work that is delegable, dependent on another person/system/event, waiting for evidence, or clearly meant to be revisited at a later time still to be specified.
+
+The important relationship is:
+
+```text
+valid recovered intention
+      ↓
+extended time horizon
+      ↓
+delegate / wait / revisit as appropriate
+      ↓
+check evidence before declaring the work satisfied
+```
+
+This is not permission to invent a new Outcome or silently turn uncertain work into `someday/maybe`. The intention remains the one recovered in Run 1; Run 2 only makes its temporal role explicit enough for later execution and review.
+
+The long-form → short-form conversion therefore does more than tidy Todoist. It removes historical scaffolding while preserving the recovered relationship, making later judgments about timeliness possible without rereading the full archaeology every time.
+
 ```text
 long explanation
       ↓
