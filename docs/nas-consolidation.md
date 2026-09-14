@@ -52,12 +52,35 @@ The handover records X: mapped to TemporaryDataSSCL, Y: to homes/peter, and Z: t
 
 Repo-archive, repos, and repo-snapshot were alternative proposals. Automated GitHub-to-NAS snapshots, scheduled pulls, and NAS-root README creation were not demonstrated. The old proposal to replace desktop-tutorial with working predates the newer repository roles documented in the current ontology; it must not be read as proof of today's repository deployment state.
 
+## Planning update — 2026-09-14 cloud-service direction
+
+The Fall 2026 artifact-placement decision changes the **design target**, but it does not authorize any NAS or cloud mutation yet.
+
+The NTUST GApps (`@gapps.ntust.edu.tw`) and ME Google Apps (`@me.ntust.edu.tw`) environments are being retired from daily use. Their mail, Drive content, ownership, sharing, and account dependencies should be treated as migration material. Existing `google-NTUST`, `google-ME`, or related NAS sync relationships are therefore not to be repaired merely to restore historical symmetry. Their contents and sync behavior should first be inspected so that useful or authoritative material can be migrated deliberately.
+
+Microsoft 365 / Work OneDrive remains open as a Fall 2026 experiment. It may retain a useful institutional-service role for Forms, Office collaboration, required sharing, and delivery, but it is not yet declared the universal home for Office documents or for the knowledge system. The broken `ms-NTUST` Documents pairing should therefore remain deferred until its future role and the authoritative copy of the affected files are clear.
+
+The future target is **role-driven synchronization rather than symmetric cloud mirroring**:
+
+```text
+cloud account exists
+    ≠ repair/create a matching NAS mirror automatically
+
+NAS folder exists
+    ≠ create a matching cloud mirror automatically
+
+verified working, collaboration, delivery, or recovery role
+    → define an intentional sync relationship
+```
+
+This update is planning evidence only. No Google account, NAS folder, Cloud Sync task, or OneDrive folder has been deleted, moved, disabled, or repaired by this decision.
+
 ## Future design baseline
 
-Retain the roles of NetBackup, Work OneDrive, personal home, SSCLdataRe, and TemporaryDataSSCL. Technical work primarily happens in local Git repositories coordinated through GitHub. Other cloud accounts receive specific roles only when useful.
+Retain the roles of NetBackup, personal home, SSCLdataRe, and TemporaryDataSSCL. Keep Work OneDrive available during the semester while its actual institutional-service role is tested. Technical work primarily happens in local Git repositories coordinated through GitHub. Legacy institutional Google workspaces are migration sources rather than future default working homes. Other cloud accounts receive specific roles only when useful.
 
 The user's clean-slate discussion was brainstorming, not permission to wipe NAS. No deletion, folder move, sync change, or backup automation has been performed as part of this documentation work.
 
 ## When consolidation resumes
 
-Inspect current task paths, directions, filters, deletion behavior, and backups. Resolve the Work OneDrive pairing while preserving NAS-only work. Clarify the nested temporary folder and curation responsibilities. Apply placement rules to active artifacts first, documenting only the links and procedures that support real work.
+Inspect current task paths, directions, filters, deletion behavior, and backups. For Google-backed sync pairs, first identify authoritative material and migration dependencies before deciding whether to preserve, dismantle, or replace the relationship. Resolve the Work OneDrive pairing only when the intended Microsoft role and authoritative copies are clear. Clarify the nested temporary folder and curation responsibilities. Apply placement rules to active artifacts first, documenting only the links and procedures that support real work.
