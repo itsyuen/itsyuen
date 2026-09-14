@@ -4,7 +4,7 @@
 
 Record assembled 2026-09-12 from the user's historical handover and current File Station / Cloud Sync screenshots. This is not a live audit of NAS settings.
 
-**Status: sync repair and physical migration deferred.** The [artifact-placement agreement](artifact-placement.md) guides future active work. The earlier NAS-first proposal is preserved verbatim in the [historical blueprint](archive/old-nas-blueprint-2025-09-10.md); its commands and templates are historical material, not a current execution plan.
+**Status: sync repair and physical migration deferred.** The [artifact-placement agreement](artifact-placement.md) guides future active work. An earlier NAS-first design was explored in 2025, but it is now superseded; its details remain recoverable through Git history rather than being kept as active guidance in the current tree.
 
 ## Original role
 
