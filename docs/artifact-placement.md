@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment, temporary-artifact lifecycle, and internal/external interface boundary. Apply to new and active work; this is not a claim that all historical files have been migrated.
+Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment, temporary-artifact lifecycle, internal/external interface boundary, and learning/teaching placement boundary. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
 ## Governing rule
 
@@ -33,6 +33,18 @@ Placement does not imply permanent preservation. An artifact may complete its pu
 - **teaching:** knowledge curated for a defined subject, audience, and level.
 
 These roles follow the [ontology](ontology.md); storage format alone does not decide ownership. An institutional report can draw from a research result without becoming the owner of that science.
+
+### Learning ↔ teaching boundary
+
+Repository placement follows the artifact's **current intended role**, not its degree of completion or the creator's temporary level of confidence. `learning` and `teaching` can revolve around the same subject, but the authoritative file should not move every time the work exposes something else that needs to be learned.
+
+- If the current intention is to teach the material, keep the one authoritative working copy in `teaching`, even while it is incomplete, changing substantially, or exposing capability gaps.
+- Learning while developing teaching material is normal and does not by itself move the artifact back to `learning`.
+- Move an artifact back to `learning` only after an explicit change of intention that pauses its teaching role — for example: **“I currently know too little to teach this well; move it back to learning and pause its teaching role for now.”**
+- Do not maintain parallel editable `learning` and `teaching` copies merely because the material is evolving.
+- During Fall 2026, some movement is expected because the teaching scope itself is still being discovered. In later years, the distinction should naturally become clearer as the subjects being learned and the subjects being taught diverge.
+
+Movement between `learning` and `teaching` should therefore represent a **real change of intended role**, not temporary uncertainty. When the intention remains to teach, unfinished work can remain in `teaching` while learning continues through it.
 
 ## Examples
 
