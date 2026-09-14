@@ -39,6 +39,44 @@ These roles follow the [ontology](ontology.md); storage format alone does not de
 - Student contributions accumulate in TemporaryDataSSCL. Reviewed material can be promoted to controlled storage or a relevant repository through an explicit curation decision.
 - Frozen deliveries and backups preserve identifiable versions rather than becoming competing editable masters.
 
+## Todoist points to artifacts; it does not own them
+
+A Todoist task may contain an attachment or link to the artifact through which the work is being carried out. This is often useful because it lets the task act as a re-entry point into the actual working object without moving that object's intellectual ownership into Todoist.
+
+The relationship is:
+
+```text
+Todoist hierarchy / task
+= intended work
+
+linked or attached artifact
+= where the work is actually being developed / observed
+
+artifact result
+= evidence
+
+Todoist comment
+= concise evidence / decision statement
+```
+
+The actual evidence remains in the artifact or associated data: a figure, dataset, notebook, derivation, comparison table, experiment, video, student result, report section, or other working output. A Todoist comment may summarize what that evidence currently means, especially when the result changes the next Action or the interpretation of the Outcome.
+
+This is deliberately lighter than adding `artifact` or `evidence` as Todoist labels. Artifact identity, evidentiary meaning, and placement depend on real results, file format, tool availability, collaboration, and the evolving ontology. They should remain part of the artifact / directory / Markdown reasoning rather than becoming another task taxonomy.
+
+The Todoist `reference_link` label may point to either an **external source** or a **personally created artifact** when consulting, reusing, or returning to that object is itself part of the task. A task's link to its own working artifact does not automatically make the task a `reference_link` task.
+
+For example:
+
+```text
+Task: Re-check low-speed friction mismatch
+Working artifact: link to MATLAB notebook
+Evidence: plots and identified mismatch stored in notebook / data
+Todoist comment: mismatch remains concentrated near zero velocity;
+                 another static-friction identification experiment is needed
+```
+
+When the task is later completed, the link helps locate the artifact and the comment helps reconstruct what the work established. During Run 1, this can make old intention and evidence much easier to recover without turning Todoist itself into the long-form research record.
+
 ## Audience-facing and delivery surfaces
 
 For Git-suitable intellectual source material, begin and retain the evolving source in the appropriate local Git repository and commit it to GitHub when it is ready to become durable history. Audience-facing services come later; they do not become competing working masters merely because they retain a cloud copy.
