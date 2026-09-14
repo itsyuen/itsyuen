@@ -400,3 +400,69 @@ finished artifacts       = what should actually grow
 ```
 
 The goal is **not to grow the ontology map**. The goal is to grow finished lectures, modules, code, experiments, figures, drafts, and papers.
+
+## Run outputs and the three-file semester staging workflow
+
+Run 3 does not need to happen directly inside the Todoist application. For a semester-scale recovery and consolidation, it is safer to make Run 3 a **Markdown staging appendix** first, then copy only the justified subset into the live Todoist.
+
+The process has **four conceptual outputs but only three Markdown working artifacts**:
+
+```text
+1. Run 1 — long form
+   recover intention / hierarchy / artifacts / evidence
+   → Markdown file
+
+2. Run 2 — short form
+   compress the recovered hierarchy
+   add time / priority / revisit interpretation
+   → Markdown file beside the long form
+
+3. Semester ontology map
+   choose the best current semester-level wording and preferred hierarchy
+   keep the map relatively stable during the semester
+   → Markdown file
+
+4. Run 3 — Todoist candidate subset
+   extract only the minimum actionable / re-entry subset
+   → appendix inside the semester ontology map
+
+then
+
+LIVE TODOIST
+   receive only the justified candidate subset
+   → application surface, not a fourth Markdown file
+```
+
+Run 1 should be given enough working time to recover meaning; it is not a one-hour speed exercise. It can proceed through several allotted sessions and interruptions. The completion criterion is that the important intention and artifact relationships are recovered well enough for compression.
+
+The Run 2 short form should remain recognizably connected to the Run 1 long form. It may contain much of the same substance, but with historical scaffolding removed and time/priority interpretation added. The semester ontology map may then remain quite close to the Run 2 short form; its additional role is to select the **focused current-semester interpretation and best wording**, not to invent a different world.
+
+Run 3 can therefore be implemented as an appendix such as:
+
+```text
+Appendix — Run 3: Todoist Candidate Subset
+```
+
+The appendix is not yet Todoist. It is the final place to ask:
+
+- Does this item really need external memory or future re-entry?
+- Does this hierarchy need to survive interruption?
+- Is it active or meaningfully revisitable this semester?
+- Can the wording be shortened without losing recovered intention?
+- Is there a genuine executable Action or useful Milestone to preserve?
+
+This creates a deliberate admission path:
+
+```text
+Run 1 long form
+      ↓
+Run 2 short form
+      ↓
+semester ontology map
+      ↓
+Run 3 appendix — Todoist candidate subset
+      ↓
+live Todoist
+```
+
+**Nothing needs to enter Todoist directly from the long form.** The Markdown stages preserve intention and allow the hierarchy to settle before the actionable subset is exposed in the app. If the three Markdown artifacts end up looking structurally similar, that is acceptable and may indicate that the ontology has stabilized; their difference is progressively stronger selection and shorter expression, not necessarily different underlying content.
