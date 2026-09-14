@@ -357,6 +357,53 @@ A government grant proposal develops the next research direction
    drawing from research_idea + existing evidence + planned #iVj_k work
 ```
 
+# Artifacts Within the Ontology
+
+The work hierarchy and the artifact description answer different questions.
+
+```text
+intention → Outcome → Milestone → Action
+= where the work is going and how it becomes executable
+
+artifact intention + audience + role + supported Outcome + use horizon
+= what the working object is doing now
+```
+
+The hierarchy organizes intended work. Artifacts carry the actual thinking,
+implementation, communication, and evidence produced through that work:
+Markdown notes, equations, code, notebooks, datasets, figures, simulations,
+experiments, teaching materials, reports, papers, and presentations.
+
+The detailed five-question framework belongs in
+[Artifact placement](artifact-placement.md). Its answers help derive an
+authoritative home and an appropriate audience-facing surface; they are not a
+new Todoist taxonomy or mandatory front matter for every file.
+
+Artifact roles are relational and can change through time. A teaching homework
+can begin as Peter's private brainstorm, become a student-facing assignment,
+and later generate evidence about student capability and course design. A
+published paper can be the Outcome of a research hierarchy and later serve as
+evidence in a tenure-defense presentation. Such movement is expected:
+
+```text
+intention
+      ↓
+working artifact
+      ↓
+evidence
+      ↓
+supported Outcome
+      ↓
+reuse / presentation / revised intention
+```
+
+This is a **living and forgiving application** of the ontology. Place the
+artifact according to its honest current primary intention, maintain one
+authoritative editable copy, create derivatives deliberately for new audiences,
+and allow later evidence to revise its role, placement, or supporting
+hierarchy. A later interpretation can be better without making the earlier
+placement a failure.
+
 # The Actionable Loop
 
 The system is intentionally cyclic:
