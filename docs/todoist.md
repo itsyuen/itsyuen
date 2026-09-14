@@ -1,6 +1,6 @@
 # Todoist and Actionable Work
 
-[Home](../README.md) · [Ontology](ontology.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
+[Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
 This operating method applies the [professional ontology](ontology.md). Intellectual ownership follows intention; Todoist exposes work that benefits from re-entry, assignment, or future execution.
 
@@ -32,7 +32,7 @@ Together they allow immature ideas to remain forgiving while still creating acco
 - `teaching_idea` — an explanation, exercise, demonstration, or teaching possibility worth preserving but not yet curated.
 - `theory_investigation` — work intended to derive, check, or understand mathematics, physics, assumptions, model structure, or theoretical meaning.
 - `platform_investigation` — work intended to understand or test a tool, API, hardware interface, software architecture, timing behavior, communication route, or deployment boundary.
-- `reference_link` — supporting external knowledge retained because it serves a specific investigation or mastery need; not a generic bookmark collection.
+- `reference_link` — an internal or external source/artifact retained because consulting, reusing, or returning to it serves a specific task, investigation, or mastery need. It may point to a paper, manual, webpage, vendor documentation, dataset, prior report, notebook, Markdown note, figure set, GitHub file, frozen export, or another personally created artifact. It is not a generic bookmark collection and does not merely mean that a task happens to contain a link.
 - `teaching_material` — stabilized reusable student-facing knowledge, example, exercise, demonstration, or module.
 - `publishable_material` — a **scientific quality / maturity marker** for validated evidence, comparison, result, figure, limitation, or finding worth preserving as a reusable building block. It describes the scientific value and readiness of the material, **not its legal or IP publication status**. Confidentiality, contracts, and IP restrictions remain separate release questions.
 - `report_draft` — an active formal document being assembled for an external or institutional recipient, including grant proposals, industrial proposals, progress/final reports, government reports, and similar deliverables. It describes the document-output state, not scientific ownership.
@@ -40,6 +40,44 @@ Together they allow immature ideas to remain forgiving while still creating acco
 `paper_draft` and `book_draft` are better treated as later-stage mental/organizational states once enough material has clustered to justify an actual manuscript structure. `report_draft` is broader and may appear before or after validated evidence: a proposal can combine `research_idea`, prior `publishable_material`, and planned future work, while a final report usually consolidates completed evidence and obligations.
 
 Labels may cross project boundaries. **A label never overrides primary intention or hierarchy.**
+
+## Task links, working artifacts, and evidence comments
+
+Do **not** add `artifact` or `evidence` as general Todoist labels. Artifact form and evidentiary meaning depend on the real work, file format, experimental result, and evolving ontology; their durable interpretation belongs primarily with the files, Markdown reasoning, and [artifact placement](artifact-placement.md).
+
+A useful Todoist separation is:
+
+```text
+Task / hierarchy
+= intended work and where it is going
+
+Label
+= type or state of work
+
+Attachment / link
+= working artifact or source that the task needs to reach
+
+Comment
+= concise statement of what the work / artifact has actually shown
+```
+
+A task's attachment or link will often point to the **working artifact** through which the task is being realized: a notebook, Markdown note, MATLAB project, code file, figure set, report draft, dataset location, or other authoritative working object. This alone does not require the `reference_link` label.
+
+Use `reference_link` when **consulting, reusing, or returning to the linked object is itself an important part of the task**. The source may be external or personal. The distinction is therefore not `external` versus `internal`; it is **working artifact versus referenced source**.
+
+A Todoist comment can preserve a short **evidence / decision statement**, but the comment is not the evidence itself. The evidence may live in a figure, dataset, notebook, derivation, experiment, comparison table, video, student result, or report section. The comment should usually be only enough to answer:
+
+> **What happened? What does it presently mean? Did it change what comes next?**
+
+For example:
+
+```text
+Simulation reproduces the expected low-speed friction transition.
+The remaining mismatch is concentrated near zero velocity.
+Current Outcome is still supported; static-friction identification needs another experiment.
+```
+
+This gives a completed task useful historical meaning without turning Todoist into another notebook. During a later Run 1, the hierarchy shows the old intention, the link locates the associated artifact, and the comment helps recover what the work actually established.
 
 ## From idea to material
 
@@ -362,4 +400,3 @@ finished artifacts       = what should actually grow
 ```
 
 The goal is **not to grow the ontology map**. The goal is to grow finished lectures, modules, code, experiments, figures, drafts, and papers.
-
