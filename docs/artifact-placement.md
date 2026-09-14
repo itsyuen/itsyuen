@@ -161,6 +161,34 @@ This does not require one physical file to be copied into every world. The autho
 
 If the notebook's evidence contradicts the original desired Outcome, that is not a placement failure. The evidence should be allowed to revise the Outcome, produce a new research idea, or expose a different explanation. Artifact organization should preserve that intellectual movement rather than hide it by forcing the file to remain attached to an outdated interpretation.
 
+## Industry / Administration / Finance artifacts as boundary evidence
+
+During Fall 2026, artifacts arising from **Industry Projects, Administration, and Finance should also be treated as evidence for learning the boundaries among those three professional worlds**.
+
+Do not assume that file type determines the answer. A spreadsheet is not automatically Finance; a reimbursement form is not automatically Administration in every surrounding task; an industrial report can contain scientific evidence that still belongs to Research #1–#3; an invoice, approval, contract, purchase record, reimbursement packet, budget sheet, or client deliverable may participate in more than one real-world process.
+
+For the active semester, first preserve the artifact where the work can actually proceed and ask what obligation it is serving now. When useful, keep enough context to reconstruct:
+
+```text
+artifact
+   ↓
+what event / obligation created it?
+   ↓
+who is the receiver / decision-maker?
+   ↓
+what result or evidence does it record?
+   ↓
+what Todoist hierarchy was acting on it?
+   ↓
+which primary intention appears to own it?
+```
+
+Ambiguous cases are useful rather than inconvenient. They show where the current ontology is still weak. Preserve those cases instead of forcing an early rule.
+
+At the Fall 2026 → Spring 2027 transition, Run 1 should collect representative Industry / Administration / Finance artifacts and recover what they actually did. Run 2 should compare the recurring patterns and use them to refine the corresponding ontology boundaries for the next semester.
+
+The goal is that Spring 2027 begins with **clearer primary-intention rules learned from real artifacts and obligations**, while still allowing future exceptions and evolution.
+
 ## Paper-stage integrations — decision frozen until a real case
 
 Do not design the Overleaf or ResearchRabbit workflow in advance. Keep both decisions frozen until an actual `paper_draft` is active enough that the manuscript and literature workflow can be observed in real use.
