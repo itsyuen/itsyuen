@@ -37,6 +37,5 @@ Placement follows primary intention. Give each artifact one authoritative editab
 - [Todoist](docs/todoist.md) — turn reasoning into the minimum useful actionable structure.
 - [Artifact placement](docs/artifact-placement.md) — where masters, data, shared work, and archives belong.
 - [NAS consolidation](docs/nas-consolidation.md) — recorded configuration, unresolved questions, and deferred migration.
-- [Historical NAS blueprint](docs/archive/old-nas-blueprint-2025-09-10.md) — preserved earlier proposal.
 
 **The goal is to grow finished lectures, modules, code, experiments, figures, drafts, and papers.** Let the structure mature through use.
