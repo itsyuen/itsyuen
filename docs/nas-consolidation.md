@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Record assembled 2026-09-12 from the user's historical handover and current File Station / Cloud Sync screenshots. This is not a live audit of NAS settings.
+Record assembled 2026-09-12 from the user's historical handover and current File Station / Cloud Sync screenshots. Updated 2026-09-14 with the temporary-artifact lifecycle. This is not a live audit of NAS settings.
 
 **Status: sync repair and physical migration deferred.** The [artifact-placement agreement](artifact-placement.md) guides future active work. An earlier NAS-first design was explored in 2025, but it is now superseded; its details remain recoverable through Git history rather than being kept as active guidance in the current tree.
 
@@ -46,6 +46,41 @@ The rename is a likely cause, not a confirmed diagnosis. The log does not prove 
 
 Screenshots show the outer share contains #recycle and another TemporaryDataSSCL folder. The inner folder contains 27 items (20 folders, 7 files), mixing people, research platforms, teaching, reference, reports, and records. Outer modification dates show 2026-09-11; children retain older dates. Who introduced the nesting and whether it resulted from moving or copying are unknown.
 
+## Future role of TemporaryDataSSCL — working, review, promote, discard
+
+The intended future role of `TemporaryDataSSCL` is now clearer. It should be the lab's **short-lived collaboration and staging space**, especially for files that need to be edited or exchanged with students or assembled around a bounded activity.
+
+Examples include:
+
+- an Excel workbook being edited with students during active work;
+- a workshop registration or attendance sheet;
+- a folder used to exchange files for a short project, meeting, or event;
+- intermediate administrative or teaching artifacts whose durable value is not yet known.
+
+The intended lifecycle is:
+
+```text
+activity begins
+      ↓
+TemporaryDataSSCL working artifacts
+      ↓
+collaboration / tallying / exchange / review
+      ↓
+activity completes
+      ↓
+what still has continuing value?
+      ├→ evidence / reusable knowledge / required record → promote deliberately
+      └→ one-time residue with no future value → delete after review
+```
+
+`TemporaryDataSSCL` is therefore **not an inbox whose contents are presumed to become archive material**. Temporary artifacts are presumed disposable once their purpose is complete unless there is an identifiable reason to retain them.
+
+Promotion should be selective. A research result may move to the relevant project or retained data area; a genuinely reusable lab resource may move to `SSCLdataRe`; an authoritative institutional record should move to the location required or approved for that record; a useful workshop contact list may be retained only if future reuse is legitimate under the purpose for which the information was collected, applicable consent, and university/privacy requirements.
+
+The policy is to **preserve the advancement, not automatically the carrier**. If the useful insight, decision, or evidence has already been consolidated into the ontology, a stronger artifact, or a durable record, the old working file does not need to survive merely as reminiscence.
+
+This is a policy direction, not authorization for unattended cleanup. Existing `TemporaryDataSSCL` material should be reviewed before deletion, especially where student information, research evidence, institutional records, or uncertain ownership may be involved.
+
 ## Historical mappings and proposals
 
 The handover records X: mapped to TemporaryDataSSCL, Y: to homes/peter, and Z: to google-ME, with screenshots redirected to Y:/Screenshots. These were demonstrated at that earlier time; they are not confirmed current home-computer mappings.
@@ -77,10 +112,10 @@ This update is planning evidence only. No Google account, NAS folder, Cloud Sync
 
 ## Future design baseline
 
-Retain the roles of NetBackup, personal home, SSCLdataRe, and TemporaryDataSSCL. Keep Work OneDrive available during the semester while its actual institutional-service role is tested. Technical work primarily happens in local Git repositories coordinated through GitHub. Legacy institutional Google workspaces are migration sources rather than future default working homes. Other cloud accounts receive specific roles only when useful.
+Retain the roles of NetBackup, personal home, SSCLdataRe, and TemporaryDataSSCL, but keep their roles distinct. `SSCLdataRe` is for material with identified continuing lab/research value; `TemporaryDataSSCL` is for active collaboration/staging and should end in a deliberate promote-or-discard decision rather than automatic archiving. Keep Work OneDrive available during the semester while its actual institutional-service role is tested. Technical work primarily happens in local Git repositories coordinated through GitHub. Legacy institutional Google workspaces are migration sources rather than future default working homes. Other cloud accounts receive specific roles only when useful.
 
 The user's clean-slate discussion was brainstorming, not permission to wipe NAS. No deletion, folder move, sync change, or backup automation has been performed as part of this documentation work.
 
 ## When consolidation resumes
 
-Inspect current task paths, directions, filters, deletion behavior, and backups. For Google-backed sync pairs, first identify authoritative material and migration dependencies before deciding whether to preserve, dismantle, or replace the relationship. Resolve the Work OneDrive pairing only when the intended Microsoft role and authoritative copies are clear. Clarify the nested temporary folder and curation responsibilities. Apply placement rules to active artifacts first, documenting only the links and procedures that support real work.
+Inspect current task paths, directions, filters, deletion behavior, and backups. For Google-backed sync pairs, first identify authoritative material and migration dependencies before deciding whether to preserve, dismantle, or replace the relationship. Resolve the Work OneDrive pairing only when the intended Microsoft role and authoritative copies are clear. Clarify the nested temporary folder, then review `TemporaryDataSSCL` by completed/active purpose: identify what should be promoted, what must be retained for evidence or records, and what can be safely discarded. Apply placement rules to active artifacts first, documenting only the links and procedures that support real work.
