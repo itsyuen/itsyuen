@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Record assembled 2026-09-12 from the user's historical handover and current File Station / Cloud Sync screenshots. Updated 2026-09-14 with the temporary-artifact lifecycle. This is not a live audit of NAS settings.
+Record assembled 2026-09-12 from the user's historical handover and current File Station / Cloud Sync screenshots. Updated 2026-09-14 with the temporary-artifact lifecycle and internal/external boundary. This is not a live audit of NAS settings.
 
 **Status: sync repair and physical migration deferred.** The [artifact-placement agreement](artifact-placement.md) guides future active work. An earlier NAS-first design was explored in 2025, but it is now superseded; its details remain recoverable through Git history rather than being kept as active guidance in the current tree.
 
@@ -81,6 +81,28 @@ The policy is to **preserve the advancement, not automatically the carrier**. If
 
 This is a policy direction, not authorization for unattended cleanup. Existing `TemporaryDataSSCL` material should be reviewed before deletion, especially where student information, research evidence, institutional records, or uncertain ownership may be involved.
 
+## Internal NAS boundary — outside-world interface is separate
+
+From this point forward, treat `TemporaryDataSSCL` and `SSCLdataRe` as **internal lab NAS roots**, not as outside-facing publication, workshop, administration, or collaborator portals.
+
+Their roles are intentionally narrow:
+
+```text
+TemporaryDataSSCL
+→ internal student/Peter collaboration and staging
+→ review → promote or discard
+
+SSCLdataRe
+→ internal retained lab/research data and reference material
+→ keep only when continuing value is identified
+```
+
+An outside-world interface should be a **separate layer selected by the actual audience or transaction**, and its exact service remains to be determined. The general rule lives in [artifact placement](artifact-placement.md): an external interface may expose, collect, deliver, or receive material, but it should not automatically become the working home, long-term holder, or archive for the underlying artifacts.
+
+Do not restructure either NAS root around external sharing merely because Synology can technically expose folders. When an external interaction is needed, expose only what the interaction requires through the appropriate interface, then return any resulting durable artifact or evidence to its proper internal owner.
+
+This is a policy boundary, not a claim that every current NAS ACL has been technically re-audited. Access-control details should still be verified when NAS consolidation resumes.
+
 ## Historical mappings and proposals
 
 The handover records X: mapped to TemporaryDataSSCL, Y: to homes/peter, and Z: to google-ME, with screenshots redirected to Y:/Screenshots. These were demonstrated at that earlier time; they are not confirmed current home-computer mappings.
@@ -112,10 +134,10 @@ This update is planning evidence only. No Google account, NAS folder, Cloud Sync
 
 ## Future design baseline
 
-Retain the roles of NetBackup, personal home, SSCLdataRe, and TemporaryDataSSCL, but keep their roles distinct. `SSCLdataRe` is for material with identified continuing lab/research value; `TemporaryDataSSCL` is for active collaboration/staging and should end in a deliberate promote-or-discard decision rather than automatic archiving. Keep Work OneDrive available during the semester while its actual institutional-service role is tested. Technical work primarily happens in local Git repositories coordinated through GitHub. Legacy institutional Google workspaces are migration sources rather than future default working homes. Other cloud accounts receive specific roles only when useful.
+Retain the roles of NetBackup, personal home, SSCLdataRe, and TemporaryDataSSCL, but keep their roles distinct. `SSCLdataRe` is an internal retained lab/research data/reference area; `TemporaryDataSSCL` is an internal active collaboration/staging area that should end in a deliberate promote-or-discard decision rather than automatic archiving. Neither root is the outside-world interface. Keep Work OneDrive available during the semester while its actual institutional-service role is tested, and choose any future outside-facing service according to the concrete audience/workflow rather than by forcing the NAS to serve that role. Technical work primarily happens in local Git repositories coordinated through GitHub. Legacy institutional Google workspaces are migration sources rather than future default working homes. Other cloud accounts receive specific roles only when useful.
 
 The user's clean-slate discussion was brainstorming, not permission to wipe NAS. No deletion, folder move, sync change, or backup automation has been performed as part of this documentation work.
 
 ## When consolidation resumes
 
-Inspect current task paths, directions, filters, deletion behavior, and backups. For Google-backed sync pairs, first identify authoritative material and migration dependencies before deciding whether to preserve, dismantle, or replace the relationship. Resolve the Work OneDrive pairing only when the intended Microsoft role and authoritative copies are clear. Clarify the nested temporary folder, then review `TemporaryDataSSCL` by completed/active purpose: identify what should be promoted, what must be retained for evidence or records, and what can be safely discarded. Apply placement rules to active artifacts first, documenting only the links and procedures that support real work.
+Inspect current task paths, directions, filters, deletion behavior, backups, and the actual ACLs on the internal NAS roots. For Google-backed sync pairs, first identify authoritative material and migration dependencies before deciding whether to preserve, dismantle, or replace the relationship. Resolve the Work OneDrive pairing only when the intended Microsoft role and authoritative copies are clear. Clarify the nested temporary folder, then review `TemporaryDataSSCL` by completed/active purpose: identify what should be promoted, what must be retained for evidence or records, and what can be safely discarded. Do not add an external-sharing layer to `TemporaryDataSSCL` or `SSCLdataRe`; select that interface separately when a real outside-world use case requires it. Apply placement rules to active artifacts first, documenting only the links and procedures that support real work.
