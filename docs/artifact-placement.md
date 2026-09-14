@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Working agreement — 2026-09-12. Apply to new and active work; this is not a claim that all historical files have been migrated.
+Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
 ## Governing rule
 
@@ -16,12 +16,13 @@ Give each artifact one authoritative editable home. Record where supporting data
 |---|---|
 | Local Git repositories | Main technical working area, edited and tested in VS Code, MATLAB/Simulink, and Linux/ROS 2 |
 | GitHub | Committed version history and coordination across machines and collaborators; synchronize through deliberate commits, pushes, and pulls |
-| Work OneDrive / NTUST OneDrive | Institutional records and active Office collaboration or delivery; not the default master for Git-suitable technical or teaching source material |
+| Work OneDrive / NTUST OneDrive | Fall 2026 institutional service-layer experiment: Forms, active Office collaboration, institutional sharing/delivery, and records where Microsoft services are genuinely useful; not the default master for Git-suitable technical or teaching source material, and not automatically the home of every Word/Excel/PowerPoint file |
 | NAS personal home | Personal files and private working material |
 | NAS SSCLdataRe | Curated lab resources, large datasets, and retained research material |
 | NAS TemporaryDataSSCL | Student collaboration, exchange, and work awaiting review |
 | NAS NetBackup | Preserved backups and archives; actual coverage and recovery remain to be verified |
-| Other cloud drives | Specific sharing or distribution roles where needed, subject to their actual sync configuration |
+| Legacy institutional Google workspaces | Migration/retirement sources rather than new working homes. Existing mail, Drive files, ownership, sharing, and account dependencies should be reviewed and migrated deliberately before the accounts are allowed to become dormant |
+| Other cloud drives | Specific sharing or distribution roles where needed, subject to their actual sync configuration; cloud symmetry is not itself a goal |
 
 ## Repository ownership
 
@@ -35,6 +36,7 @@ These roles follow the [ontology](ontology.md); storage format alone does not de
 
 - A teaching module's Markdown and code belong in teaching; large videos can remain on NAS with links from the module.
 - An actively co-edited Word document can have its master in Work OneDrive. Any Git copy is an intentional snapshot unless Git is explicitly chosen as its editable home.
+- A Word/Excel/PowerPoint file does not belong in OneDrive merely because it is an Office file. Its editable home is determined by the actual collaboration, delivery, institutional, or preservation need.
 - Research code belongs with its working project; large experiment data can live on NAS, identified from the project README with enough information to locate and interpret it.
 - Student contributions accumulate in TemporaryDataSSCL. Reviewed material can be promoted to controlled storage or a relevant repository through an explicit curation decision.
 - Frozen deliveries and backups preserve identifiable versions rather than becoming competing editable masters.
@@ -83,10 +85,74 @@ For Git-suitable intellectual source material, begin and retain the evolving sou
 
 - **HackMD** is a late-stage audience-facing reading/presentation interface for stabilized Markdown. It is not the primary working notebook or default collaboration surface.
 - **AhaSlides** is a classroom presentation/delivery surface. The durable source of question text, explanations, figures, code, and other reusable teaching content should remain upstream in the appropriate Git-managed teaching material when practical; the AhaSlides cloud copy is not the intellectual master.
-- **NTUST / Work OneDrive** remains appropriate for institutional Office documents, records, required submissions, active Office collaboration, and delivery copies. It does not need to retain a second authoritative copy of Git-suitable source material simply for safekeeping.
+- **NTUST / Work OneDrive** remains appropriate for institutional Office documents, records, required submissions, active Office collaboration, Forms-backed workflows, and delivery copies. It does not need to retain a second authoritative copy of Git-suitable source material simply for safekeeping.
 - **NAS** increasingly serves large reference material, datasets, frozen artifacts, binaries, and archival/backup roles that are unsuitable for Git. It should not be required to carry the evolving ontology of active work.
 
 These are role boundaries rather than a demand to migrate all historical material immediately.
+
+## Fall 2026 cloud-service consolidation experiment
+
+The cloud decision for this semester is intentionally asymmetric. The goal is not to preserve every historical cloud environment or rebuild matching directory trees across NAS and cloud. The goal is to reduce the number of plausible working homes while observing which external services still earn a real role.
+
+### Institutional Google workspaces — retire from daily use
+
+The NTUST GApps workspace (`@gapps.ntust.edu.tw`) and the ME Google Apps workspace (`@me.ntust.edu.tw`) are no longer intended as active mail, calendar, Drive, or new-artifact homes.
+
+Retirement means:
+
+```text
+stop creating new work there
+        ↓
+inspect mail / Drive / ownership / sharing / Sign-in-with-Google dependencies
+        ↓
+migrate only material and relationships that still matter
+        ↓
+leave the old accounts available long enough to discover forgotten dependencies
+        ↓
+remove them from the daily working environment when migration is sufficiently understood
+```
+
+This is not permission to delete the accounts or bulk-delete their contents. Historical Google-backed NAS sync relationships should therefore be treated as migration evidence, not automatically repaired or reproduced for symmetry.
+
+### Microsoft 365 / Work OneDrive — keep open and test
+
+Microsoft 365 and Work OneDrive remain available during Fall 2026 as an **institutional service layer whose boundary will be learned from actual use**. Likely legitimate uses include Forms for workshops or other recipients who should not enter the Git working environment, Office documents that require active institutional collaboration, and university-supported sharing or delivery.
+
+Do not decide in advance that every Office document belongs in OneDrive. A `.docx`, `.xlsx`, or `.pptx` may originate from Git-managed intellectual work, an administrative obligation, teaching delivery, or collaborative editing. The actual role determines its authoritative home.
+
+The working default is therefore:
+
+```text
+my evolving intellectual / technical work
+        → local Git + GitHub when suitable
+
+external workflow genuinely needs Microsoft service
+        → Forms / Word / Excel / PowerPoint / OneDrive as needed
+
+official or sensitive institutional record
+        → location required or approved by the university
+```
+
+At the Fall 2026 → Spring 2027 boundary, review real cases: which Microsoft services were actually necessary, which artifacts naturally lived there, which could remain in Git, and which required institutional permissions or delivery. Use that evidence to decide whether OneDrive becomes a narrow service layer, a larger institutional workspace, or something in between.
+
+### Sync follows role; symmetry is not a design target
+
+Future NAS/cloud restructuring should not begin by trying to restore a visually symmetrical set of cloud mirrors. A sync pair is justified only when it supports an authoritative editable home, an intentional collaboration path, a delivery requirement, or a verified preservation/recovery role.
+
+Therefore:
+
+```text
+cloud account exists
+    ≠ must have matching NAS mirror
+
+NAS directory exists
+    ≠ must have matching cloud mirror
+
+useful authoritative / collaboration / backup role
+    → define the sync relationship deliberately
+```
+
+Deletion propagation, direction, filters, version retention, and recovery behavior must be known before a sync relationship is treated as dependable infrastructure.
 
 ## Artifact placement is time-dependent
 
