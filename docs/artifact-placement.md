@@ -1,6 +1,6 @@
 # Artifact Placement
 
-[Home](../README.md) · [Ontology](ontology.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
+[Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
 Working agreement — 2026-09-12. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
@@ -49,6 +49,79 @@ For Git-suitable intellectual source material, begin and retain the evolving sou
 - **NAS** increasingly serves large reference material, datasets, frozen artifacts, binaries, and archival/backup roles that are unsuitable for Git. It should not be required to carry the evolving ontology of active work.
 
 These are role boundaries rather than a demand to migrate all historical material immediately.
+
+## Artifact placement is time-dependent
+
+Artifact placement should be treated as a **current best interpretation**, not a permanent classification made once and never revisited.
+
+An artifact's content can evolve. Its primary intention can become clearer. The evidence it contains can become more important than originally expected. The tools, collaborators, audience, file format, and delivery obligations around it can also change. Because of this, the most useful working location or intellectual owner may legitimately change through time.
+
+A file therefore has at least three distinct questions:
+
+```text
+What is the artifact now?
+What evidence does it currently support?
+What is its best present working / ownership location?
+```
+
+During the semester, resolve placement only as much as the active work requires. Do not repeatedly reorganize directories merely because a new interpretation appears. Preserve one authoritative editable copy and enough context to understand the artifact's role; allow the placement rules to be tested by real cases.
+
+At the semester boundary, Run 1 and Run 2 can review the accumulated cases together with the [semester ontology cycle](semester-ontology-cycle.md). The semester-end result is a **time-stamped placement snapshot**, not a declaration of a permanent final home:
+
+> As of this semester, this is the authoritative artifact, this is its primary intention, this is the evidence it presently supports, and this is its best working location.
+
+A later semester may reach a different conclusion without making the earlier placement wrong. The earlier state remains useful intellectual and workflow history.
+
+## Artifacts generate evidence, and evidence can change the work
+
+Artifacts do not merely store the output of a pre-existing Outcome. As their contents evolve, they can generate evidence that **supports, weakens, redirects, or expands the hierarchy that produced them**.
+
+The relationship is therefore bidirectional:
+
+```text
+desired Outcome
+      ↓
+work / investigation
+      ↓
+evolving artifact
+      ↓
+evidence
+      ↓
+interpretation
+      ├→ supports the current Outcome
+      ├→ weakens or changes the current Outcome
+      ├→ exposes a research_idea
+      ├→ exposes a teaching_idea
+      ├→ exposes a #4 capability gap
+      ├→ triggers Industry work
+      └→ triggers Administration work
+      ↓
+ontology / Todoist / artifact placement may change
+```
+
+The newly generated work does not have to inherit the artifact's original owner. A research artifact can expose a teaching need. A teaching example can reveal a research question. A collaborator's result can expose a #4 capability gap. A technical result can become necessary evidence for a proposal, reimbursement, institutional submission, industrial report, or other Administration / Industry obligation. The source artifact may remain where its primary intention belongs while the newly triggered work is created in the professional world that now owns that obligation.
+
+### Example — one notebook through several meanings
+
+A MATLAB notebook might begin as a personal numerical investigation:
+
+```text
+learning / investigation
+      ↓
+model and simulation become stable enough to support #3 research
+      ↓
+results become evidence under a #3 Outcome
+      ↓
+a clearer explanation emerges → teaching_idea
+      ↓
+the explanation stabilizes → reusable teaching material
+      ↓
+a comparison / figure survives scrutiny → publishable_material
+```
+
+This does not require one physical file to be copied into every world. The authoritative evolving notebook can remain in the location that best fits its current primary intention, while derived figures, explanations, snapshots, teaching modules, or report copies are created deliberately for other purposes.
+
+If the notebook's evidence contradicts the original desired Outcome, that is not a placement failure. The evidence should be allowed to revise the Outcome, produce a new research idea, or expose a different explanation. Artifact organization should preserve that intellectual movement rather than hide it by forcing the file to remain attached to an outdated interpretation.
 
 ## Paper-stage integrations — decision frozen until a real case
 
