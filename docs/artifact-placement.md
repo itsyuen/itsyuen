@@ -2,13 +2,15 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment. Apply to new and active work; this is not a claim that all historical files have been migrated.
+Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment and temporary-artifact lifecycle. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
 ## Governing rule
 
 **Intention determines ownership; editing and collaboration determine the working location; preservation determines the backup.**
 
 Give each artifact one authoritative editable home. Record where supporting data, delivery copies, and backups live. A synchronized counterpart is part of the same working arrangement, not an independent master.
+
+Placement does not imply permanent preservation. An artifact may complete its purpose, transfer its useful evidence or decision into a more durable artifact or into the ontology, and then become disposable.
 
 ## Working locations
 
@@ -18,8 +20,8 @@ Give each artifact one authoritative editable home. Record where supporting data
 | GitHub | Committed version history and coordination across machines and collaborators; synchronize through deliberate commits, pushes, and pulls |
 | Work OneDrive / NTUST OneDrive | Fall 2026 institutional service-layer experiment: Forms, active Office collaboration, institutional sharing/delivery, and records where Microsoft services are genuinely useful; not the default master for Git-suitable technical or teaching source material, and not automatically the home of every Word/Excel/PowerPoint file |
 | NAS personal home | Personal files and private working material |
-| NAS SSCLdataRe | Curated lab resources, large datasets, and retained research material |
-| NAS TemporaryDataSSCL | Student collaboration, exchange, and work awaiting review |
+| NAS SSCLdataRe | Curated lab resources, large datasets, and retained research material that have an identified continuing value |
+| NAS TemporaryDataSSCL | Short-lived student/lab collaboration, exchange, and staging. Review when the activity ends: promote material with continuing value and discard material whose purpose is complete |
 | NAS NetBackup | Preserved backups and archives; actual coverage and recovery remain to be verified |
 | Legacy institutional Google workspaces | Migration/retirement sources rather than new working homes. Existing mail, Drive files, ownership, sharing, and account dependencies should be reviewed and migrated deliberately before the accounts are allowed to become dormant |
 | Other cloud drives | Specific sharing or distribution roles where needed, subject to their actual sync configuration; cloud symmetry is not itself a goal |
@@ -38,8 +40,8 @@ These roles follow the [ontology](ontology.md); storage format alone does not de
 - An actively co-edited Word document can have its master in Work OneDrive. Any Git copy is an intentional snapshot unless Git is explicitly chosen as its editable home.
 - A Word/Excel/PowerPoint file does not belong in OneDrive merely because it is an Office file. Its editable home is determined by the actual collaboration, delivery, institutional, or preservation need.
 - Research code belongs with its working project; large experiment data can live on NAS, identified from the project README with enough information to locate and interpret it.
-- Student contributions accumulate in TemporaryDataSSCL. Reviewed material can be promoted to controlled storage or a relevant repository through an explicit curation decision.
-- Frozen deliveries and backups preserve identifiable versions rather than becoming competing editable masters.
+- Student contributions can accumulate in TemporaryDataSSCL while work is active. At the end of the activity, reviewed material with continuing value can be promoted to controlled storage or a relevant repository; the remainder can be deleted after its purpose and retention obligations are complete.
+- Frozen deliveries and backups preserve identifiable versions only when preservation serves a continuing scientific, teaching, institutional, contractual, legal, or recovery purpose; they should not become competing editable masters.
 
 ## Todoist points to artifacts; it does not own them
 
@@ -86,7 +88,7 @@ For Git-suitable intellectual source material, begin and retain the evolving sou
 - **HackMD** is a late-stage audience-facing reading/presentation interface for stabilized Markdown. It is not the primary working notebook or default collaboration surface.
 - **AhaSlides** is a classroom presentation/delivery surface. The durable source of question text, explanations, figures, code, and other reusable teaching content should remain upstream in the appropriate Git-managed teaching material when practical; the AhaSlides cloud copy is not the intellectual master.
 - **NTUST / Work OneDrive** remains appropriate for institutional Office documents, records, required submissions, active Office collaboration, Forms-backed workflows, and delivery copies. It does not need to retain a second authoritative copy of Git-suitable source material simply for safekeeping.
-- **NAS** increasingly serves large reference material, datasets, frozen artifacts, binaries, and archival/backup roles that are unsuitable for Git. It should not be required to carry the evolving ontology of active work.
+- **NAS** increasingly serves large reference material, datasets, retained artifacts, binaries, collaboration staging, and archival/backup roles that are unsuitable for Git. It should not be required to carry the evolving ontology of active work, nor should temporary NAS work be archived automatically.
 
 These are role boundaries rather than a demand to migrate all historical material immediately.
 
@@ -154,6 +156,49 @@ useful authoritative / collaboration / backup role
 
 Deletion propagation, direction, filters, version retention, and recovery behavior must be known before a sync relationship is treated as dependable infrastructure.
 
+## Temporary artifacts: preserve the advancement, not automatically the carrier
+
+An artifact is not automatically valuable because work happened through it. A spreadsheet, screenshot, temporary Markdown note, registration export, intermediate report, AI-generated comparison, shared student workbook, or exploratory directory may be only the carrier through which a decision, insight, result, or obligation was completed.
+
+The default lifecycle is:
+
+```text
+intention / real activity
+        ↓
+temporary working artifact
+        ↓
+evidence / insight / decision / completed obligation
+        ↓
+consolidate what matters into
+ontology / research result / teaching material / durable record / next Outcome
+        ↓
+review the original artifact
+        ├→ continuing independent value → promote / retain
+        └→ purpose complete, no continuing value → delete
+```
+
+**Preserve the advancement, not necessarily the artifact that produced it.** Historical reminiscence — for example, “this reminds me that I once had a good idea” — is not by itself a reason to retain a file when the idea and its consequences have already been consolidated into the current ontology or a stronger artifact.
+
+Retention should have an identifiable reason. Examples include irreplaceable raw or experimental data, reproducibility evidence, publishable or publication-supporting research material, reusable teaching material, an authoritative final deliverable, a contractual/institutional/legal record, or other evidence whose loss would destroy something that cannot be adequately reconstructed from the current system.
+
+### TemporaryDataSSCL as a working and disposal boundary
+
+`TemporaryDataSSCL` is therefore an active **working/staging space**, not an inbox from which everything is eventually archived.
+
+Typical examples include an Excel workbook edited with students during an active project, a workshop registration or attendance sheet, an exchange folder used to collect files, or a short-lived collaborative document. When the activity ends, review what the artifacts became:
+
+```text
+activity completed
+        ↓
+what still has future value?
+        ├→ reusable knowledge / evidence / record → promote deliberately
+        └→ one-time working residue → discard
+```
+
+For example, after a workshop, the working registration workbook can be discarded if it has no future use. If a participant/contact list has a legitimate future purpose, it may be promoted into an appropriate durable location only when that reuse is consistent with the purpose for which the information was collected, applicable consent, and university/privacy requirements. Do not keep personal information merely because storage is available.
+
+Promotion requires a reason; temporary accumulation does not create an archival obligation. Deletion, however, is still a deliberate action: confirm that the purpose is complete, no required record or authoritative evidence would be lost, and any applicable retention/privacy obligations have been satisfied. This policy does not authorize automatic or bulk deletion of existing NAS material.
+
 ## Artifact placement is time-dependent
 
 Artifact placement should be treated as a **current best interpretation**, not a permanent classification made once and never revisited.
@@ -168,13 +213,13 @@ What evidence does it currently support?
 What is its best present working / ownership location?
 ```
 
-During the semester, resolve placement only as much as the active work requires. Do not repeatedly reorganize directories merely because a new interpretation appears. Preserve one authoritative editable copy and enough context to understand the artifact's role; allow the placement rules to be tested by real cases.
+During the semester, resolve placement only as much as the active work requires. Do not repeatedly reorganize directories merely because a new interpretation appears. Preserve one authoritative editable copy and enough context to understand the artifact's role while it is active; allow the placement and retention rules to be tested by real cases.
 
-At the semester boundary, Run 1 and Run 2 can review the accumulated cases together with the [semester ontology cycle](semester-ontology-cycle.md). The semester-end result is a **time-stamped placement snapshot**, not a declaration of a permanent final home:
+At the semester boundary, Run 1 and Run 2 can review the accumulated cases together with the [semester ontology cycle](semester-ontology-cycle.md). The semester-end result is a **time-stamped placement snapshot and retention decision**, not a declaration that every encountered artifact deserves a permanent home:
 
-> As of this semester, this is the authoritative artifact, this is its primary intention, this is the evidence it presently supports, and this is its best working location.
+> As of this semester, this is the authoritative artifact, this is its primary intention, this is the evidence it presently supports, and this is its best working location — or its useful content has been consolidated and the artifact itself can now be retired.
 
-A later semester may reach a different conclusion without making the earlier placement wrong. The earlier state remains useful intellectual and workflow history.
+A later semester may reach a different conclusion without making the earlier placement wrong. When the artifact itself is retained, the earlier state remains useful intellectual and workflow history; when it is deleted, the consolidated advancement should remain legible in the surviving system.
 
 ## Artifacts generate evidence, and evidence can change the work
 
@@ -249,9 +294,9 @@ what Todoist hierarchy was acting on it?
 which primary intention appears to own it?
 ```
 
-Ambiguous cases are useful rather than inconvenient. They show where the current ontology is still weak. Preserve those cases instead of forcing an early rule.
+Ambiguous cases are useful rather than inconvenient. They show where the current ontology is still weak. Preserve those cases while they are needed to learn the boundary instead of forcing an early rule. Once the boundary or decision has been consolidated, the temporary carrier does not need to be retained unless it has an independent preservation reason.
 
-At the Fall 2026 → Spring 2027 transition, Run 1 should collect representative Industry / Administration / Finance artifacts and recover what they actually did. Run 2 should compare the recurring patterns and use them to refine the corresponding ontology boundaries for the next semester.
+At the Fall 2026 → Spring 2027 transition, Run 1 should collect representative Industry / Administration / Finance artifact cases and recover what they actually did. Run 2 should compare the recurring patterns and use them to refine the corresponding ontology boundaries for the next semester. Representative evidence may be preserved through conclusions, examples, or durable records rather than by archiving every temporary source file.
 
 The goal is that Spring 2027 begins with **clearer primary-intention rules learned from real artifacts and obligations**, while still allowing future exceptions and evolution.
 
@@ -263,6 +308,6 @@ At that point, decide from the concrete paper what should connect to GitHub, wha
 
 ## Apply gradually
 
-Start with the next active artifact. Identify its intention, editable home, supporting files, and delivery/backup locations. Leave historical material in place until needed. A complete migration is not a prerequisite for productive work.
+Start with the next active artifact. Identify its intention, editable home, supporting files, delivery/backup locations, and — when its purpose finishes — whether anything still deserves promotion or preservation. Leave historical material in place until it is deliberately reviewed. A complete migration is not a prerequisite for productive work.
 
-The [NAS consolidation record](nas-consolidation.md) separates current observations from historical configuration and proposals. NAS repair and migration are frozen for now. No NAS deletion is authorized by this document.
+The [NAS consolidation record](nas-consolidation.md) separates current observations from historical configuration and proposals. NAS repair and migration are frozen for now. The policy recognizes deletion as a valid end state for reviewed temporary artifacts, but this document does not by itself authorize deletion of existing NAS material.
