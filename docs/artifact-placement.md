@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment, temporary-artifact lifecycle, internal/external interface boundary, and learning/teaching placement boundary. Apply to new and active work; this is not a claim that all historical files have been migrated.
+Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment, temporary-artifact lifecycle, internal/external interface boundary, learning/teaching placement boundary, and the five-question artifact framework. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
 ## Governing rule
 
@@ -11,6 +11,49 @@ Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-se
 Give each artifact one authoritative editable home. Record where supporting data, delivery copies, and backups live. A synchronized counterpart is part of the same working arrangement, not an independent master.
 
 Placement does not imply permanent preservation. An artifact may complete its purpose, transfer its useful evidence or decision into a more durable artifact or into the ontology, and then become disposable.
+
+## Five questions every artifact answers
+
+An artifact can be understood through five independent dimensions. These are not
+five maturity levels and do not need to become mandatory metadata on every
+small file. They are questions to use when an artifact's ownership, audience,
+role, retention, or next use is unclear.
+
+| Dimension | Question | What it clarifies |
+|---|---|---|
+| **Subject and intention** | Why does this artifact exist, and what work does it currently serve? | Its intellectual owner and authoritative repository or professional world |
+| **Audience** | Who should encounter it now? | Privacy, access, language, explanation depth, and whether an audience-facing derivative is needed |
+| **Artifact role** | What is it doing now? | Brainstorm, working model, executable implementation, evidence, deliverable, reference, or archive |
+| **Supported outcome** | What claim, capability, decision, obligation, or final product does it support? | Why the artifact matters and how it connects to the larger work |
+| **Use horizon** | When, or under what condition, will it be used again? | Immediate delivery, semester development, submission, publication, evaluation, uncertain future reuse, or retirement |
+
+A compact description is:
+
+```text
+artifact identity
+= current intention
++ current audience
++ current role
++ supported Outcome
++ use horizon
+```
+
+The artifact's **authoritative placement is a decision derived from these five
+answers**, especially its primary intention. Placement is not a sixth intrinsic
+property. File path, storage service, and format are implementation choices
+that follow from ownership, editing, collaboration, delivery, and preservation
+needs.
+
+The five questions describe the artifact. They do not replace the work
+hierarchy:
+
+```text
+intention → Outcome → Milestone → Action
+```
+
+That hierarchy organizes where the work is going. The five questions describe
+the Markdown notes, equations, code, notebooks, datasets, figures, assignments,
+reports, papers, and presentations created while doing the work.
 
 ## Working locations
 
@@ -240,13 +283,94 @@ Artifact placement should be treated as a **current best interpretation**, not a
 
 An artifact's content can evolve. Its primary intention can become clearer. The evidence it contains can become more important than originally expected. The tools, collaborators, audience, file format, and delivery obligations around it can also change. Because of this, the most useful working location or intellectual owner may legitimately change through time.
 
-A file therefore has at least three distinct questions:
+The five artifact questions above should therefore be revisited only as much as
+the active work requires. Their answers may change without implying that the
+earlier interpretation was careless or wrong.
+
+### A living and forgiving lifecycle
+
+An artifact may be an Outcome in one relationship and evidence in another. Its
+role is relational rather than permanently fixed. A published paper is an
+Outcome of a research process; later, the same paper becomes evidence in a
+tenure-defense presentation. A student assignment is a teaching deliverable;
+student responses then become evidence about capability and about whether the
+teaching method worked.
+
+The common movement is:
 
 ```text
-What is the artifact now?
-What evidence does it currently support?
-What is its best present working / ownership location?
+intention
+      ↓
+working artifact
+      ↓
+evidence / insight / decision
+      ↓
+supported Outcome
+      ↓
+future presentation / reuse / next investigation
 ```
+
+This is a loop rather than a one-way production line. New evidence can revise
+the intended Outcome, change the artifact's role, or create a justified
+derivative for a new audience.
+
+For example, the current Computer Integrated Control Systems Homework 1 can
+move through:
+
+```text
+course intention
+      ↓
+private syllabus / weekly brainstorming
+      ↓
+executable instructor solution
+      ↓
+student-facing homework template
+      ↓
+student submissions + in-class observation
+      ↓
+evidence of actual student capability and teaching-method effectiveness
+      ↓
+revised midterm / course design
+      ↓
+possibly a stabilized reusable Teaching module
+```
+
+A research paper can move through:
+
+```text
+research intention
+      ↓
+derivation notes + code + simulation / experimental records
+      ↓
+scrutinized evidence
+      ↓
+paper draft
+      ↓
+published paper
+      ↓
+evidence selected for a tenure-defense slide
+```
+
+Everything between these examples remains a legitimate artifact: a private
+brainstorm, equation, conceptual model, executable prototype, simulation,
+experimental record, lecture plan, worked example, student-facing assignment,
+student result, internal report, draft, publication, or professional
+presentation. Importance does not begin only when the final public product
+appears.
+
+This is deliberately forgiving:
+
+- Place an artifact according to today's honest primary intention; it does not
+  need to predict its entire future.
+- Let audience changes produce deliberate derivatives rather than competing
+  editable masters.
+- Allow evidence to change the hierarchy, role, or placement.
+- Treat movement among `learning`, `teaching`, and `working` as intellectual
+  development when the underlying intention genuinely changes, not as proof of
+  an earlier mistake.
+- Preserve one authoritative editable copy while the work is active.
+- Preserve the advancement when a temporary carrier no longer has independent
+  value.
 
 During the semester, resolve placement only as much as the active work requires. Do not repeatedly reorganize directories merely because a new interpretation appears. Preserve one authoritative editable copy and enough context to understand the artifact's role while it is active; allow the placement and retention rules to be tested by real cases.
 
