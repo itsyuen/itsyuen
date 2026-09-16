@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Working agreement — 2026-09-12. Updated 2026-09-14 with the Fall 2026 cloud-service experiment, temporary-artifact lifecycle, internal/external interface boundary, learning/teaching placement boundary, and the five-question artifact framework. Apply to new and active work; this is not a claim that all historical files have been migrated.
+Working agreement — 2026-09-12. Updated 2026-09-16 with the living-artifact lifecycle, intention-based splitting rule, semester-turnover connection, and clarified AhaSlides audience-facing authority. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
 ## Governing rule
 
@@ -89,6 +89,51 @@ Repository placement follows the artifact's **current intended role**, not its d
 
 Movement between `learning` and `teaching` should therefore represent a **real change of intended role**, not temporary uncertainty. When the intention remains to teach, unfinished work can remain in `teaching` while learning continues through it.
 
+### One authoritative working artifact per active intention
+
+The default is to keep **one authoritative working artifact while the intention remains unified**. A file does not need to be split merely because it becomes long, messy, historically layered, or heavily edited. Messiness is acceptable when the artifact is still serving one active purpose.
+
+Create a second working artifact when a **distinct intention becomes active enough to require independent work**. The split should represent a real difference in purpose, role, audience, or cadence rather than a desire to make the directory look tidy.
+
+A useful test is:
+
+```text
+same active intention
+    → keep one authoritative working artifact
+
+new intention appears but is not yet independently worked
+    → keep it inside the current artifact as context / possibility
+
+new intention becomes independently active
+    → create or split into its own authoritative working artifact
+```
+
+This also creates a mental separation between **living work** and material that is gradually becoming **archival**. Working artifacts continue to move, accumulate evidence, and change shape. Material whose active role has ended does not need to remain in the working surface merely because it once mattered.
+
+During a semester, let this happen through actual use rather than through a forced migration project. Files that are needed will naturally flow toward the current `teaching`, `learning`, or `working` repositories and settle into the intention that now owns them. Small need-driven retrieval or movement from the NAS is normal; wholesale NAS consolidation is not required in order to keep working.
+
+The semester boundary is a natural review point and joins this rule to the [semester ontology cycle](semester-ontology-cycle.md):
+
+```text
+working semester
+    ↓
+active files naturally flow toward current authoritative artifacts / repos
+    ↓
+semester transition — Run 1
+recover intention, evidence, artifacts, and what actually became active
+    ↓
+semester transition — Run 2
+continue / merge / split / rename as historical record / archive / discard
+    ↓
+next semester working surface
+```
+
+A semester-long brainstorm, for example, may stay messy and active while the course is running, then be renamed or curated into a historical course record after its planning intention ends. The next active teaching intention continues forward without requiring the whole previous semester directory to be duplicated.
+
+The practical rule is therefore:
+
+> **Preserve one authoritative working artifact per active intention. Split when a new intention truly needs its own work; archive when the old intention no longer needs to remain active. Let semester turnover consolidate what the semester actually produced.**
+
 ## Examples
 
 - A teaching module's Markdown and code belong in teaching; large videos can remain on NAS with links from the module.
@@ -141,7 +186,7 @@ When the task is later completed, the link helps locate the artifact and the com
 For Git-suitable intellectual source material, begin and retain the evolving source in the appropriate local Git repository and commit it to GitHub when it is ready to become durable history. Audience-facing services come later; they do not become competing working masters merely because they retain a cloud copy.
 
 - **HackMD** is a late-stage audience-facing reading/presentation interface for stabilized Markdown. It is not the primary working notebook or default collaboration surface.
-- **AhaSlides** is a classroom presentation/delivery surface. The durable source of question text, explanations, figures, code, and other reusable teaching content should remain upstream in the appropriate Git-managed teaching material when practical; the AhaSlides cloud copy is not the intellectual master.
+- **AhaSlides** may be the authoritative **audience-facing slide deck** for a live class. It does not require a mirrored local slide file merely for preservation or symmetry. Private lecture-preparation notes and reusable explanations, figures, code, or teaching modules should remain in the appropriate Git-managed teaching material when they benefit from versioned source control. In that arrangement, AhaSlides owns the live presentation surface while the repo owns the reusable preparation/source artifacts; neither needs to duplicate the other.
 - **NTUST / Work OneDrive** remains appropriate for institutional Office documents, records, required submissions, active Office collaboration, Forms-backed workflows, and delivery copies. It does not need to retain a second authoritative copy of Git-suitable source material simply for safekeeping.
 - **NAS** increasingly serves internal reference material, datasets, retained artifacts, binaries, collaboration staging, and archival/backup roles that are unsuitable for Git. It should not be required to carry the evolving ontology of active work, nor should temporary NAS work be archived automatically.
 
@@ -314,25 +359,26 @@ This is a loop rather than a one-way production line. New evidence can revise
 the intended Outcome, change the artifact's role, or create a justified
 derivative for a new audience.
 
-For example, the current Computer Integrated Control Systems Homework 1 can
-move through:
+For example, the current Computer Integrated Control Systems course can move through:
 
 ```text
 course intention
       ↓
-private syllabus / weekly brainstorming
+course_design_brainstorm.md — active weekly thinking and records
       ↓
-executable instructor solution
+syllabus.md — slower stabilized course definition
       ↓
-student-facing homework template
+lecture preparation notes + reusable teaching modules
+      ↓
+AhaSlides — authoritative live audience-facing presentation
       ↓
 student submissions + in-class observation
       ↓
 evidence of actual student capability and teaching-method effectiveness
       ↓
-revised midterm / course design
+revised course design / assessment
       ↓
-possibly a stabilized reusable Teaching module
+semester turnover → historical course record + next active teaching intention
 ```
 
 A research paper can move through:
