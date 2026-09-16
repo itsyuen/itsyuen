@@ -2,7 +2,7 @@
 
 [Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-Working agreement — 2026-09-12. Updated 2026-09-16 with the living-artifact lifecycle, intention-based splitting rule, semester-turnover connection, and clarified AhaSlides audience-facing authority. Apply to new and active work; this is not a claim that all historical files have been migrated.
+Working agreement — 2026-09-12. Updated 2026-09-17 with the living-artifact lifecycle, intention-based splitting rule, semester-turnover connection, clarified AhaSlides audience-facing authority, and the personal procedure for encountering artifacts. Apply to new and active work; this is not a claim that all historical files have been migrated.
 
 ## Governing rule
 
@@ -11,6 +11,17 @@ Working agreement — 2026-09-12. Updated 2026-09-16 with the living-artifact li
 Give each artifact one authoritative editable home. Record where supporting data, delivery copies, and backups live. A synchronized counterpart is part of the same working arrangement, not an independent master.
 
 Placement does not imply permanent preservation. An artifact may complete its purpose, transfer its useful evidence or decision into a more durable artifact or into the ontology, and then become disposable.
+
+## My relationship with artifacts
+
+I face an artifact as evidence of an intention, not as an automatic demand on my attention.
+
+1. **Recover:** Examine the artifact's evidence to recover the intention and Outcome that produced it.
+2. **Respond:** Notice the thoughts it triggers, place each meaningful thought in the ontology, and choose what — if anything — becomes active.
+
+A triggered thought may become active now, remain available for later, support existing work, or simply pass. In this way, artifacts help recover meaning and generate possibilities without taking control of attention.
+
+The five questions below support this procedure when an artifact's meaning, ownership, audience, role, or future use is unclear.
 
 ## Five questions every artifact answers
 
