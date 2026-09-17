@@ -33,6 +33,7 @@ itchang@mail.ntust.edu.tw
 Placement follows primary intention. Give each artifact one authoritative editable home, and distinguish supporting data, delivery copies, and backups. Apply this to active work; migrate historical material when needed.
 
 - [Ontology](docs/ontology.md) — professional purpose, research worlds, infrastructure, teaching, and evidence.
+- [Notebook system](docs/notebook-system.md) — move from private intention and Outcome, through Milestone/artifact/evidence reasoning, into technical Action and Todoist execution.
 - [Semester ontology cycle](docs/semester-ontology-cycle.md) — keep a relatively fixed semester map while Todoist and working evidence evolve; use Run 1 and Run 2 to form the next semester map.
 - [Todoist](docs/todoist.md) — turn reasoning into the minimum useful actionable structure.
 - [Artifact placement](docs/artifact-placement.md) — where masters, data, shared work, and archives belong.
