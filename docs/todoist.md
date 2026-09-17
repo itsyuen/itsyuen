@@ -26,6 +26,19 @@ The research coordinate adds another question:
 
 Together they allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
 
+## Calendar as intention-in-time
+
+Calendar is not the action system. It places an intention into a real time/context and identifies the people currently expected to accompany that movement.
+
+```text
+Event title  = recurring real-world context / commitment
+Description  = intention / ontology direction
+Invitees     = people currently in company with that intention and therefore first delegation candidates
+Todoist      = concrete actions, actual assignment, re-entry, priority, and follow-up
+```
+
+An invitee is **not automatically assigned a task**. The calendar association says this person is in the human path of the intention; actual delegation becomes explicit in Todoist when a concrete Action is assigned. Keep the calendar note short enough to expose direction rather than becoming a duplicate task list or notebook.
+
 ## Labels
 
 - `research_idea` — a possible scientific question, hypothesis, comparison, experiment, or research direction; not yet a committed Outcome.
@@ -197,7 +210,6 @@ Compare responses with the intended capability levels
 The wording rule is a preference, not a grammar law. Its purpose is to make the relationship visible: the Outcome names the result, the Milestone names a demonstrable intermediate state, and the Action begins the work.
 
 ## Short hierarchy preserves the long-form relationship
-
 Once the reasoning is understood, much of the wording can disappear without losing the relationship.
 
 ```text
