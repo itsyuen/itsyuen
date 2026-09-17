@@ -181,6 +181,53 @@ designed Milestone / artifact / evidence possibility
 executable technical work
 ```
 
+## Investigative Action, artifact, and evidence
+
+Theory investigation, platform investigation, capability-gap work, and other technical Actions will often **create, revise, test, or inspect an artifact**. The resulting behavior or observation may then become evidence.
+
+```text
+investigative Action
+      ↓
+create / revise / test / inspect artifact
+      ↓
+result / observed behavior
+      ↓
+evidence
+      ↓
+update the present interpretation
+```
+
+Keep the roles distinct:
+
+```text
+Action   = what is done
+Artifact = what is created, revised, tested, inspected, or preserved
+Evidence = what the resulting artifact or behavior presently supports,
+           weakens, contradicts, or reveals
+```
+
+Investigative work does **not** require a new file for every Action. When the same intention and artifact continue, revising the existing authoritative artifact is normally preferable to proliferating copies. Create another artifact when the work genuinely needs a different object, format, audience, or evidentiary role.
+
+Likewise, an artifact is not automatically evidence merely because it exists. A MATLAB script, block diagram, model, figure, dataset, or derivation becomes evidence-bearing through what its execution, comparison, inspection, or interpretation actually shows.
+
+When an investigative Action is represented in Todoist, the practical boundary is:
+
+```text
+Task / Action
+= what needs to be done or revisited
+
+Attachment / link
+= where the current authoritative working artifact lives
+
+Comment
+= concise evidence / decision interpretation:
+  What happened?
+  What does it presently mean?
+  Did it change what comes next?
+```
+
+`evidence` therefore normally remains a **result / interpretation relationship**, not a general Todoist label. The durable technical evidence remains in the artifact; the Todoist comment only preserves enough interpretation to support re-entry and later recovery.
+
 # Todoist boundary
 
 The Action notebook contains the **work itself**. Todoist contains only the subset of Actions that benefits from external memory, re-entry, assignment, priority, scheduling, delegation, or future execution.
