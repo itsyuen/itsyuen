@@ -1,8 +1,8 @@
 # Todoist and Actionable Work
 
-[Home](../README.md) · [Ontology](ontology.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
+[Home](../README.md) · [Ontology](ontology.md) · [Notebook system](notebook-system.md) · [Semester cycle](semester-ontology-cycle.md) · [Todoist](todoist.md) · [Artifact placement](artifact-placement.md) · [NAS consolidation](nas-consolidation.md)
 
-This operating method applies the [professional ontology](ontology.md). Intellectual ownership follows intention; Todoist exposes work that benefits from re-entry, assignment, or future execution.
+This operating method applies the [professional ontology](ontology.md). Intellectual ownership follows intention; Todoist exposes work that benefits from re-entry, assignment, or future execution. Private upstream reasoning can begin in the [notebook system](notebook-system.md), where intention and Outcome are observed before Milestone/artifact/evidence possibilities are developed into technical Action.
 
 # Todoist: Actionable Operating System
 
