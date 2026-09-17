@@ -28,6 +28,50 @@ delegation, priority, or future execution
 
 The purpose is to avoid forcing a raw feeling or intention directly into an Action. Intention can first be observed, then interpreted through possible Milestones, artifacts, and evidence, before technical work is exposed.
 
+# Hierarchy sorting and evolution
+
+The notebook system also acts as a **hierarchy sorting and evolution mechanism**. A new thought often arrives with intention, obligation, desired Outcome, possible Milestone, artifact idea, evidence idea, emotional reaction, and next step mixed together. The notebooks separate those ingredients before a formal hierarchy is forced.
+
+```text
+I/O notebook
+= reveal what the work is trying to become
+
+Milestone / Artifact / Evidence notebook
+= explore what structure, artifact, and evidence could make progress visible
+
+Action notebook
+= let the actual technical work and executable hierarchy take form
+```
+
+This supports **hierarchy sorting** because it becomes easier to distinguish an Outcome from a Milestone, an artifact possibility from evidence, and a possible Action from the technical work itself.
+
+It also supports **hierarchy evolution**. Early wording is provisional rather than something that must be defended. Real work and evidence may show that:
+
+- an apparent Outcome is actually a Milestone inside a larger intention;
+- one Milestone should split into several;
+- several Milestones are really one route;
+- an artifact idea exposes the real technical question;
+- an Action reveals that the original Outcome or route was wrong;
+- new evidence supports, weakens, redirects, or closes part of the hierarchy.
+
+The evolving loop is therefore:
+
+```text
+intention observed
+      ↓
+possible Outcome
+      ↓
+Milestones / artifacts / evidence explored
+      ↓
+technical Action emerges
+      ↓
+real evidence returns
+      ↓
+hierarchy may be revised, compressed, split, promoted, or demoted
+```
+
+The notebooks therefore provide a place for hierarchy to **incubate before formalization and mature through evidence**. Todoist receives only the subset that has become useful for re-entry, assignment, priority, or future execution.
+
 # 1. I/O notebook — intention and Outcome
 
 The I/O notebook is private and descriptive. It records the **true intention** as honestly as possible and the most desired Outcome associated with it.
