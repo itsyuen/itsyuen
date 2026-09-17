@@ -28,6 +28,51 @@ delegation, priority, or future execution
 
 The purpose is to avoid forcing a raw feeling or intention directly into an Action. Intention can first be observed, then interpreted through possible Milestones, artifacts, and evidence, before technical work is exposed.
 
+# Trigger and triage — obligation, intention, urgency, and clarity
+
+Life and professional obligations often arrive from outside the ontology: a request, deadline, class, student need, administrative demand, family responsibility, unexpected event, or other real-world condition. The obligation itself is external, but it can **trigger one or more internal intentions**. Those intentions may conflict with one another, which is why an apparently simple obligation can produce resistance, urgency, resentment, attraction, duty, or competing desired Outcomes.
+
+The first useful distinction is therefore:
+
+```text
+external obligation / event / request
+        ↓
+internal intention(s) triggered
+        ↓
+assess urgency + clarity
+```
+
+**Urgency determines how quickly a response is required. Clarity determines how much thinking is needed before the response becomes a good Action.**
+
+The practical triage is:
+
+```text
+highest urgency + enough clarity
+        ↓
+act immediately
+        ↓
+do not require Todoist or notebook entry first
+
+not immediately urgent and/or not yet clear
+        ↓
+use the notebook system to clarify
+        ↓
+I/O
+        ↓
+Milestone / Artifact / Evidence
+        ↓
+Action notebook
+        ↓
+Todoist only when the concrete Action benefits from
+re-entry / delegation / priority / scheduling / future execution
+```
+
+An urgent Action should not be delayed merely to document it. If something must be done now and the next step is already clear, act first. Any unresolved intention, evidence, or follow-up that still matters can be captured afterward.
+
+For work that is not at that immediate-action threshold, the three notebooks provide the preferred route for gaining clarity. Once a concrete Action emerges, Todoist can preserve the actionable subset and use labels such as `theory_investigation`, `platform_investigation`, `teaching_idea`, or other appropriate work-state labels. The label describes the nature or maturity of the work; it does not replace the upstream intention reasoning.
+
+This makes Todoist neither the source of intention nor a compulsory gateway to action. It is the **persistence and coordination layer** for Actions that should survive beyond the present moment.
+
 # Hierarchy sorting and evolution
 
 The notebook system also acts as a **hierarchy sorting and evolution mechanism**. A new thought often arrives with intention, obligation, desired Outcome, possible Milestone, artifact idea, evidence idea, emotional reaction, and next step mixed together. The notebooks separate those ingredients before a formal hierarchy is forced.
