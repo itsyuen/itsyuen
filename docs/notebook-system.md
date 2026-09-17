@@ -183,6 +183,21 @@ alignment, or relationship to the Outcome
 
 This evidence can justify re-examining the intention, Outcome, or route. It is not technical proof that a model, controller, experiment, or scientific claim is correct.
 
+Strong anxiety can be treated as a **signal worth investigating**, especially when an external obligation appears to have triggered competing internal intentions. It is not proof that such a conflict exists: anxiety may also come from uncertainty, perceived threat, time pressure, overload, lack of control, or other causes. The useful response is therefore clarification rather than diagnosis:
+
+```text
+strong reaction / anxiety
+        ↓
+ask what intentions are active
+        ↓
+separate possible intention conflict
+from uncertainty / overload / genuine urgency
+        ↓
+clarify the desired Outcome and next response
+```
+
+The notebook system therefore uses emotional reaction as **internal evidence for inquiry**, not as a verdict. Its role is to help unresolved intentions become clear before they are converted into Milestones, Actions, or new obligations.
+
 ### Technical evidence — evidence about the work
 
 Derivations, measurements, experiments, comparisons, figures, observed behavior, student demonstrations, and verified implementations can support or weaken technical claims, Milestones, or research Outcomes.
