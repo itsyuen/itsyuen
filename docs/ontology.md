@@ -72,6 +72,30 @@ The three research projects own **scientific questions, theory, application-spec
 
 The numbering identifies research worlds rather than priority. #3 is intentionally foundational: the motor/actuator is a comparatively simple, theory-rich physical system in which common estimation, control, reference-generation, implementation, and demonstration ideas can be derived before being challenged by the richer physics of #1 and #2.
 
+## Working consideration — V0 domain grounding
+
+A current Notebook 2 / Todoist observation is that **domain-specific foundational knowledge may belong with the research world whose physical subject gives it meaning, rather than being placed in #4 merely because it is basic or hardware-related**.
+
+This suggests a possible **V0** layer before the common V1–V3 scientific pipeline:
+
+~~~text
+V0 — ground the physical research subject
+     essential hardware + physical model / mathematics + feedback meaning
+     enough domain understanding to enter the scientific pipeline
+
+V1 — infer the system
+V2 — control the system
+V3 — define where the system should go
+~~~
+
+Under this interpretation, vehicle hardware / kinematics / feedback can ground #1, manipulator hardware / dynamics / sensing / interaction can ground #2, and motor electrical-mechanical hardware / modeling / feedback can ground #3. The same person does not automatically need every world's V0; the relevant V0 follows the physical research world being entered.
+
+This also sharpens a possible boundary with #4: **V0 is knowledge of the research object; #4 is reusable capability for implementing, integrating, observing, timing, communicating with, and experimentally realizing control systems across research objects.** A hardware topic can therefore belong to #1–#3 when its meaning is domain-specific, while a reusable hardware/software integration capability can still belong to #4.
+
+V0 should remain minimal rather than becoming a prerequisite encyclopedia: only the hardware, mathematical model, sensing/actuation, and feedback understanding necessary to reason scientifically about that world belongs there.
+
+This is deliberately recorded as a **working consideration**, not yet a settled extension of the research coordinate. Notebook 2 can continue testing the matrix; if the distinction survives actual work, the stable ontology wording and coordinate notation can be revised later.
+
 ## Common V1–V3 scientific pipeline
 
 The main Visions now have explicit scientific roles:
@@ -170,6 +194,8 @@ A small Action should therefore be traceable upward to a meaningful research goa
 # #4 Control System Integration Infrastructure
 
 #4 is **not a fourth research-question generator**. It is the laboratory's reusable operational-capability standard.
+
+A current boundary consideration is that #4 should also **not become the default home for every foundational hardware or modeling topic**. Domain-specific grounding may remain with #1–#3 (potentially as V0), while #4 owns the reusable integration capability that can serve several research worlds.
 
 Its purpose is to ensure that a research **investigation platform** is sufficiently understood, configured, and verified to faithfully execute the intended control theory and preserve its engineering meaning through implementation.
 
