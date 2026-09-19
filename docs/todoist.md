@@ -22,7 +22,7 @@ Assignment answers:
 
 The research coordinate adds another question:
 
-> **Which research world, scientific stage, or justified V4 branch is this work advancing?**
+> **Which research world, V0 KADS/scenario, V1–V3 scientific stage, or justified V4 branch is this work advancing?**
 
 Together they allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
 
@@ -41,6 +41,25 @@ The full ontology does **not** need to remain instantiated in Todoist at all tim
 This may change if Todoist later becomes a **team operating surface**. In that case, preserving or re-activating more of the ontology-derived project / Vision / Outcome structure can be useful because delegated Actions need shared context, ownership, and a visible destination. Team structure is therefore a coordination aid, not a requirement that the personal Todoist remain permanently full.
 
 This is a current operating consideration rather than a permanent restriction: keep the personal system lean now, and preserve more explicit structure when actual collaboration makes that structure useful.
+
+## V0 / KADS in Todoist
+
+V0 is a **research coordinate, not a label**. When current work benefits from re-entry, a research project may use a concise V0 section for actionable Kinematics, Actuator, Dynamics, Sensor, or scenario-grounding work. KADS is an inspection frame; it does not require four permanent subsections or a complete copy of the ontology in Todoist.
+
+A V0 task should still be a personal Action or revisit need. The richer platform model, equations, hardware specification, scenario reasoning, and research motivation belong in the authoritative notebook or repository artifact. A link can locate that artifact, and a concise comment can preserve what the investigation exposed.
+
+Placement follows primary intention:
+
+```text
+platform-specific KADS / scenario question
+→ V0 inside Research #1, #2, or #3
+
+reusable sensing / filtering / AD-DA / I-O / timing /
+communication / deployment capability
+→ #4 Control System Integration Infrastructure
+```
+
+A V0 result may expose an unknown state, parameter, disturbance, limitation, or interaction that changes the V1–V3 investigation and suggests a clearer paper direction. Preserve that connection in the relevant Outcome/artifact; do not keep V0 as a generic “basics” container or turn Todoist into the research argument itself.
 
 ## Calendar as intention-in-time
 

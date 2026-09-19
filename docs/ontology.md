@@ -72,29 +72,56 @@ The three research projects own **scientific questions, theory, application-spec
 
 The numbering identifies research worlds rather than priority. #3 is intentionally foundational: the motor/actuator is a comparatively simple, theory-rich physical system in which common estimation, control, reference-generation, implementation, and demonstration ideas can be derived before being challenged by the richer physics of #1 and #2.
 
-## Working consideration — V0 domain grounding
+## V0 — KADS research-world and scenario grounding
 
-A current Notebook 2 / Todoist observation is that **domain-specific foundational knowledge may belong with the research world whose physical subject gives it meaning, rather than being placed in #4 merely because it is basic or hardware-related**.
+V0 is a settled research coordinate shared by #1–#3. It defines the **physical research world, platform configuration, and investigative scenario** before estimation, control, or reference behavior is designed.
 
-This suggests a possible **V0** layer before the common V1–V3 scientific pipeline:
+The common V0 inspection frame is **KADS**:
 
-~~~text
-V0 — ground the physical research subject
-     essential hardware + physical model / mathematics + feedback meaning
-     enough domain understanding to enter the scientific pipeline
+- **K — Kinematics:** coordinates, geometry, constraints, transformations, and feasible motion;
+- **A — Actuator:** how physical force or torque is produced and delivered, including the relevant drive and transmission;
+- **D — Dynamics:** inertia, mass, friction, gravity, compliance, coupling, contact, loads, and disturbance channels;
+- **S — Sensor:** what is physically measured, where it is measured, and through what sensing and acquisition chain.
 
-V1 — infer the system
-V2 — control the system
-V3 — define where the system should go
-~~~
+The **Kinematics / Dynamics** pair defines the research platform's system modeling. The **Actuator / Sensor** pair defines its physical hardware realization. KADS is deliberately memorable because V0 must keep mathematical modeling and hardware investigation connected.
 
-Under this interpretation, vehicle hardware / kinematics / feedback can ground #1, manipulator hardware / dynamics / sensing / interaction can ground #2, and motor electrical-mechanical hardware / modeling / feedback can ground #3. The same person does not automatically need every world's V0; the relevant V0 follows the physical research world being entered.
+V0 answers:
 
-This also sharpens a possible boundary with #4: **V0 is knowledge of the research object; #4 is reusable capability for implementing, integrating, observing, timing, communicating with, and experimentally realizing control systems across research objects.** A hardware topic can therefore belong to #1–#3 when its meaning is domain-specific, while a reusable hardware/software integration capability can still belong to #4.
+> **What physical system, in what configuration and scenario, is being investigated?**
 
-V0 should remain minimal rather than becoming a prerequisite encyclopedia: only the hardware, mathematical model, sensing/actuation, and feedback understanding necessary to reason scientifically about that world belongs there.
+A scenario belongs in V0 when it changes the plant's geometry, constraints, parameters, forces, contact, sensing, actuation, or experimental realization. A slope, payload, posture, joint count, arm limit, wheel-ground condition, brake, or hand crank can therefore define a V0 variant without creating another research world.
 
-This is deliberately recorded as a **working consideration**, not yet a settled extension of the research coordinate. Notebook 2 can continue testing the matrix; if the distinction survives actual work, the stable ontology wording and coordinate notation can be revised later.
+Current interpretations are:
+
+- **#1 Omni-Vehicle:** the current platform is a mecanum-wheel vehicle. Its vehicle/wheel kinematics, dynamics, actuators, and sensors define the present `#1V0`. A different Omni-Vehicle configuration remains in #1 but requires its KADS model and hardware specification to be re-established. An inclined or level-ground scenario changes the relevant dynamics and contact conditions without changing the research world.
+- **#2 Robot Manipulator:** joint geometry, degree of freedom, posture, arm limits, payload, contact, work purpose, actuators, and sensors define `#2V0`. Three-joint and six-joint manipulators share underlying principles, but their actual KADS realization and equations must follow the chosen platform and scenario.
+- **#3 Motor / Actuator:** the deliberately simple motor testbed makes KADS nearly minimal and therefore experimentally demonstrative. Adding a wheel, brake, hand crank, or other load creates controlled V0 variants by changing quantities such as `J`, `B`, friction/contact, load torque, or signed external human torque. These transparent variants expose mechanisms that can later be re-derived in #1 and #2.
+
+V0 is also where **research motivation becomes physically explicit**:
+
+```text
+KADS platform / scenario definition
+        ↓
+unknown state, parameter, disturbance, limitation, or interaction exposed
+        ↓
+V1 — what must be inferred?
+V2 — what physical response must be controlled?
+V3 — what desired behavior / reference should be defined?
+        ↓
+experiment / simulation / comparison
+        ↓
+evidence-bearing result and clear paper direction
+```
+
+V0 therefore does not merely precede V1–V3. A changed or better-understood KADS scenario can redirect the questions, models, experiments, and publishable claims pursued in V1–V3.
+
+The settled boundary with #4 is:
+
+> **V0 owns the research-object-specific KADS realization; #4 owns reusable capability for implementing, integrating, observing, timing, filtering, converting, communicating with, and experimentally realizing control systems across research worlds.**
+
+The same technical object can touch both sides from different intentions. Sensor choice, placement, measured quantity, and its role in a particular platform belong to that world's V0. Reusable filtering, signal conditioning, AD/DA, I/O, timing, communication, and deployment capability belong to #4. Physical/acquisition filtering describes the realized sensing chain; observer- or estimator-based inference belongs to V1.
+
+V0 remains minimal rather than becoming a prerequisite encyclopedia. It contains only the KADS and scenario understanding needed to state and investigate scientifically meaningful V1–V3 questions for the selected research platform.
 
 ## Common V1–V3 scientific pipeline
 
@@ -163,15 +190,16 @@ Examples currently include:
 
 A notation such as `#iVj_k` acts as a lightweight research coordinate:
 - `i = 1..3` identifies the research world;
-- `j = 1..3` identifies the common scientific pipeline stage;
+- `j = 0` identifies the world's KADS platform and investigative scenario;
+- `j = 1..3` identifies the common scientific pipeline stage directed by the V0 grounding;
 - `j = 4` identifies a justified research branch or, for #3, the abstraction/consolidation role;
-- `k = a, b, c...` distinguishes genuine V4 branches when they emerge.
+- `k = a, b, c...` distinguishes genuine V0 scenario variants or V4 branches when they need separate identities.
 
 The coordinate helps answer three practical questions: **Where is the research now? Who is a good student/owner for it? Does a new external opportunity deserve admission into the research architecture?**
 
 Student interest can first align with the research world: #1 with vehicle dynamics and vehicle experimentation; #2 with manipulator dynamics, Cartesian interaction, and force control; #3 with control theory, modeling, identification, estimation, derivation, and actuator-level experimentation. The Vision coordinate then gives the student a more precise scientific responsibility.
 
-External or industrial work should not automatically create a new research direction. It should enter #1–#3 when it materially strengthens V1–V3 or earns a genuine V4 branch by exposing a worthwhile scientific problem. Otherwise it may belong in service, Teaching, Administration, another project, or simply be declined.
+External or industrial work should not automatically create a new research direction. It should enter #1–#3 when it materially strengthens V0–V3 or earns a genuine V4 branch by exposing a worthwhile scientific problem. Otherwise it may belong in service, Teaching, Administration, another project, or simply be declined.
 
 The hierarchy exists to make these large ideas executable without losing their meaning:
 
@@ -195,7 +223,7 @@ A small Action should therefore be traceable upward to a meaningful research goa
 
 #4 is **not a fourth research-question generator**. It is the laboratory's reusable operational-capability standard.
 
-A current boundary consideration is that #4 should also **not become the default home for every foundational hardware or modeling topic**. Domain-specific grounding may remain with #1–#3 (potentially as V0), while #4 owns the reusable integration capability that can serve several research worlds.
+#4 should **not become the default home for foundational hardware or modeling merely because the material is basic**. Research-object-specific KADS grounding belongs to V0 in #1–#3; #4 owns reusable integration capability that can serve several research worlds.
 
 Its purpose is to ensure that a research **investigation platform** is sufficiently understood, configured, and verified to faithfully execute the intended control theory and preserve its engineering meaning through implementation.
 
