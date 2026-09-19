@@ -26,6 +26,22 @@ The research coordinate adds another question:
 
 Together they allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
 
+## Current personal-use consideration — keep Todoist lean
+
+The current Todoist is primarily **Peter's personal action and re-entry system**, not a complete copy of the ontology and not yet a team coordination system. Its visible hierarchy may therefore become sparse as old delegated work is recovered, completed, archived, or removed.
+
+A useful wording test for the current personal system is:
+
+> **Can I naturally read this task as “I need to …”?**
+
+The task does not need to begin literally with “I,” but its wording should identify Peter's own Action, inspection, decision, learning, development, delegation, or revisit need. Historical wording whose subject is an old student or collaborator should not survive merely to preserve that person's former assignment. Recover the underlying intention first; then rewrite the surviving task from Peter's present actionable perspective, or remove it from live Todoist if no personal action remains.
+
+The full ontology does **not** need to remain instantiated in Todoist at all times. An empty research world or Vision in Todoist can simply mean that no current personal Action requires external memory there. The durable ontology can remain in its owning Markdown documentation while Todoist exposes only the currently useful projection.
+
+This may change if Todoist later becomes a **team operating surface**. In that case, preserving or re-activating more of the ontology-derived project / Vision / Outcome structure can be useful because delegated Actions need shared context, ownership, and a visible destination. Team structure is therefore a coordination aid, not a requirement that the personal Todoist remain permanently full.
+
+This is a current operating consideration rather than a permanent restriction: keep the personal system lean now, and preserve more explicit structure when actual collaboration makes that structure useful.
+
 ## Calendar as intention-in-time
 
 Calendar is not the action system. It places an intention into a real time/context and identifies the people currently expected to accompany that movement.
