@@ -77,7 +77,10 @@ what still has continuing value?
 
 Promotion should be selective. A research result may move to the relevant project or retained data area; a genuinely reusable lab resource may move to `SSCLdataRe`; an authoritative institutional record should move to the location required or approved for that record; a useful workshop contact list may be retained only if future reuse is legitimate under the purpose for which the information was collected, applicable consent, and university/privacy requirements.
 
-The policy is to **preserve the advancement, not automatically the carrier**. If the useful insight, decision, or evidence has already been consolidated into the ontology, a stronger artifact, or a durable record, the old working file does not need to survive merely as reminiscence.
+The general retention principle — preserve the advancement rather than automatically
+preserving every temporary carrier — is defined in
+[Artifact placement](artifact-placement.md). Here it is applied specifically to
+`TemporaryDataSSCL`.
 
 This is a policy direction, not authorization for unattended cleanup. Existing `TemporaryDataSSCL` material should be reviewed before deletion, especially where student information, research evidence, institutional records, or uncertain ownership may be involved.
 

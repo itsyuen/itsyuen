@@ -317,21 +317,14 @@ Retention should have an identifiable reason. Examples include irreplaceable raw
 
 ### TemporaryDataSSCL as a working and disposal boundary
 
-`TemporaryDataSSCL` is therefore an active **working/staging space**, not an inbox from which everything is eventually archived.
+`TemporaryDataSSCL` is a concrete NAS application of the general lifecycle above:
+a short-lived internal working/staging space should end in a deliberate
+**promote-or-discard** decision rather than automatic archiving.
 
-Typical examples include an Excel workbook edited with students during an active project, a workshop registration or attendance sheet, an exchange folder used to collect files, or a short-lived collaborative document. When the activity ends, review what the artifacts became:
-
-```text
-activity completed
-        ↓
-what still has future value?
-        ├→ reusable knowledge / evidence / record → promote deliberately
-        └→ one-time working residue → discard
-```
-
-For example, after a workshop, the working registration workbook can be discarded if it has no future use. If a participant/contact list has a legitimate future purpose, it may be promoted into an appropriate durable location only when that reuse is consistent with the purpose for which the information was collected, applicable consent, and university/privacy requirements. Do not keep personal information merely because storage is available.
-
-Promotion requires a reason; temporary accumulation does not create an archival obligation. Deletion, however, is still a deliberate action: confirm that the purpose is complete, no required record or authoritative evidence would be lost, and any applicable retention/privacy obligations have been satisfied. This policy does not authorize automatic or bulk deletion of existing NAS material.
+Its specific collaboration examples, privacy/retention cautions, current NAS
+state, and future consolidation procedure belong in
+[NAS consolidation](nas-consolidation.md). This document supplies the general
+artifact rule; the NAS record supplies the storage-specific application.
 
 ## Artifact placement is time-dependent
 
