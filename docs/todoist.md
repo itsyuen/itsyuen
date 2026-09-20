@@ -20,11 +20,9 @@ Assignment answers:
 
 > **Who actually has to do or demonstrate it?**
 
-The research coordinate adds another question:
+For research work, the task hierarchy should still be traceable to the relevant research world or scientific responsibility, but Todoist does not need to reproduce the full research coordinate.
 
-> **Which research world, V0 KADS/scenario, V1–V3 scientific stage, or justified V4 branch is this work advancing?**
-
-Together they allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
+Together these cues allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
 
 ## Current personal-use consideration — keep Todoist lean
 
@@ -42,37 +40,11 @@ This may change if Todoist later becomes a **team operating surface**. In that c
 
 This is a current operating consideration rather than a permanent restriction: keep the personal system lean now, and preserve more explicit structure when actual collaboration makes that structure useful.
 
-## V0 / KADS in Todoist
+## Calendar relationship
 
-V0 is a **research coordinate, not a label**. When current work benefits from re-entry, a research project may use a concise V0 section for actionable Kinematics, Actuator, Dynamics, Sensor, or scenario-grounding work. KADS is an inspection frame; it does not require four permanent subsections or a complete copy of the ontology in Todoist.
+The detailed calendar/intention model belongs in the [notebook system](notebook-system.md). Todoist owns the **concrete Action, explicit delegation, re-entry, priority, and follow-up** that need to survive outside the calendar.
 
-A V0 task should still be a personal Action or revisit need. The richer platform model, equations, hardware specification, scenario reasoning, and research motivation belong in the authoritative notebook or repository artifact. A link can locate that artifact, and a concise comment can preserve what the investigation exposed.
-
-Placement follows primary intention:
-
-```text
-platform-specific KADS / scenario question
-→ V0 inside Research #1, #2, or #3
-
-reusable sensing / filtering / AD-DA / I-O / timing /
-communication / deployment capability
-→ #4 Control System Integration Infrastructure
-```
-
-A V0 result may expose an unknown state, parameter, disturbance, limitation, or interaction that changes the V1–V3 investigation and suggests a clearer paper direction. Preserve that connection in the relevant Outcome/artifact; do not keep V0 as a generic “basics” container or turn Todoist into the research argument itself.
-
-## Calendar as intention-in-time
-
-Calendar is not the action system. It places an intention into a real time/context and identifies the people currently expected to accompany that movement.
-
-```text
-Event title  = recurring real-world context / commitment
-Description  = intention / ontology direction
-Invitees     = people currently in company with that intention and therefore first delegation candidates
-Todoist      = concrete actions, actual assignment, re-entry, priority, and follow-up
-```
-
-An invitee is **not automatically assigned a task**. The calendar association says this person is in the human path of the intention; actual delegation becomes explicit in Todoist when a concrete Action is assigned. Keep the calendar note short enough to expose direction rather than becoming a duplicate task list or notebook.
+A calendar invitee is not automatically a Todoist assignee. Do not reproduce event context as task structure unless a concrete Action actually needs to persist.
 
 ## Labels
 
@@ -91,41 +63,18 @@ Labels may cross project boundaries. **A label never overrides primary intention
 
 ## Task links, working artifacts, and evidence comments
 
-Do **not** add `artifact` or `evidence` as general Todoist labels. Artifact form and evidentiary meaning depend on the real work, file format, experimental result, and evolving ontology; their durable interpretation belongs primarily with the files, Markdown reasoning, and [artifact placement](artifact-placement.md).
+Detailed artifact identity, placement, and evidentiary meaning belong in [artifact placement](artifact-placement.md), not in Todoist.
 
-A useful Todoist separation is:
-
-```text
-Task / hierarchy
-= intended work and where it is going
-
-Label
-= type or state of work
-
-Attachment / link
-= working artifact or source that the task needs to reach
-
-Comment
-= concise statement of what the work / artifact has actually shown
-```
-
-A task's attachment or link will often point to the **working artifact** through which the task is being realized: a notebook, Markdown note, MATLAB project, code file, figure set, report draft, dataset location, or other authoritative working object. This alone does not require the `reference_link` label.
-
-Use `reference_link` when **consulting, reusing, or returning to the linked object is itself an important part of the task**. The source may be external or personal. The distinction is therefore not `external` versus `internal`; it is **working artifact versus referenced source**.
-
-A Todoist comment can preserve a short **evidence / decision statement**, but the comment is not the evidence itself. The evidence may live in a figure, dataset, notebook, derivation, experiment, comparison table, video, student result, or report section. The comment should usually be only enough to answer:
-
-> **What happened? What does it presently mean? Did it change what comes next?**
-
-For example:
+Keep the Todoist rule small:
 
 ```text
-Simulation reproduces the expected low-speed friction transition.
-The remaining mismatch is concentrated near zero velocity.
-Current Outcome is still supported; static-friction identification needs another experiment.
+Task / hierarchy = intended work
+Label            = useful type or state of work
+Attachment/link  = working artifact or source the task needs
+Comment          = short evidence / decision statement
 ```
 
-This gives a completed task useful historical meaning without turning Todoist into another notebook. During a later Run 1, the hierarchy shows the old intention, the link locates the associated artifact, and the comment helps recover what the work actually established.
+Do **not** add `artifact` or `evidence` as general labels. A link to the task's own working artifact does not by itself require `reference_link`; use `reference_link` when consulting, reusing, or returning to the linked object is itself part of the task. A comment may record what happened and what it presently means, but the underlying artifact or data remains the evidence.
 
 ## From idea to material
 
