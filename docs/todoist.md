@@ -229,7 +229,17 @@ The ontology should clarify thought, not create bureaucracy.
 
 # Run 1 → Run 2 → Run 3
 
-The three-run method applies both to historical Todoist recovery and to new thoughts. Old work usually requires a heavier Run 1 because the original intention must be reconstructed; new work can often begin as a flat note in the file where the thinking is already happening.
+The three names describe one movement from understanding to action. They are also the left, right, and forward steps:
+
+| Movement | Run | Working expression | Question |
+| --- | --- | --- | --- |
+| Left step | Run 1 | Long form: recover intention, hierarchy, artifacts, and evidence | What was this work trying to accomplish? |
+| Right step | Run 2 | Short form: consolidate the recovered structure and judge what matters in time | What should remain clear and relevant now? |
+| Forward step | Run 3 | Todoist: retain the minimum actionable work, then do and revisit it | What concrete action or re-entry is needed? |
+
+These are modes of work, not three compulsory projects or documents. Long form and short form record the first two movements when writing helps; Todoist is the working surface for the third. Reflection can happen while cleaning up tasks, and a small new thought need not pass through every form. For historical work, the left step may require more care because the original intention must be reconstructed.
+
+The older use of “forward step” meant looking across the placed clusters for patterns of past focus and possible routes. Keep that observation in the right step when it is useful; the forward step now means taking justified action. Do not create tasks merely because a coordinate looks sparse.
 
 ## Run 1 — Reveal / recover intention
 
@@ -397,68 +407,24 @@ finished artifacts       = what should actually grow
 
 The goal is **not to grow the ontology map**. The goal is to grow finished lectures, modules, code, experiments, figures, drafts, and papers.
 
-## Run outputs and the three-file semester staging workflow
+## Run outputs and the semester snapshot
 
-Run 3 does not need to happen directly inside the Todoist application. For a semester-scale recovery and consolidation, it is safer to make Run 3 a **Markdown staging appendix** first, then copy only the justified subset into the live Todoist.
-
-The process has **four conceptual outputs but only three Markdown working artifacts**:
+The useful result is a coherent passage from understanding to action, not a required number of files:
 
 ```text
-1. Run 1 — long form
-   recover intention / hierarchy / artifacts / evidence
-   → Markdown file
-
-2. Run 2 — short form
-   compress the recovered hierarchy
-   add time / priority / revisit interpretation
-   → Markdown file beside the long form
-
-3. Semester ontology map
-   choose the best current semester-level wording and preferred hierarchy
-   keep the map relatively stable during the semester
-   → Markdown file
-
-4. Run 3 — Todoist candidate subset
-   extract only the minimum actionable / re-entry subset
-   → appendix inside the semester ontology map
-
-then
-
-LIVE TODOIST
-   receive only the justified candidate subset
-   → application surface, not a fourth Markdown file
+left / Run 1  → long-form understanding, if needed
+right / Run 2 → short-form current direction, if needed
+forward / Run 3 → lean Todoist actions and re-entry
+               → semester ontology snapshot
 ```
 
-Run 1 should be given enough working time to recover meaning; it is not a one-hour speed exercise. It can proceed through several allotted sessions and interruptions. The completion criterion is that the important intention and artifact relationships are recovered well enough for compression.
+For the current cleanup, finish the actionable Todoist structure, settle the role of any long-form and short-form notes, and then record the [semester ontology map](semester-ontology-cycle.md) as a time-stamped orientation snapshot. The order of writing may follow the work already in progress; it does not require restarting Run 1 or Run 2 as exhaustive passes. During the semester, the map can remain relatively stable while Todoist, notebooks, working files, and evidence continue to change.
 
-The Run 2 short form should remain recognizably connected to the Run 1 long form. It may contain much of the same substance, but with historical scaffolding removed and time/priority interpretation added. The semester ontology map may then remain quite close to the Run 2 short form; its additional role is to select the **focused current-semester interpretation and best wording**, not to invent a different world.
+Before an item enters or stays in Todoist, ask:
 
-Run 3 can therefore be implemented as an appendix such as:
+- Does it need external memory, assignment, a genuine time constraint, or future re-entry?
+- Is there a concrete Action or useful Milestone that can be named briefly?
+- Does the task still point to the recovered intention and the authoritative working artifact?
+- Should it be done now, delegated, revisited later, or removed after checking evidence?
 
-```text
-Appendix — Run 3: Todoist Candidate Subset
-```
-
-The appendix is not yet Todoist. It is the final place to ask:
-
-- Does this item really need external memory or future re-entry?
-- Does this hierarchy need to survive interruption?
-- Is it active or meaningfully revisitable this semester?
-- Can the wording be shortened without losing recovered intention?
-- Is there a genuine executable Action or useful Milestone to preserve?
-
-This creates a deliberate admission path:
-
-```text
-Run 1 long form
-      ↓
-Run 2 short form
-      ↓
-semester ontology map
-      ↓
-Run 3 appendix — Todoist candidate subset
-      ↓
-live Todoist
-```
-
-**Nothing needs to enter Todoist directly from the long form.** The Markdown stages preserve intention and allow the hierarchy to settle before the actionable subset is exposed in the app. If the three Markdown artifacts end up looking structurally similar, that is acceptable and may indicate that the ontology has stabilized; their difference is progressively stronger selection and shorter expression, not necessarily different underlying content.
+A Markdown candidate list can help for a large transition, but is optional. Tasks already understood may be edited directly in Todoist. The long form retains the reasoning, the short form offers a compact current map, and Todoist carries only the work that benefits from being actionable in time. The snapshot preserves the semester's settled orientation; none of these surfaces needs to duplicate the others.
