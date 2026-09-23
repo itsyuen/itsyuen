@@ -19,14 +19,16 @@ working semester
         ↓
 living Todoist + artifacts + evidence
         ↓
-Run 1 — recover what actually emerged
+Run 1 / left — recover what actually emerged
         ↓
-Run 2 — reorganize the recovered understanding
+Run 2 / right — consolidate the current direction
         ↓
-next semester ontology map
+next semester ontology map (orientation snapshot)
+        ↓
+Run 3 / forward — expose actionable work in Todoist
 ```
 
-The semester ontology map is a **time-stamped orientation snapshot**. Todoist is the **living actionable realization** of work during that semester.
+The semester ontology map is a **time-stamped orientation snapshot**. Todoist is the **living actionable realization** of work during that semester. The [Todoist operating method](todoist.md#run-1--run-2--run-3) calls these movements **left / Run 1 / long form**, **right / Run 2 / short form**, and **forward / Run 3 / Todoist**. The long and short forms are useful records when needed, not mandatory passes or separate files.
 
 # Three-term rhythm
 
@@ -198,7 +200,7 @@ with clearer Industry / Administration / Finance boundaries
 
 Thus **Fall 2026 is partly an observation semester for these three boundaries**. Spring 2027 should begin with a clearer working distinction learned from actual obligations rather than one invented in advance.
 
-# Semester transition: Run 1
+# Semester transition: Run 1 / left step
 
 At the transition into the next semester, use Run 1 to recover what actually happened rather than merely carrying forward unfinished tasks.
 
@@ -217,9 +219,9 @@ Recover:
 - work that should remain frozen history;
 - work whose intention remains valid but belongs to a later period.
 
-Run 1 should recover history before judging what deserves to survive.
+Run 1 should recover history before judging what deserves to survive. A long-form note can preserve this reasoning when the history is complex.
 
-# Semester transition: Run 2
+# Semester transition: Run 2 / right step
 
 Run 2 asks:
 
@@ -239,7 +241,7 @@ Now the recovered material may be:
 
 The preference is still **one coherent main hierarchy for a piece of work rather than several overlapping historical hierarchies describing the same intention**.
 
-Run 2 therefore turns the semester's lived complexity into a clearer next-semester map without pretending that the previous semester had always been organized that way.
+Run 2 therefore turns the semester's lived complexity into a clearer next-semester map without pretending that the previous semester had always been organized that way. A short-form note can express the compact current direction when it helps.
 
 # Create the next semester map
 
@@ -259,7 +261,7 @@ return to work
 
 The new map is not a promise that the semester will unfold exactly as predicted. It is a clean starting orientation.
 
-Todoist can then again be reduced to the useful actionable subset and allowed to evolve with reality.
+Run 3 / the forward step exposes the minimum useful actionable subset in Todoist, which can then evolve with reality. In an ongoing cleanup, Todoist may already have been simplified before the snapshot is written; no restart or rigid file sequence is required.
 
 # Historical value of semester maps
 
@@ -308,11 +310,13 @@ Markdown / artifacts preserve reasoning and evidence
     ↓
 END / TRANSITION
     ↓
-Run 1 — recover intention, hierarchy, artifacts, and evidence
+Run 1 / left — recover intention, hierarchy, artifacts, and evidence
     ↓
-Run 2 — compress, cluster, relocate, and clarify
+Run 2 / right — compress, cluster, relocate, and clarify
     ↓
-create next semester ontology map
+create next semester ontology snapshot
+    ↓
+Run 3 / forward — keep the useful actionable subset in Todoist
     ↓
 repeat
 ```
