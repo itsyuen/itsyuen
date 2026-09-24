@@ -6,6 +6,8 @@
 
 Learning, teaching, infrastructure, and research reinforce one another while keeping distinct owners. Teaching makes understanding explicit; research questions its limits; infrastructure carries theory into physical experiments; publication defends evidence that survives scrutiny. The working shorthand is `research = teaching + learning + questioning + validation`.
 
+See the [research and teaching flows](todoist.md#from-idea-to-material) for their distinct actions and results.
+
 # Professional Purpose
 
 ```text

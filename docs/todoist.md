@@ -66,7 +66,33 @@ Do **not** add `artifact` or `evidence` as general labels. A link to the task's 
 
 ## From idea to material
 
-`research_idea` can lead through theory or platform investigation to scrutinized evidence and `publishable_material`; a coherent claim can then justify a paper. `teaching_idea` can become curated `teaching_material`. An external `report_draft` can draw on ideas and evidence without taking ownership of the science. See [Ontology](ontology.md#evidence-accumulation-and-publication) for the research lifecycle.
+### Research
+
+```mermaid
+flowchart TD
+    R["research_idea"] --> T["theory_investigation"]
+    R --> P["platform_investigation"]
+    T --> A["actions / experiments"]
+    P --> A
+    A --> E["validated evidence"]
+    E --> M["publishable_material"]
+    M --> F["paper"]
+```
+
+### Teaching
+
+```mermaid
+flowchart TD
+    R["teaching_idea"] --> T["theory_investigation"]
+    R --> P["platform_investigation"]
+    T --> A["demonstrations / explanations"]
+    P --> A
+    A --> C["curate by technical subject / target audience / knowledge level"]
+    C --> M["teaching_material"]
+    M --> F["module / course"]
+```
+
+An investigation may feed both routes; each requires its own validation or curation. An external `report_draft` can draw on ideas and evidence without taking ownership of the science. See [Ontology](ontology.md#evidence-accumulation-and-publication) for the research lifecycle.
 
 # Working Hierarchy: Think Freely, Normalize Deliberately
 
