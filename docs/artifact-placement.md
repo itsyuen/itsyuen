@@ -14,14 +14,7 @@ Placement does not imply permanent preservation. An artifact may complete its pu
 
 ## My relationship with artifacts
 
-I face an artifact as evidence of an intention, not as an automatic demand on my attention.
-
-1. **Recover:** Examine the artifact's evidence to recover the intention and Outcome that produced it.
-2. **Respond:** Notice the thoughts it triggers, place each meaningful thought in the ontology, and choose what — if anything — becomes active.
-
-A triggered thought may become active now, remain available for later, support existing work, or simply pass. In this way, artifacts help recover meaning and generate possibilities without taking control of attention.
-
-The five questions below support this procedure when an artifact's meaning, ownership, audience, role, or future use is unclear.
+Treat an artifact as evidence of an intention, not a demand on attention. Recover the intention and Outcome it served; then decide whether a thought it triggers belongs in current work, later work, or neither.
 
 ## Five questions every artifact answers
 
@@ -38,33 +31,7 @@ role, retention, or next use is unclear.
 | **Supported outcome** | What claim, capability, decision, obligation, or final product does it support? | Why the artifact matters and how it connects to the larger work |
 | **Use horizon** | When, or under what condition, will it be used again? | Immediate delivery, semester development, submission, publication, evaluation, uncertain future reuse, or retirement |
 
-A compact description is:
-
-```text
-artifact identity
-= current intention
-+ current audience
-+ current role
-+ supported Outcome
-+ use horizon
-```
-
-The artifact's **authoritative placement is a decision derived from these five
-answers**, especially its primary intention. Placement is not a sixth intrinsic
-property. File path, storage service, and format are implementation choices
-that follow from ownership, editing, collaboration, delivery, and preservation
-needs.
-
-The five questions describe the artifact. They do not replace the work
-hierarchy:
-
-```text
-intention → Outcome → Milestone → Action
-```
-
-That hierarchy organizes where the work is going. The five questions describe
-the Markdown notes, equations, code, notebooks, datasets, figures, assignments,
-reports, papers, and presentations created while doing the work.
+The five answers describe the artifact; they do not replace `intention → Outcome → Milestone → Action`. Derive its authoritative home chiefly from primary intention, then account for editing, audience, delivery, and preservation.
 
 ## Working locations
 
@@ -90,60 +57,11 @@ These roles follow the [ontology](ontology.md); storage format alone does not de
 
 ### Learning ↔ teaching boundary
 
-Repository placement follows the artifact's **current intended role**, not its degree of completion or the creator's temporary level of confidence. `learning` and `teaching` can revolve around the same subject, but the authoritative file should not move every time the work exposes something else that needs to be learned.
-
-- If the current intention is to teach the material, keep the one authoritative working copy in `teaching`, even while it is incomplete, changing substantially, or exposing capability gaps.
-- Learning while developing teaching material is normal and does not by itself move the artifact back to `learning`.
-- Move an artifact back to `learning` only after an explicit change of intention that pauses its teaching role — for example: **“I currently know too little to teach this well; move it back to learning and pause its teaching role for now.”**
-- Do not maintain parallel editable `learning` and `teaching` copies merely because the material is evolving.
-- During Fall 2026, some movement is expected because the teaching scope itself is still being discovered. In later years, the distinction should naturally become clearer as the subjects being learned and the subjects being taught diverge.
-
-Movement between `learning` and `teaching` should therefore represent a **real change of intended role**, not temporary uncertainty. When the intention remains to teach, unfinished work can remain in `teaching` while learning continues through it.
+Place an artifact by its current intention. If it is being developed to teach, its unfinished state or the author's learning does not move it out of `teaching`. Move it to `learning` only when the teaching intention is explicitly paused. Avoid parallel editable copies. Some movement is expected while the Fall 2026 course scope settles.
 
 ### One authoritative working artifact per active intention
 
-The default is to keep **one authoritative working artifact while the intention remains unified**. A file does not need to be split merely because it becomes long, messy, historically layered, or heavily edited. Messiness is acceptable when the artifact is still serving one active purpose.
-
-Create a second working artifact when a **distinct intention becomes active enough to require independent work**. The split should represent a real difference in purpose, role, audience, or cadence rather than a desire to make the directory look tidy.
-
-A useful test is:
-
-```text
-same active intention
-    → keep one authoritative working artifact
-
-new intention appears but is not yet independently worked
-    → keep it inside the current artifact as context / possibility
-
-new intention becomes independently active
-    → create or split into its own authoritative working artifact
-```
-
-This also creates a mental separation between **living work** and material that is gradually becoming **archival**. Working artifacts continue to move, accumulate evidence, and change shape. Material whose active role has ended does not need to remain in the working surface merely because it once mattered.
-
-During a semester, let this happen through actual use rather than through a forced migration project. Files that are needed will naturally flow toward the current `teaching`, `learning`, or `working` repositories and settle into the intention that now owns them. Small need-driven retrieval or movement from the NAS is normal; wholesale NAS consolidation is not required in order to keep working.
-
-The semester boundary is a natural review point and joins this rule to the [semester ontology cycle](semester-ontology-cycle.md):
-
-```text
-working semester
-    ↓
-active files naturally flow toward current authoritative artifacts / repos
-    ↓
-semester transition — Run 1
-recover intention, evidence, artifacts, and what actually became active
-    ↓
-semester transition — Run 2
-continue / merge / split / rename as historical record / archive / discard
-    ↓
-next semester working surface
-```
-
-A semester-long brainstorm, for example, may stay messy and active while the course is running, then be renamed or curated into a historical course record after its planning intention ends. The next active teaching intention continues forward without requiring the whole previous semester directory to be duplicated.
-
-The practical rule is therefore:
-
-> **Preserve one authoritative working artifact per active intention. Split when a new intention truly needs its own work; archive when the old intention no longer needs to remain active. Let semester turnover consolidate what the semester actually produced.**
+Keep one editable master while the intention remains unified, even if the file is messy. Split it when another intention needs independent work, audience, or cadence. At semester turnover, [Run 1 and Run 2](semester-ontology-cycle.md) can recover, continue, merge, split, or retire the active artifacts. Do not require a wholesale historical migration.
 
 ## Examples
 
@@ -156,41 +74,7 @@ The practical rule is therefore:
 
 ## Todoist points to artifacts; it does not own them
 
-A Todoist task may contain an attachment or link to the artifact through which the work is being carried out. This is often useful because it lets the task act as a re-entry point into the actual working object without moving that object's intellectual ownership into Todoist.
-
-The relationship is:
-
-```text
-Todoist hierarchy / task
-= intended work
-
-linked or attached artifact
-= where the work is actually being developed / observed
-
-artifact result
-= evidence
-
-Todoist comment
-= concise evidence / decision statement
-```
-
-The actual evidence remains in the artifact or associated data: a figure, dataset, notebook, derivation, comparison table, experiment, video, student result, report section, or other working output. A Todoist comment may summarize what that evidence currently means, especially when the result changes the next Action or the interpretation of the Outcome.
-
-This is deliberately lighter than adding `artifact` or `evidence` as Todoist labels. Artifact identity, evidentiary meaning, and placement depend on real results, file format, tool availability, collaboration, and the evolving ontology. They should remain part of the artifact / directory / Markdown reasoning rather than becoming another task taxonomy.
-
-The Todoist `reference_link` label may point to either an **external source** or a **personally created artifact** when consulting, reusing, or returning to that object is itself part of the task. A task's link to its own working artifact does not automatically make the task a `reference_link` task.
-
-For example:
-
-```text
-Task: Re-check low-speed friction mismatch
-Working artifact: link to MATLAB notebook
-Evidence: plots and identified mismatch stored in notebook / data
-Todoist comment: mismatch remains concentrated near zero velocity;
-                 another static-friction identification experiment is needed
-```
-
-When the task is later completed, the link helps locate the artifact and the comment helps reconstruct what the work established. During Run 1, this can make old intention and evidence much easier to recover without turning Todoist itself into the long-form research record.
+A task can link to its working artifact for re-entry. The artifact or data holds the evidence; a Todoist comment briefly records the result, present interpretation, and changed next Action. A task's own artifact link does not automatically warrant `reference_link`; use that label when returning to a source is itself the work. See [Todoist](todoist.md#task-links-working-artifacts-and-evidence-comments).
 
 ## Audience-facing and delivery surfaces
 
@@ -203,28 +87,9 @@ For Git-suitable intellectual source material, begin and retain the evolving sou
 
 These are role boundaries rather than a demand to migrate all historical material immediately.
 
-### Outside-world interfaces are interfaces, not artifact homes
+### Outside-world interfaces
 
-External-facing services should be selected according to the actual audience or transaction they need to support. Their job is to **expose, collect, deliver, or receive** material across the internal/external boundary; they are not, by default, new working playgrounds, canonical artifact holders, or archives.
-
-The intended boundary is:
-
-```text
-internal authoritative / working material
-        ↓
-select only what an outside interaction requires
-        ↓
-outside-world interface
-        ↓
-present / collect / deliver / receive
-        ↓
-return any resulting artifact or evidence
-to the appropriate internal authoritative system
-```
-
-The particular outside-world interface is intentionally **to be determined by the real case**. It may be a Microsoft Form, OneDrive/Office sharing, HackMD, an LMS, a website, email, or another service. Choosing the interface does not transfer intellectual ownership of the underlying work to that service.
-
-`TemporaryDataSSCL` and `SSCLdataRe` are internal lab NAS areas. They should not be redesigned as public, administrative, workshop-participant, or outside-collaborator-facing portals merely because the NAS can technically share files. If an outside audience needs access, create or choose a separate interface appropriate to that audience and expose only what is required.
+Choose Forms, Office sharing, HackMD, an LMS, website, email, or another service for the actual audience or transaction. Expose only what is needed, then return resulting evidence to its authoritative internal home. An interface does not inherit ownership. `TemporaryDataSSCL` and `SSCLdataRe` remain internal lab spaces, not outside-facing portals.
 
 ## Fall 2026 cloud-service consolidation experiment
 
@@ -271,24 +136,9 @@ official or sensitive institutional record
 
 At the Fall 2026 → Spring 2027 boundary, review real cases: which Microsoft services were actually necessary, which artifacts naturally lived there, which could remain in Git, and which required institutional permissions or delivery. Use that evidence to decide whether OneDrive becomes a narrow service layer, a larger institutional workspace, or something in between.
 
-### Sync follows role; symmetry is not a design target
+### Sync follows role
 
-Future NAS/cloud restructuring should not begin by trying to restore a visually symmetrical set of cloud mirrors. A sync pair is justified only when it supports an authoritative editable home, an intentional collaboration path, a delivery requirement, or a verified preservation/recovery role.
-
-Therefore:
-
-```text
-cloud account exists
-    ≠ must have matching NAS mirror
-
-NAS directory exists
-    ≠ must have matching cloud mirror
-
-useful authoritative / collaboration / backup role
-    → define the sync relationship deliberately
-```
-
-Deletion propagation, direction, filters, version retention, and recovery behavior must be known before a sync relationship is treated as dependable infrastructure.
+A NAS/cloud sync pair needs a real editing, collaboration, delivery, or verified recovery role. An account or directory does not need a matching mirror. Check direction, deletion propagation, filters, versions, and recovery before relying on a sync.
 
 ## Temporary artifacts: preserve the advancement, not automatically the carrier
 

@@ -16,7 +16,7 @@ National Taiwan University of Science and Technology (Taiwan Tech)
 
 Build a control/robotics laboratory in which **research, engineering capability, teaching, and student development reinforce one another**.
 
-The goal is not simply to collect tools or complete isolated projects. Mathematical models and control ideas should survive the path through simulation, software, communication, embedded execution, sensing, actuation, and physical hardware; the knowledge required to do this should become teachable and reusable; and experiments should return evidence that improves both research and education.
+Carry models and control ideas through simulation, software, embedded execution, sensing, actuation, and physical experiments. Make that knowledge teachable; use experimental evidence to improve research and education.
 
 ## Repositories
 - `teaching` → reusable teaching modules, course materials, exercises, and curriculum
@@ -30,12 +30,12 @@ itchang@mail.ntust.edu.tw
 
 ## Working guide
 
-Placement follows primary intention. Give each artifact one authoritative editable home, and distinguish supporting data, delivery copies, and backups. Apply this to active work; migrate historical material when needed.
+Place active artifacts by primary intention, with one authoritative editable home. Migrate history only when needed.
 
 - [Ontology](docs/ontology.md) — professional purpose, research worlds, infrastructure, teaching, and evidence.
-- [Notebook system](docs/notebook-system.md) — move from private intention and Outcome, through Milestone/artifact/evidence reasoning, into technical Action and Todoist execution.
-- [Semester ontology cycle](docs/semester-ontology-cycle.md) — keep a relatively fixed semester map while Todoist and working evidence evolve; use Run 1 and Run 2 to form the next semester map.
-- [Todoist](docs/todoist.md) — turn reasoning into the minimum useful actionable structure.
+- [Notebook system](docs/notebook-system.md) — long-form intention, short-form design, technical execution.
+- [Semester ontology cycle](docs/semester-ontology-cycle.md) — dated long-form snapshot; short-form map; evolving work.
+- [Todoist](docs/todoist.md) — Run 1 / left, Run 2 / right, Run 3 / forward; minimum useful actions.
 - [Artifact placement](docs/artifact-placement.md) — where masters, data, shared work, and archives belong.
 - [NAS consolidation](docs/nas-consolidation.md) — recorded configuration, unresolved questions, and deferred migration.
 

@@ -24,21 +24,9 @@ For research work, the task hierarchy should still be traceable to the relevant 
 
 Together these cues allow immature ideas to remain forgiving while still creating accountable execution when the work becomes mature enough.
 
-## Current personal-use consideration — keep Todoist lean
+## Current personal use — keep Todoist lean
 
-The current Todoist is primarily **Peter's personal action and re-entry system**, not a complete copy of the ontology and not yet a team coordination system. Its visible hierarchy may therefore become sparse as old delegated work is recovered, completed, archived, or removed.
-
-A useful wording test for the current personal system is:
-
-> **Can I naturally read this task as “I need to …”?**
-
-The task does not need to begin literally with “I,” but its wording should identify Peter's own Action, inspection, decision, learning, development, delegation, or revisit need. Historical wording whose subject is an old student or collaborator should not survive merely to preserve that person's former assignment. Recover the underlying intention first; then rewrite the surviving task from Peter's present actionable perspective, or remove it from live Todoist if no personal action remains.
-
-The full ontology does **not** need to remain instantiated in Todoist at all times. An empty research world or Vision in Todoist can simply mean that no current personal Action requires external memory there. The durable ontology can remain in its owning Markdown documentation while Todoist exposes only the currently useful projection.
-
-This may change if Todoist later becomes a **team operating surface**. In that case, preserving or re-activating more of the ontology-derived project / Vision / Outcome structure can be useful because delegated Actions need shared context, ownership, and a visible destination. Team structure is therefore a coordination aid, not a requirement that the personal Todoist remain permanently full.
-
-This is a current operating consideration rather than a permanent restriction: keep the personal system lean now, and preserve more explicit structure when actual collaboration makes that structure useful.
+Todoist is Peter's personal action and re-entry surface. Read each live task as “I need to …”; recover the intention behind old student or collaborator wording, then keep only Peter's current action, decision, delegation, or revisit need. Empty coordinates are allowed: the durable ontology lives in Markdown. If Todoist becomes a team surface, add structure only where shared ownership requires it.
 
 ## Calendar relationship
 
@@ -78,49 +66,7 @@ Do **not** add `artifact` or `evidence` as general labels. A link to the task's 
 
 ## From idea to material
 
-Research can mature as:
-
-```text
-research_idea
-   ↙︎                    ↘︎
-theory_investigation   platform_investigation
-   ↘︎                    ↙︎
-       actions / experiments
-               ↓
-        validated evidence
-               ↓
-      publishable_material
-               ↓
-            paper
-```
-
-External formal documents can draw from several states:
-
-```text
-research_idea ───────┐
-                     ├→ report_draft → submitted proposal / report / deliverable
-publishable_material ┤
-                     │
-planned future work ─┘
-```
-
-Teaching can mature as:
-
-```text
-teaching_idea
-   ↙︎                    ↘︎
-theory_investigation   platform_investigation
-   ↘︎                    ↙︎
- demonstrations / explanations
-               ↓
- curate by technical subject / target audience / knowledge level
-               ↓
-        teaching_material
-               ↓
-       module / course
-```
-
-The same investigation can feed several paths, but **learning or teaching is not automatically research**, a useful research result is not automatically ready to teach, and a formal proposal/report does not become the owner of the scientific work it describes.
+`research_idea` can lead through theory or platform investigation to scrutinized evidence and `publishable_material`; a coherent claim can then justify a paper. `teaching_idea` can become curated `teaching_material`. An external `report_draft` can draw on ideas and evidence without taking ownership of the science. See [Ontology](ontology.md#evidence-accumulation-and-publication) for the research lifecycle.
 
 # Working Hierarchy: Think Freely, Normalize Deliberately
 
@@ -231,150 +177,27 @@ The ontology should clarify thought, not create bureaucracy.
 
 The three names describe one movement from understanding to action. They are also the left, right, and forward steps:
 
-| Movement | Run | Working expression | Question |
+| Run | Step | Working space | Result |
 | --- | --- | --- | --- |
-| Left step | Run 1 | Long form: recover intention, hierarchy, artifacts, and evidence | What was this work trying to accomplish? |
-| Right step | Run 2 | Short form: consolidate the recovered structure and judge what matters in time | What should remain clear and relevant now? |
-| Forward step | Run 3 | Todoist: retain the minimum actionable work, then do and revisit it | What concrete action or re-entry is needed? |
+| Run 1 | Left | Notebook 1 | Long form, including the semester snapshot |
+| Run 2 | Right | Notebook 2 | Short-form map |
+| Run 3 | Forward | Todoist | Minimum useful Actions and re-entry |
 
-These are modes of work, not three compulsory projects or documents. Long form and short form record the first two movements when writing helps; Todoist is the working surface for the third. Reflection can happen while cleaning up tasks, and a small new thought need not pass through every form. For historical work, the left step may require more care because the original intention must be reconstructed.
+These are modes, not compulsory documents. Notebook 1 and Notebook 2 support the first two runs; Notebook 3 holds technical work. Todoist coordinates Run 3. A thought need not pass through every form.
 
 The older use of “forward step” meant looking across the placed clusters for patterns of past focus and possible routes. Keep that observation in the right step when it is useful; the forward step now means taking justified action. Do not create tasks merely because a coordinate looks sparse.
 
 ## Run 1 — Reveal / recover intention
 
-Start with the thought or old task and deliberately expand it enough to understand why it exists.
+For a thought or old task, recover its true intention, possible Outcome, Milestones, associated artifacts, and desired evidence before reorganizing it. Old wording and file type are clues, not authority. A deliverable's likely shape—model, comparison, figure, capability matrix, or demonstration—helps clarify the Milestone.
 
-```text
-thought / old task
-      ↓
-recover the true intention without moral judgment
-      ↓
-identify a possible Outcome and the evidence that would make it meaningful
-      ↓
-guess general Milestones, including likely deliverable shape / format
-      ↓
-identify possible Actions
-      ↓
-identify what result / evidence would support or weaken the proposed Outcome
-(or show that a criterion is met / not met)
-      ↓
-place it in the correct professional / research world
-```
-
-### Run 1 working Outcome — recover the work and its artifact set
-
-For historical work, Run 1 should recover not only the task hierarchy but also the useful artifacts that the work produced or was trying to produce. A practical desired state is:
-
-> **The intention of each relevant old/new task is recovered, and the scattered files associated with that intention are found, interpreted, and connected to the work strongly enough to decide what should continue and what should remain frozen history.**
-
-This can be approached through two provisional Milestones.
-
-#### Milestone 1 — Task intention recovered
-
-Read old tasks far enough that the hierarchy is forced into view rather than imposed from outside. Recover the true intention, a possible Outcome, the general Milestones that would make it true, and the likely Actions. The intended final artifact should begin to have a recognizable **shape or format**, and the evidence/result the work is seeking to support should be stated positively enough to guide further work.
-
-The task wording itself is not authoritative. An old task may be incomplete, badly placed, overly detailed, or written before the current ontology existed. Run 1 uses it as evidence for reconstructing the work's intention.
-
-#### Milestone 2 — Associated artifact relationship recovered
-
-Find the scattered files connected with the recovered intention—old `.docx`, current or new `.md`, `.cpp`, `.py`, `.m`, notebooks, figures, data, reports, and other artifacts—and interpret them in light of Milestone 1.
-
-The purpose is **not to invent a new intention because a file exists**. Files should normally solidify, correct, or add evidence to the task intention already being recovered. Associate the file with an existing recovered task/hierarchy where possible; create a new Outcome/task only when the artifact exposes genuinely necessary work that cannot honestly be represented by the existing structure.
-
-File type does not decide intellectual ownership. The same extension can belong to Learning, Research #1–#3, #4 Infrastructure, Teaching, Administration, Industry, or another professional world depending on its primary intention. File format mainly affects how and where the artifact is best edited, collaborated on, executed, or preserved.
-
-During Run 1, a file can receive a **provisional disposition annotation** rather than being immediately reorganized:
-
-- `freeze_file` — preserve the file as historical or potentially useful material, but do not improve or migrate it merely because it was found.
-- `future_outcome` — the file contains material clearly connected to a recovered or emerging Outcome, but the work is not active enough to justify processing it now.
-
-These are working annotations, not permanent ontology categories. Their purpose is to keep Run 1 from turning into a mass file-cleanup exercise.
-
-The active subset that survives Run 1 is the material we actually intend to continue developing. Its contents may later be split, merged, rewritten, renamed, or relocated as current work requires. Files that no longer support necessary work can remain frozen or be archived together with frozen old tasks.
-
-```text
-old/new task
-      ↓
-recover intention / hierarchy / desired evidence
-      ↓
-find associated scattered artifacts
-      ↓
-use artifacts to confirm or refine the recovered intention
-      ↓
-continue-active subset ─────────→ Run 2
-      │
-      ├→ freeze_file
-      └→ future_outcome
-```
-
-This makes artifact placement part of ordinary work. Run 1 begins revealing which materials actually belong in local Git repositories, GitHub, cloud collaboration, local/NAS personal storage, `SSCLdataRe`, `TemporaryDataSSCL`, or other locations. It does **not** require redesigning those storage systems in advance; repeated real cases can expose their future roles and boundaries.
-
-For old tasks, Run 1 is partly archaeology. The purpose is to reconstruct what the earlier work was trying to accomplish, **not to accuse the earlier wording, decision, student, collaborator, or self**. Preserve useful intellectual history before deciding what should survive.
-
-For new work, the same rule applies: a proposed hierarchy is permission to think, not a promise that the first interpretation is correct. General Milestones may initially be guesses, but they should already suggest the **shape or format of a deliverable**—for example a verified model, comparison table, figure, capability matrix, demonstrated behavior, or working implementation.
-
-Possible Actions should also point toward evidence. The resulting evidence may support the proposed Outcome, weaken it, show that a criterion is not met, or expose a different explanation. That is useful information, not failure or accusation. It is explicit permission to **redo the hierarchy** when the evidence says the original structure was wrong.
-
-For a new thought, Run 1 may simply be a handwritten note or a verbose block inside the current `.md` file. Todoist is not required at this stage.
+For historical files, mark `freeze_file` when preservation suffices or `future_outcome` when valid work is not active. These are provisional annotations, not ontology categories. Continue only the active subset. Evidence may revise the hierarchy; doing so is learning, not an indictment of earlier work. A new thought may stay in Notebook 1 or a working note without entering Todoist.
 
 ## Run 2 — Compress, cluster, and reorganize
 
-Once the intention is visible, return to the original thought and ask what actually needs to survive.
+Condense the recovered relationships into a short form. Merge duplicate historical hierarchies, while preserving genuinely distinct Outcomes. Judge whether each surviving intention calls for action now, delegation, waiting, or later re-entry; do not invent urgency. Priority and dates are evidence to interpret, not commands inherited from old tasks.
 
-### Run 2 working Outcome — add the time dimension without inventing intention
-
-A practical desired state is:
-
-> **Each recovered short-form task has a clear mental time/urgency interpretation, while its Run 1 intention remains unchanged.**
-
-The purpose is to shorten and solidify old tasks together with their associated old files until each recovered intention can be represented by **one coherent major hierarchy rather than several overlapping historical hierarchies describing the same work**, with the relevant Todoist labels attached to that hierarchy. A research coordinate such as `#3V1` may still contain several genuinely distinct Outcomes; Run 2 should merge only duplicate or fragmented structures when the recovered evidence justifies it.
-
-Run 2 asks **how the recovered work lives in time**. It must not create a new intention merely to make the organization cleaner. Temporal judgment should come from the intention, dependencies, obligations, evidence, and relationships already recovered in Run 1.
-
-Todoist's **priority flag** and any **due date or deadline** can be used as additional evidence for this temporal judgment. Priority can indicate intended attention; a due date or deadline can expose a real time constraint, commitment, dependency, or expected revisit point. These fields should **inform rather than dictate** Run 2. Old, inherited, arbitrary, or stale priority/date metadata is itself historical evidence to interpret and may be corrected or removed; it must not manufacture urgency or override the intention recovered in Run 1.
-
-Two provisional Milestones help expose this time dimension.
-
-#### Milestone 1 — Immediate-action work identified
-
-Identify short-form tasks whose recovered meaning shows that action is needed now or belongs in the near active workflow. These become candidates for active execution because their existing Outcome, dependency, commitment, evidence need, priority signal, or real due date/deadline makes action timely—not because urgency was assigned artificially.
-
-#### Milestone 2 — Extended-period / revisit work identified
-
-Identify short-form tasks whose intention remains valid but whose work naturally extends over a longer period rather than requiring continuous personal action now. This can include work that is delegable, dependent on another person/system/event, waiting for evidence, or clearly meant to be revisited at a later time still to be specified. A future due date/deadline may serve as a concrete revisit point when the recovered work genuinely warrants one; it should not be invented merely to keep the task visible.
-
-The important relationship is:
-
-```text
-valid recovered intention
-      ↓
-extended time horizon
-      ↓
-delegate / wait / revisit as appropriate
-      ↓
-check evidence before declaring the work satisfied
-```
-
-This is not permission to invent a new Outcome or silently turn uncertain work into `someday/maybe`. The intention remains the one recovered in Run 1; Run 2 only makes its temporal role explicit enough for later execution and review.
-
-The long-form → short-form conversion therefore does more than tidy Todoist. It removes historical scaffolding while preserving the recovered relationship, making later judgments about timeliness possible without rereading the full archaeology every time.
-
-```text
-long explanation
-      ↓
-cluster related ideas / evidence
-      ↓
-merge / rename / reorder
-      ↓
-remove scaffolding
-      ↓
-preserve the useful relationships
-```
-
-At this stage, items may be **sorted, merged, promoted, split, retained, archived, or discarded**. The hierarchy is a living hypothesis and should change when theory, platform investigation, evidence, or a better abstraction changes the understanding.
-
-The goal of Run 2 is not to fill Todoist correctly. It is to make the ontology clear enough that the useful work can be represented simply.
+Cluster, split, rename, relocate, retain, or retire work as evidence warrants. Preserve the intention and time horizon, then update the long-form snapshot if the short form reveals a better interpretation. The result should be clear enough for a lean Todoist projection.
 
 ## Run 3 — Expose the minimum actionable subset
 
@@ -412,13 +235,13 @@ The goal is **not to grow the ontology map**. The goal is to grow finished lectu
 The useful result is a coherent passage from understanding to action, not a required number of files:
 
 ```text
-left / Run 1  → long-form understanding, if needed
-right / Run 2 → short-form current direction, if needed
+left / Run 1  → Notebook 1 → long-form understanding and semester snapshot
+right / Run 2 → Notebook 2 → short-form map of the current direction
 forward / Run 3 → lean Todoist actions and re-entry
-               → semester ontology snapshot
+technical execution → Action notebook and working artifacts
 ```
 
-For the current cleanup, finish the actionable Todoist structure, settle the role of any long-form and short-form notes, and then record the [semester ontology map](semester-ontology-cycle.md) as a time-stamped orientation snapshot. The order of writing may follow the work already in progress; it does not require restarting Run 1 or Run 2 as exhaustive passes. During the semester, the map can remain relatively stable while Todoist, notebooks, working files, and evidence continue to change.
+For the current cleanup, Todoist may be lean first. Reconstruct the dated [semester map](semester-ontology-cycle.md) in long form and condense it in short form; revise the long form if compression reveals something new. Keep V0 in Todoist until the provisional snapshot is satisfactory, then lean further. The map can remain relatively stable as work evolves.
 
 Before an item enters or stays in Todoist, ask:
 
@@ -427,4 +250,4 @@ Before an item enters or stays in Todoist, ask:
 - Does the task still point to the recovered intention and the authoritative working artifact?
 - Should it be done now, delegated, revisited later, or removed after checking evidence?
 
-A Markdown candidate list can help for a large transition, but is optional. Tasks already understood may be edited directly in Todoist. The long form retains the reasoning, the short form offers a compact current map, and Todoist carries only the work that benefits from being actionable in time. The snapshot preserves the semester's settled orientation; none of these surfaces needs to duplicate the others.
+A Markdown candidate list is optional. Long form holds reasoning and the snapshot; short form maps it; Todoist keeps timely Actions. Avoid duplicating them.

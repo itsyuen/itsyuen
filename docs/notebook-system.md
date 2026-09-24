@@ -4,7 +4,7 @@
 
 # Purpose
 
-The three-notebook system separates private intention discovery, private design reasoning, and technical execution. The notebooks are not three levels of the same kind of note; each changes the mode of thinking.
+The three notebooks change the mode of thinking: Notebook 1 supports [Run 1 / left / long form](todoist.md#run-1--run-2--run-3); Notebook 2 supports Run 2 / right / short form; Notebook 3 holds technical execution. Run 3 / forward uses Todoist for actionable re-entry.
 
 ```text
 I/O notebook
@@ -28,98 +28,17 @@ delegation, priority, or future execution
 
 The purpose is to avoid forcing a raw feeling or intention directly into an Action. Intention can first be observed, then interpreted through possible Milestones, artifacts, and evidence, before technical work is exposed.
 
-# Trigger and triage — obligation, intention, urgency, and clarity
+# Trigger and triage
 
-Life and professional obligations often arrive from outside the ontology: a request, deadline, class, student need, administrative demand, family responsibility, unexpected event, or other real-world condition. The obligation itself is external, but it can **trigger one or more internal intentions**. Those intentions may conflict with one another, which is why an apparently simple obligation can produce resistance, urgency, resentment, attraction, duty, or competing desired Outcomes.
+An outside request or obligation may trigger several internal intentions. Separate them, then judge **urgency** (when to respond) and **clarity** (how much thought is needed). If the next Action is clear and urgent, act; capture unresolved follow-up afterward. Otherwise, use the notebooks to move from intention through possible Milestones, artifacts, and evidence toward technical Action. Todoist preserves only work needing future re-entry, assignment, priority, or scheduling.
 
-The first useful distinction is therefore:
-
-```text
-external obligation / event / request
-        ↓
-internal intention(s) triggered
-        ↓
-assess urgency + clarity
-```
-
-**Urgency determines how quickly a response is required. Clarity determines how much thinking is needed before the response becomes a good Action.**
-
-The practical triage is:
-
-```text
-highest urgency + enough clarity
-        ↓
-act immediately
-        ↓
-do not require Todoist or notebook entry first
-
-not immediately urgent and/or not yet clear
-        ↓
-use the notebook system to clarify
-        ↓
-I/O
-        ↓
-Milestone / Artifact / Evidence
-        ↓
-Action notebook
-        ↓
-Todoist only when the concrete Action benefits from
-re-entry / delegation / priority / scheduling / future execution
-```
-
-An urgent Action should not be delayed merely to document it. If something must be done now and the next step is already clear, act first. Any unresolved intention, evidence, or follow-up that still matters can be captured afterward.
-
-For work that is not at that immediate-action threshold, the three notebooks provide the preferred route for gaining clarity. Once a concrete Action emerges, Todoist can preserve the actionable subset and use labels such as `theory_investigation`, `platform_investigation`, `teaching_idea`, or other appropriate work-state labels. The label describes the nature or maturity of the work; it does not replace the upstream intention reasoning.
-
-This makes Todoist neither the source of intention nor a compulsory gateway to action. It is the **persistence and coordination layer** for Actions that should survive beyond the present moment.
-
-# Hierarchy sorting and evolution
-
-The notebook system also acts as a **hierarchy sorting and evolution mechanism**. A new thought often arrives with intention, obligation, desired Outcome, possible Milestone, artifact idea, evidence idea, emotional reaction, and next step mixed together. The notebooks separate those ingredients before a formal hierarchy is forced.
-
-```text
-I/O notebook
-= reveal what the work is trying to become
-
-Milestone / Artifact / Evidence notebook
-= explore what structure, artifact, and evidence could make progress visible
-
-Action notebook
-= let the actual technical work and executable hierarchy take form
-```
-
-This supports **hierarchy sorting** because it becomes easier to distinguish an Outcome from a Milestone, an artifact possibility from evidence, and a possible Action from the technical work itself.
-
-It also supports **hierarchy evolution**. Early wording is provisional rather than something that must be defended. Real work and evidence may show that:
-
-- an apparent Outcome is actually a Milestone inside a larger intention;
-- one Milestone should split into several;
-- several Milestones are really one route;
-- an artifact idea exposes the real technical question;
-- an Action reveals that the original Outcome or route was wrong;
-- new evidence supports, weakens, redirects, or closes part of the hierarchy.
-
-The evolving loop is therefore:
-
-```text
-intention observed
-      ↓
-possible Outcome
-      ↓
-Milestones / artifacts / evidence explored
-      ↓
-technical Action emerges
-      ↓
-real evidence returns
-      ↓
-hierarchy may be revised, compressed, split, promoted, or demoted
-```
-
-The notebooks therefore provide a place for hierarchy to **incubate before formalization and mature through evidence**. Todoist receives only the subset that has become useful for re-entry, assignment, priority, or future execution.
+The hierarchy is provisional. An Outcome may become a Milestone; evidence may split, merge, redirect, or close a route. Use the notebooks to sort these roles before imposing a formal hierarchy. A feeling may prompt inquiry into intention, but it does not prove a technical claim or obligate action.
 
 # 1. I/O notebook — intention and Outcome
 
 The I/O notebook is private and descriptive. It records the **true intention** as honestly as possible and the most desired Outcome associated with it.
+
+Here, recover the reasoning and write the dated, provisional semester snapshot when satisfactory.
 
 The first question is:
 
@@ -140,6 +59,8 @@ No Action is required merely because an intention has been written down.
 # 2. Milestone / Artifact / Evidence notebook — possibility design
 
 This notebook is the private bridge between intention and work. It asks what intermediate states could make an Outcome more real and what kind of artifact or evidence could make those states inspectable.
+
+Here, condense the snapshot into a short-form map; return new insights to the long form.
 
 Useful questions include:
 
@@ -214,6 +135,8 @@ A useful artifact may be **evidence-bearing** without yet being sufficient evide
 # 3. Action notebook — technical execution
 
 The Action notebook changes mode. It is no longer primarily personal ontology reasoning; it is where the actual technical work lives and is deliberately capable of becoming student-facing or collaborator-facing.
+
+Notebook 3 holds the work; Todoist preserves only Actions needing re-entry, scheduling, or delegation.
 
 Typical contents include:
 
@@ -290,16 +213,7 @@ Comment
 
 # Todoist boundary
 
-The Action notebook contains the **work itself**. Todoist contains only the subset of Actions that benefits from external memory, re-entry, assignment, priority, scheduling, delegation, or future execution.
-
-```text
-Action notebook = equations, sketches, reasoning, experiments, implementation
-Todoist         = coordination and re-entry for concrete Actions
-```
-
-Not every Action note needs a Todoist task. A step that can be completed naturally inside the current notebook may simply remain there and be done.
-
-When an Action must survive interruption, involves another person, has a real temporal constraint, or deserves explicit delegation, it becomes a good Todoist candidate. Actual task assignment belongs in Todoist rather than being inferred from the notebook or calendar.
+The Action notebook holds technical work. Todoist coordinates only Actions needing re-entry, assignment, priority, scheduling, or delegation; immediate steps can be done directly. A linked artifact remains in its authoritative working home. See [Todoist](todoist.md).
 
 # Calendar relationship
 
@@ -316,24 +230,4 @@ An invitee is not automatically assigned a task. The calendar marks who is prese
 
 # Operating loop
 
-The notebooks are not a one-way pipeline. Evidence and execution can change the earlier interpretation.
-
-```text
-I/O
-intention → desired Outcome
-        ↓
-Milestone / Artifact / Evidence
-possible realization and evidence
-        ↓
-Action notebook
-technical execution
-        ↓
-artifact / result / evidence
-        ↓
-feedback
-        ├→ revise Action
-        ├→ revise Milestone / artifact route
-        └→ reconsider Outcome or intention
-```
-
-The system should remain permissive enough for thought to change. Its purpose is not to make every intention actionable; it is to make the transition from private intention to technical action deliberate and intelligible.
+Execution and evidence can revise the Action, Milestone, artifact route, Outcome, or even the interpretation of intention. The notebooks support that feedback without requiring every thought to become a task.

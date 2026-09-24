@@ -4,34 +4,7 @@
 
 # Philosophy
 
-An earlier working idea was:
-
-```text
-Learning → building → teaching → research evidence → publication
-research/publish = learning + teaching
-```
-
-The current interpretation is more explicit about intention and boundaries:
-
-```text
-                    ┌→ research question → theory → experiment → evidence → publication
-learning/investigation
-                    └→ stabilized understanding → teaching material → student capability
-                                                        ↓
-                                             stronger research platform
-                                                        ↓
-                                             next investigation/question
-```
-
-Teaching and research can share the same technical knowledge without being the same activity. Teaching forces understanding to become explicit and coherent; research asks where existing understanding is insufficient; engineering infrastructure makes theory physically realizable; publication organizes validated evidence into a defensible scientific argument.
-
-A compact version is still:
-
-```text
-research = teaching + learning + questioning + validation
-```
-
-but the important improvement is that each activity now has a clear home and a clear path to action.
+Learning, teaching, infrastructure, and research reinforce one another while keeping distinct owners. Teaching makes understanding explicit; research questions its limits; infrastructure carries theory into physical experiments; publication defends evidence that survives scrutiny. The working shorthand is `research = teaching + learning + questioning + validation`.
 
 # Professional Purpose
 
@@ -151,28 +124,7 @@ The exact states, parameters, physics, coordinates, sensors, actuators, and equa
 
 ## #3 as foundational generator
 
-#3 is the **foundational theory and reference-system generator**.
-
-```text
-                         #3 MOTOR / ACTUATOR
-                    derive / test / abstract clearly
-                              │
-             ┌────────────────┼────────────────┐
-             ↓                ↓                ↓
-       #1 / #2 Research   #4 Infrastructure   Teaching
-       richer physics     reference impl.     clear demonstrations
-             │                │                │
-             └────────────────┴────────────────┘
-                              ↑
-                    feedback / new questions
-```
-
-It should intentionally generate:
-- foundational scientific abstractions that can be re-derived under #1 Omni-Vehicle and #2 Manipulator physics;
-- canonical minimal examples for #4 capability criteria and implementation routes; and
-- stable motor/actuator demonstrations that can become reusable Teaching material.
-
-Transfer is not automatic. #1/#2 own their application-specific scientific questions, #4 owns reusable engineering capability standards, and Teaching owns stabilized pedagogy and assessment.
+#3's simple motor/actuator platform generates transferable abstractions for #1 and #2, minimal reference implementations for #4, and stabilized demonstrations for Teaching. Transfer requires re-derivation under each platform's physics. Each destination retains its own scientific, engineering, or pedagogical ownership.
 
 ## V4 and research branching
 
@@ -296,17 +248,7 @@ Not every capability must be mastered by everyone. A criterion may apply to Pete
 
 ## Intellectual-upward rule
 
-#4 should become clearer as experience accumulates rather than simply becoming longer.
-
-```text
-read → reconstruct intent → annotate → restructure only when justified
-
-accumulate → cluster → organize → revise → improve → promote
-```
-
-**Do not append downward by default. Integrate upward.**
-
-The active hierarchy should increasingly represent the laboratory's current best understanding of what capability is actually necessary while preserving useful historical intent.
+#4 should become clearer through use: reconstruct intent, cluster experience, revise criteria, and promote stable capability. **Integrate upward rather than appending downward.** Preserve useful history without keeping every old layer active.
 
 # Teaching
 
@@ -441,131 +383,10 @@ and retention logic belong in [Artifact placement](artifact-placement.md).
 
 # The Actionable Loop
 
-The system is intentionally cyclic:
-
-```text
-Research coordinate / Vision
-      ↓
-scientific question / desired behavior
-      ↓
-Outcome → Milestone → bite-sized Action
-      ↓
-theory / simulation / experiment
-      ↓
-implementation requires capability
-      ↓
-#4 capability criterion
-      ↓
-competence test
-      ↓
-Peter / student / subgroup gap
-      ↓
-assigned mastery Action
-      ↓
-stabilized understanding
-      ↓
-Teaching module / assessment
-      ↓
-demonstrated student & lab capability
-      ↓
-stronger physical research platform
-      ↓
-validated evidence / new discrepancy / new question
-      ↓
-Research Vision revised or advanced
-```
-
-This loop is meant to generate **bite-sized, assignable work with directional meaning without losing the big picture**.
-
-Small tasks remain connected to purpose. Large ideas are forced toward executable evidence. Teaching develops people. Infrastructure preserves engineering competence. Research generates new understanding. External proposals/reports package selected ideas, plans, evidence, and obligations for a particular recipient without taking ownership away from the underlying work. Each can feed the next cycle.
+A research question generates an Outcome, Milestones, and executable Actions. Implementation exposes #4 capability gaps; investigation and Teaching develop the necessary competence; physical experiments return evidence that advances or revises the research question. External reports package selected evidence for a recipient without taking ownership of the science. See [Todoist](todoist.md) for actionable structure.
 
 # Evidence Accumulation and Publication
 
-Publication should normally emerge from **accumulated and scrutinized scientific evidence**, not from an empty paper slot that must be filled.
+Publication emerges when related scientific evidence survives comparison, reproduction, criticism, and re-derivation. New evidence may change an Action, merge Milestones, or reframe an Outcome. A `paper_draft` becomes justified when a coherent claim can organize the supporting evidence and identify remaining gaps. `publishable_material` marks scientific maturity, not legal or contractual release permission; IP and confidentiality remain separate.
 
-Research first produces evidence:
-
-```text
-question
-   ↓
-theory / model
-   ↓
-investigation
-   ↓
-experiment / implementation
-   ↓
-result
-   ↓
-evidence
-```
-
-Evidence should then be challenged rather than merely collected:
-
-```text
-evidence
-   ↓
-compare / reproduce / question
-   ↓
-find contradictions and limitations
-   ↓
-re-derive / retest where necessary
-   ↓
-cluster evidence by scientific connection
-   ↓
-identify the claim that survives scrutiny
-```
-
-As evidence accumulates, the ontology itself may legitimately change. Earlier Actions may move. Milestones may merge or split. An earlier Outcome may become a supporting branch of a better-worded Outcome. The hierarchy should represent the current best scientific understanding rather than preserve old wording for its own sake.
-
-Eventually, enough connected evidence may survive scrutiny that publication becomes a new explicit Outcome:
-
-```text
-Outcome
-Compile, explain, and defend the evidence supporting
-an identified novel result.
-```
-
-The work then changes character:
-
-```text
-defensible claim
-      ↓
-organize supporting evidence
-      ↓
-identify missing evidence
-      ↓
-resolve strongest objections / alternatives
-      ↓
-figures / tables / comparisons
-      ↓
-scientific narrative
-      ↓
-paper draft
-      ↓
-criticism / revision
-      ↓
-submission
-```
-
-`publishable_material` therefore means **scientifically mature evidence worth preserving**: material whose quality is high enough to contribute to a future scientific argument after appropriate validation and scrutiny. It is a **quality / maturity level**, not a statement that the material is legally or contractually free to publish. IP ownership, confidentiality, and release permission remain separate questions.
-
-A `paper_draft` becomes justified when enough related evidence has accumulated, been challenged, and can support a coherent scientific claim.
-
-The research ontology is expected to evolve:
-
-```text
-idea
-  → investigation
-  → evidence
-  → revised understanding
-  → clustered evidence
-  → defensible claim
-  → publication Outcome
-  → paper
-```
-
-Publication is not separate from the research hierarchy. It is one possible mature Outcome of that hierarchy.
-
-The operating principle is:
-
-> **Think freely; reveal intention; preserve relationships; execute minimally; reorganize from evidence; publish what survives scrutiny.**
+The paper then gathers figures, comparisons, objections, limitations, and the scientific narrative around that defensible claim. Publication is a mature Outcome of its owning research world, not a separate world or an empty slot to fill.
